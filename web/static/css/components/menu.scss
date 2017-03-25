@@ -1,0 +1,23 @@
+
+@import '../base/variables';
+
+.top-nav-container {
+  font-family: $family-heading;
+}
+
+.top-nav-container {
+  background-color: $matrice-blue;
+
+  .nav {
+    background-color: $matrice-blue;
+    color: $matrice-white;
+
+    a {
+      color: $matrice-white;
+
+      &:hover {
+        color: $matrice-orange;
+      }
+    }
+  }
+}
