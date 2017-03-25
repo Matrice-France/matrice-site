@@ -1,0 +1,50 @@
+@import '../base/variables';
+
+
+.page {
+
+  // The homepage
+  &.index {
+    .top-nav-container {
+      background-color: rgba(0, 0, 0, 0.1);
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      z-index: 20;
+
+      .nav {
+        background-color: transparent;
+        color: $matrice-white;
+
+        a {
+          color: $matrice-white;
+
+          &:hover {
+            color: $matrice-green;
+          }
+        }
+      }
+    }
+
+
+    .hero {
+      background-color: $matrice-blue;
+      // background-image: linear-gradient(270deg, $matrice-green 0%, $matrice-blue 100%);
+      background-image: linear-gradient(226.08deg, $matrice-green 0%, #1F9A7D 11.12%, #1B575D 55.27%, $matrice-blue 100%);
+      position: relative;
+
+      .matrice-logo {
+        img {
+          max-height: 50vh;
+        }
+      }
+
+      canvas {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+      }
+    }
+  }
+}

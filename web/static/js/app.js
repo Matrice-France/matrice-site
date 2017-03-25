@@ -12,6 +12,7 @@
 // If you no longer want to use a dependency, remember
 // to also remove its path from "config.paths.watched".
 import "phoenix_html"
+import "particles.js"
 
 // Import local files
 //
@@ -19,3 +20,7 @@ import "phoenix_html"
 // paths "./socket" or full ones "web/static/js/socket".
 
 // import socket from "./socket"
+
+particlesJS.load('particles', 'json/config.json', function() {
+  console.log('callback - particles.js config loaded');
+});

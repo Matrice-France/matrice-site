@@ -35,7 +35,7 @@
   </div>
 </div>
  -->
- <section class="hero is-fullheight is-primary">
+ <section class="hero is-fullheight is-primary" id="particles">
    <!-- <div class="hero-head">
      <div class="container">
        <div class="tabs is-centered">
@@ -48,15 +48,9 @@
 
    <div class="hero-body">
      <div class="container has-text-centered">
-       <h3 class="title is-2">
-         <a href="http://bulma.io/documentation/layout/hero/">
-           <span class="icon is-medium">
-             <i class="fa fa-arrows-v"></i>
-           </span>
-           Easy <strong>vertical centering</strong> in <strong>fullscreen</strong>
-         </a>
-       </h3>
-       <h4 class="subtitle is-4">Include any content you want, it's always centered</h4>
+       <div class="matrice-logo">
+         <img src="<%= static_path(@conn, "/images/logo-white.png") %>" alt="Matrice logo">
+       </div>
      </div>
    </div>
 

@@ -3,13 +3,18 @@
 
 .top-nav-container {
   font-family: $family-heading;
+
+  a {
+    font-family: $family-heading;
+    font-weight: 700;
+  }
 }
 
 .top-nav-container {
   background-color: $matrice-blue;
 
   .nav {
-    background-color: $matrice-blue;
+    background-color: transparent;
     color: $matrice-white;
 
     a {
