@@ -1,4 +1,4 @@
-<div class="jumbotron">
+<!-- <div class="jumbotron">
   <h2><%= gettext "Welcome to %{name}", name: "Phoenix!" %></h2>
   <p class="lead">A productive web framework that<br />does not compromise speed and maintainability.</p>
 </div>
@@ -34,3 +34,55 @@
     </ul>
   </div>
 </div>
+ -->
+ <section class="hero is-fullheight is-primary">
+   <!-- <div class="hero-head">
+     <div class="container">
+       <div class="tabs is-centered">
+         <ul>
+           <li><a>This is always at the top</a></li>
+         </ul>
+       </div>
+     </div>
+   </div> -->
+
+   <div class="hero-body">
+     <div class="container has-text-centered">
+       <h3 class="title is-2">
+         <a href="http://bulma.io/documentation/layout/hero/">
+           <span class="icon is-medium">
+             <i class="fa fa-arrows-v"></i>
+           </span>
+           Easy <strong>vertical centering</strong> in <strong>fullscreen</strong>
+         </a>
+       </h3>
+       <h4 class="subtitle is-4">Include any content you want, it's always centered</h4>
+     </div>
+   </div>
+
+   <div class="hero-foot">
+     <div class="container">
+       <div class="tabs is-centered">
+         <ul>
+           <li><a>And this at the bottom</a></li>
+         </ul>
+       </div>
+     </div>
+   </div>
+ </section>
+
+ <section class="section">
+   <div class="container">
+     <h1 class="main-title">L’université productive</h1>
+     <div class="columns padded">
+      <div class="column content">
+        <p><b>MATRICE est un programme d’innovation, de formation et de production articulé autour de l’École 42 et de l’incubateur Creative Valley. Il rassemble différentes écoles, universités, entreprises et institutions autour d’une même problématique.</b></p>
+        <p>Chaque Matrice est thématique et se crée sous l’égide d’un grand partenaire porteur d’enjeux spécifiques innovants, ambitieux et de nature à dessiner le futur intellectuel et professionnel d’un secteur.</p>
+      </div>
+      <div class="column content">
+        <p>A l’issue du programme MATRICE, les prototypes sont suffisamment aboutis pour permettre leur développement dans un modèle économique et une démarche professionnelle pertinente.</p>
+        <p>MATRICE est donc un programme complet qui va de la génération d’idées jusqu’à la production concrète de solutions / outils pouvant donner lieu à une aventure économique... quelle qu’elle soit.</p>
+      </div>
+    </div>
+   </div>
+ </section>

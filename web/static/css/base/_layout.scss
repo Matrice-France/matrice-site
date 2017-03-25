@@ -1,0 +1,12 @@
+
+
+.padded {
+
+  @media(min-width: 1000px) {
+    padding: 0 5rem;
+
+    .column {
+      padding: 2rem;
+    }
+  }
+}

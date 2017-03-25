@@ -17,9 +17,7 @@
     <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
     <%= render Matrice.LayoutView, "_menu.html", assigns %>
 
-    <div class="container">
-      <%= render @view_module, @view_template, assigns %>
-    </div> <!-- /container -->
+    <%= render @view_module, @view_template, assigns %>
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
   </body>
 </html>

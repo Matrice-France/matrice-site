@@ -1,7 +1,4 @@
 
-$blue: #72d0eb; // Update blue
-$pink: #ffb3b3; // Add pink
-
 $family-primary: 'Source Sans Pro', sans-serif;
 $family-heading: 'Asap', sans-serif;
 
@@ -11,3 +8,10 @@ $family-heading: 'Asap', sans-serif;
 $matrice-blue: #0C3644;
 $matrice-orange: #FF8668;
 $matrice-white: #FFFFFF;
+$matrice-green: #23E29F;
+
+$primary: $matrice-green;
+
+$text: $matrice-blue;
+$body-background: $matrice-white;
+$background: $matrice-white;
