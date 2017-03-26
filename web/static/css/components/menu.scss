@@ -12,6 +12,7 @@
 
 .top-nav-container {
   background-color: $matrice-blue;
+  padding: 1em 0;
 
   .nav {
     background-color: transparent;
@@ -19,10 +20,22 @@
 
     a {
       color: $matrice-white;
+      font-size: .9em;
+      padding: 0 1em;
 
       &:hover {
         color: $matrice-orange;
       }
+    }
+
+    a.button.matrice-top-button {
+      background: transparent;
+      border: 3px solid $matrice-orange;
+      border-radius: 30px;
+    }
+
+    .social-menu-link {
+      padding: 0 5px;
     }
   }
 }

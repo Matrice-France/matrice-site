@@ -6,7 +6,8 @@
   // The homepage
   &.index {
     .top-nav-container {
-      background-color: rgba(0, 0, 0, 0.1);
+      // background-color: rgba(0, 0, 0, 0.1);
+      background-color: transparentize($matrice-blue, .5);
       position: absolute;
       top: 0px;
       left: 0px;
@@ -23,6 +24,10 @@
           &:hover {
             color: $matrice-green;
           }
+        }
+
+        a.button.matrice-top-button {
+          border: 3px solid $matrice-green;
         }
       }
     }

@@ -1,0 +1,17 @@
+
+
+ <section class="section">
+   <div class="container">
+     <h1 class="main-title">L’université productive</h1>
+     <div class="columns padded">
+      <div class="column content">
+        <p><b>MATRICE est un programme d’innovation, de formation et de production articulé autour de l’École 42 et de l’incubateur Creative Valley. Il rassemble différentes écoles, universités, entreprises et institutions autour d’une même problématique.</b></p>
+        <p>Chaque Matrice est thématique et se crée sous l’égide d’un grand partenaire porteur d’enjeux spécifiques innovants, ambitieux et de nature à dessiner le futur intellectuel et professionnel d’un secteur.</p>
+      </div>
+      <div class="column content">
+        <p>A l’issue du programme MATRICE, les prototypes sont suffisamment aboutis pour permettre leur développement dans un modèle économique et une démarche professionnelle pertinente.</p>
+        <p>MATRICE est donc un programme complet qui va de la génération d’idées jusqu’à la production concrète de solutions / outils pouvant donner lieu à une aventure économique... quelle qu’elle soit.</p>
+      </div>
+    </div>
+   </div>
+ </section>

@@ -17,6 +17,12 @@ defmodule Matrice.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+    get "/philosophie", PageController, :philosophie
+    get "/pedagogie", PageController, :pedagogie
+    get "/processus", PageController, :processus
+    get "/en-action", PageController, :en_action
+    get "/ecosystème", PageController, :ecosysteme
+    get "/en-1-clic", PageController, :en_1_clic
   end
 
   # Other scopes may use custom stacks.
