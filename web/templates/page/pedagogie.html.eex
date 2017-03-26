@@ -19,6 +19,7 @@
     </div>
   </div>
 </section>
+
 <section class="section unmarged">
   <div class="container-fluid">
     <div class="columns">
@@ -32,6 +33,100 @@
           <p><b>Notre vision est tout autre :</b> l’innovation passe d’abord par la construction d’une identité d’innovateur. Cette identité repose sur une capacité à écouter son intuition, sa voix intérieure, puis à transmettre cette voix vers l’extérieur (leadership) afin de s’appuyer sur une structure collective pour la réaliser.</p>
           <p>Notre projet pédagogique consiste donc en premier lieu à développer cette identité chez des étudiants engagés dans leur apprentissage et l’action.</p>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container timeline">
+    <h2 class="title is-3 is-centered">Les 6 piliers de notre pédagogie</h2>
+
+    <!-- 1 -->
+    <div class="columns">
+      <div class="column is-half">
+        <p><b>1. L’apprentissage par l’action</b></p>
+        <p>L’action est le moyen de l’apprentissage. Toute la pédagogie repose sur les actions effectivement menées, car c’est à partir de ces actions que nous développons un processus de réflexivité menant aux apprentissages concrets.</p>
+      </div>
+      <div class="column is-half"></div>
+    </div>
+
+    <!-- 2 -->
+    <div class="columns">
+      <div class="column is-half"></div>
+      <div class="column is-half">
+        <p><b>2. Le travail en équipe</b></p>
+        <p>Un projet ambitieux et original passe par une équipe, un collectif. Apprendre à faire équipe est l’enjeu principal de notre formation à l’innovation.</p>
+      </div>
+    </div>
+
+    <!-- 3 -->
+    <div class="columns">
+      <div class="column is-half">
+        <p><b>3. L’appropriation complète du projet</b></p>
+        <p>L’apprenant ne peut s’engager complètement dans un travail que s’il se sent propriétaire de son projet.</p>
+      </div>
+      <div class="column is-half"></div>
+    </div>
+
+    <!-- 4 -->
+    <div class="columns">
+      <div class="column is-half"></div>
+      <div class="column is-half">
+        <p><b>4. L’interdisciplinarité</b></p>
+        <p>Les équipes sont constituées d’étudiants venant d’écoles et de disciplines différentes. Ils apprennent mutuellement de leurs différences et compétences variées.</p>
+      </div>
+    </div>
+
+    <!-- 5 -->
+    <div class="columns">
+      <div class="column is-half">
+        <p><b>5. L’immersion et le dialogue avec les acteurs du terrain</b></p>
+        <p>C’est par un dialogue continu avec les acteurs sociaux, économiques, institutionnels que les étudiants pourront trouver des idées nouvelles, comprendre la culture et les modes de fonctionnement du milieu permettant l’appropriation des innovations et leur diffusion.</p>
+      </div>
+      <div class="column is-half"></div>
+    </div>
+
+    <!-- 6 -->
+    <div class="columns">
+      <div class="column is-half last"></div>
+      <div class="column is-half">
+        <p><b>6. Le respect de l’autonomie de l’apprenant</b></p>
+        <p>Ne jamais refuser à la personne le droit de résoudre son problème par elle-même.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section unmarged">
+  <div class="container-fluid">
+    <div class="columns">
+      <div class="column content padded">
+      </div>
+      <div class="column content reversed big-quote">
+        <quote>Ces 6 principes forment un cadre qui va créer les conditions de l’éclosion d’innovateurs et d’idées innovantes. C’est en posant un cadre respectueux que l’on permet un sentiment de confiance réciproque aboutissant à l’engagement de tous.</quote>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column content square-container">
+        <div class="squared">
+          <h2 class="marged-title">Un accompagnement pédagogique transversal</h2>
+          <ul>
+            <li>Une <b>direction pédagogique</b>, pour implémenter le programme et continuer à innover par l’action.</li>
+            <li>Des <b>coachs</b>, pour des séances régulières afin de développer les compétences globales et apprendre à utiliser les potentialités du collectif.</li>
+            <li>Des  <b>ouvreurs</b>, pour aider à la compréhension des codes spécifiques aux milieux professionnels visés.</li>
+            <li>Des <b>experts techniques</b>, (entrepreneuriat/sciences de gestion, programmation/code, 	scientifique) mobilisables lorsque des besoins précis sont mis à jour.</li>
+            <li>Une <b>community manager</b>, pour les questions de calendrier, salles et matériels, etc.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="column content">
       </div>
     </div>
   </div>

@@ -78,9 +78,101 @@ $restricted-width: 400px;
     }
   }
 
+  @media(min-width: 770px) {
+    .square-container {
+      position: relative;
+
+      .squared {
+        border: 5px solid $matrice-orange;
+        border-radius: 5px;
+        position: relative;
+        padding: 1em;
+        left: 4em;
+        top: -6em;
+
+        h2 {
+          position: relative;
+          left: -3em;
+          margin-right: 1em;
+          font-weight: 100;
+          padding: 1em;
+          line-height: 1.5em;
+          background-color: $matrice-white;
+          display: inline-block;
+        }
+        ul {
+          padding: 0 3em;
+          position: relative;
+          top: -2em;
+        }
+      }
+    }
+
+    .timeline {
+      $timeline-dot: 13px;
+      max-width: $restricted-width * 2;
+      padding: 1em 0 4em;
+
+      h2 {
+        padding: 1em 0 2em;
+      }
+
+      .column.is-half {
+        padding: 0rem 2rem;
+
+        &:first-of-type {
+          border-right: 3px solid #ddd;
+          text-align: right;
+
+          &.last {
+            border-right: 0px;
+          }
+        }
+
+        &:not(:empty) {
+
+          p {
+            b {
+              top: -5px;
+              position: relative;
+            }
+          }
+
+          &:before {
+            content: "";
+            display: inline-block;
+            height: $timeline-dot;
+            width: $timeline-dot;
+            position: absolute;
+            background-color: $matrice-orange;
+            border-radius: $timeline-dot;
+            top: 0px;
+          }
+
+          &:first-of-type {
+            position: relative;
+
+            &:before {
+              right: -8px;
+            }
+          }
+
+          &:last-of-type {
+            position: relative;
+
+            &:before {
+              left: -8px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
   .section {
     .reversed {
-      background-color: $matrice-orange;
+      background-color: transparentize($matrice-orange, .25);
       color: $matrice-white;
     }
   }
