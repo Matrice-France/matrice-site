@@ -7,3 +7,11 @@
   font-size: 3rem;
   font-weight: 700;
 }
+
+h1.title,
+h2.title,
+.content h2.title,
+.content h1.title {
+  font-family: $family-heading;
+  font-weight: 700;
+}

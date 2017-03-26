@@ -1,17 +1,38 @@
 
-
- <section class="section">
-   <div class="container">
-     <h1 class="main-title">L’université productive</h1>
-     <div class="columns padded">
+<%= render Matrice.PageView, "_section_header.html", title: "pédagogie" %>
+<section class="section">
+  <div class="container">
+    <div class="columns padded">
       <div class="column content">
-        <p><b>MATRICE est un programme d’innovation, de formation et de production articulé autour de l’École 42 et de l’incubateur Creative Valley. Il rassemble différentes écoles, universités, entreprises et institutions autour d’une même problématique.</b></p>
-        <p>Chaque Matrice est thématique et se crée sous l’égide d’un grand partenaire porteur d’enjeux spécifiques innovants, ambitieux et de nature à dessiner le futur intellectuel et professionnel d’un secteur.</p>
+        <div class="restricted">
+          <h2 class="title is-3">Un programme de formation à l’innovation développant intuition et leadership</h2>
+          <p>Matrice est un programme de formation sans cours et sans professeurs.</p>
+          <p>Son objectif est de transmettre l’esprit d’entreprendre et d’innover aux étudiants, pour apporter des réponses ingénieuses et nouvelles aux différentes problématiques de la société à l’ère du numérique.</p>
+          <p>Pour acquérir cet esprit, l’étudiant doit prendre conscience que, dans le cadre du programme, il n’est plus un élève, mais un acteur autonome garant de ses propres objectifs et des moyens qu’il va devoir utiliser pour les atteindre.</p>
+        </div>
       </div>
       <div class="column content">
-        <p>A l’issue du programme MATRICE, les prototypes sont suffisamment aboutis pour permettre leur développement dans un modèle économique et une démarche professionnelle pertinente.</p>
-        <p>MATRICE est donc un programme complet qui va de la génération d’idées jusqu’à la production concrète de solutions / outils pouvant donner lieu à une aventure économique... quelle qu’elle soit.</p>
+        <figure class="image is-3by2">
+          <img src="<%= static_path(@conn, "/images/1.jpg") %>" alt="Un programme de formation">
+        </figure>
       </div>
     </div>
-   </div>
- </section>
+  </div>
+</section>
+<section class="section unmarged">
+  <div class="container-fluid">
+    <div class="columns">
+      <div class="column content reversed big-quote">
+        <quote>“ Un dispositif radicalement original et unique basé sur trois champs éducatifs :  l’équipe apprenante, le  connectivisme, et la pédagogie de la liberté.”</quote>
+      </div>
+      <div class="column content padded">
+        <div class="restricted">
+          <h2 class="title is-3">Comment former des innovateurs ?</h2>
+          <p>Les formations à l’innovation actuelles voient l’innovateur comme un individu réunissant un ensemble de compétences (créativité, communication, stratégie, management, etc.). Cette approche par  compétences conduit à une formation par compétences : différents cours et projets distincts.</p>
+          <p><b>Notre vision est tout autre :</b> l’innovation passe d’abord par la construction d’une identité d’innovateur. Cette identité repose sur une capacité à écouter son intuition, sa voix intérieure, puis à transmettre cette voix vers l’extérieur (leadership) afin de s’appuyer sur une structure collective pour la réaliser.</p>
+          <p>Notre projet pédagogique consiste donc en premier lieu à développer cette identité chez des étudiants engagés dans leur apprentissage et l’action.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

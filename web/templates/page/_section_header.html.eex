@@ -1,0 +1,5 @@
+<section class="section page-section is-centered" id="particles">
+  <div class="container">
+    <h1 class="title is-1"><%= @title %></h1>
+  </div>
+</section>
