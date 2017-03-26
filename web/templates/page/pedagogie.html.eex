@@ -2,7 +2,7 @@
 <%= render Matrice.PageView, "_section_header.html", title: "pédagogie" %>
 <section class="section">
   <div class="container">
-    <div class="columns padded">
+    <div class="columns">
       <div class="column content">
         <div class="restricted">
           <h2 class="title is-3">Un programme de formation à l’innovation développant intuition et leadership</h2>
@@ -126,7 +126,38 @@
           </ul>
         </div>
       </div>
+      <div class="column content bottom">
+        <figure class="image is-3by2">
+          <img src="<%= static_path(@conn, "/images/1.jpg") %>" alt="Un programme de formation">
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="columns padded">
+      <div class="column content unmarged">
+        <div class="restricted">
+          <h2 class="title is-3">Un dispositif unique</h2>
+        </div>
+      </div>
+      <div class="column content"></div>
+    </div>
+    <div class="columns padded">
       <div class="column content">
+        <div class="restricted">
+          <p>Nous avons conçu ce programme à la pointe de la recherche sur la formation à l’innovation.</p>
+          <p>Pour développer ce dispositif radicalement original et unique, nous synthétisons trois champs éducatifs :  l’équipe apprenante (P. Senge, Team Academy), le  connectivisme (Siemens, Varela), et la  pédagogie de la liberté  (P. Freire).</p>
+          <p><br><b>Team Academy</b> est une méthode développée en Finlande pour former des jeunes à l’esprit d’entreprendre. Elle est basée sur le concept d’équipe apprenante (P. Senge) et sur  l’action learning (R. Revans). C’est par le collectif, à travers le dialogue et la pratique, que l’individu est amené à progresser et à apprendre. Le  Bachelor Jeune Entrepreneur à Strasbourg est, à ce jour, la seule formation française qui applique ce modèle finlandais.</p>
+          <p><br><b>Le connectivisme</b> est une théorie de l’apprentissage, développée en premier lieu par G. Siemens et appuyée sur les théories cognitivistes de F. Varela, reconnaissant que la connaissance émerge de la diversité des sources et de leurs confrontations. La connaissance est ainsi toujours « située ». Elle se construit dans et par les interactions sociales, grâce à la notion de  réseau. La finalité de l’apprentissage est d’apprendre à apprendre.</p>
+        </div>
+      </div>
+      <div class="column content">
+        <div class="restricted">
+          <p><b>La pédagogie de la liberté où  méthode de conscientisation</b> a été théorisée par P. Freire. La conscientisation consiste à acquérir un esprit critique sur les réalités sociales. L’individu ne peut transformer le monde dans lequel il vit s’il ne se sent pas en capacité de le comprendre et d’analyser ses relations avec son environnement. C’est par la prise de conscience de ce qui le limite et l’opprime qu’il peut devenir acteur de son futur. Le but n’est donc pas d’enseigner quelque chose à un interlocuteur, mais de l’amener à trouver les moyens de la transformation de son environnement.</p>
+          <p>Cela constitue la différence fondamentale entre un objectif de formation (transmission d’outils et méthodes à appliquer dans des situations-types) plutôt que de transformation (la transformation réciproque coach/étudiants permet un changement dans le rapport à l’autre). Ce qui signifie que nous nous situons nous-mêmes comme une  équipe apprenante, amenée à faire évoluer notre démarche.</p>
+        </div>
       </div>
     </div>
   </div>

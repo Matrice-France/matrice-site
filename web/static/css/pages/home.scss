@@ -1,7 +1,7 @@
 @import '../base/variables';
 
 $banner-height: 150px;
-$restricted-width: 400px;
+$restricted-width: 450px;
 
 .page {
 
@@ -35,12 +35,6 @@ $restricted-width: 400px;
 
   .title.is-centered {
     text-align: center;
-  }
-
-  .restricted {
-    max-width: $restricted-width;
-    margin: auto;
-
   }
 
   .big-quote {
@@ -78,9 +72,21 @@ $restricted-width: 400px;
     }
   }
 
+  .content.unmarged {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
   @media(min-width: 770px) {
+
+    .restricted {
+      max-width: $restricted-width;
+      margin: auto;
+    }
+
     .square-container {
       position: relative;
+      z-index: 20;
 
       .squared {
         border: 5px solid $matrice-orange;
@@ -105,6 +111,14 @@ $restricted-width: 400px;
           position: relative;
           top: -2em;
         }
+      }
+      & + .column.content.bottom {
+        align-self: flex-end;
+        padding: 0;
+        position: relative;
+        z-index: 10;
+        bottom: -7em;
+        padding-bottom: 7em;
       }
     }
 
@@ -218,6 +232,17 @@ $restricted-width: 400px;
           max-height: 50vh;
         }
       }
+    }
+  }
+
+
+  .restricted {
+    padding: 0em 1em;
+  }
+
+  .timeline {
+    .column.is-half:empty {
+      padding: 0;
     }
   }
 }
