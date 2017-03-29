@@ -12,4 +12,8 @@ defmodule Matrice.PageController do
   def philosophie(conn, _params) do
     render conn, "philosophie.html"
   end
+
+  def matrice_et_vous(conn, _params) do
+    render conn, "matrice_et_vous.html"
+  end
 end

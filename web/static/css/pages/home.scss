@@ -154,14 +154,37 @@ body.page {
 
   @media(min-width: $tablet) {
 
+    // Hopla
+    .is-absolute {
+      position: absolute;
+      margin-top: 30px;
+    }
+
+    .absolute-offset {
+      margin-top: 100px;
+    }
+
+    .minibox-header {
+      padding-left: 5em;
+    }
+
+    .minibox {
+      padding: 1.5em 5em;
+
+      h3 {
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+
     .restricted {
       max-width: $restricted-width;
-      margin: auto;
+      margin: 0 auto;
     }
 
     .double.restricted {
       max-width: $restricted-width * 2;
-      margin: auto;
     }
 
     .square-container {
@@ -204,7 +227,7 @@ body.page {
 
     .square-row {
       position: relative;
-      margin-bottom: 290px;
+      margin-bottom: 50px;
 
       .column.up-square {
         align-self: flex-start;
@@ -282,11 +305,11 @@ body.page {
     }
   }
 
-
   .section {
     .reversed {
       background-color: transparentize($matrice-orange, .25);
       color: $matrice-white;
+      z-index: 30;
     }
   }
 
@@ -336,6 +359,10 @@ body.page {
 
 
   .restricted {
+    padding: 0em 0em;
+  }
+
+  .unmarged .restricted {
     padding: 0em 1em;
   }
 
@@ -345,9 +372,9 @@ body.page {
     }
   }
 
-  @media(min-width: $tablet) {
-    &.philosophie {
-
+  @media(max-width: $tablet) {
+    .squared {
+      padding: 1em;
     }
   }
 }

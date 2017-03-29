@@ -30,8 +30,8 @@
         <a class="nav-item" href="<%= page_path(@conn, :en_action) %>">
           En action
         </a>
-        <a class="nav-item" href="<%= page_path(@conn, :ecosysteme) %>">
-          Ecosystème
+        <a class="nav-item" href="<%= page_path(@conn, :matrice_et_vous) %>">
+          Matrice et vous
         </a>
         <a class="nav-item" href="<%= page_path(@conn, :en_1_clic) %>">
           En 1 clic
