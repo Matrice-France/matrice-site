@@ -8,4 +8,8 @@ defmodule Matrice.PageController do
   def pedagogie(conn, _params) do
     render conn, "pedagogie.html"
   end
+
+  def philosophie(conn, _params) do
+    render conn, "philosophie.html"
+  end
 end

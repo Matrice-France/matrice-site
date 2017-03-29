@@ -1,8 +1,10 @@
 
 
+@import "variables";
+
 .padded {
 
-  @media(min-width: 1000px) {
+  @media(min-width: $desktop) {
     padding: 0 5rem;
 
     .column {

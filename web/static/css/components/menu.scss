@@ -2,29 +2,21 @@
 @import '../base/variables';
 
 .top-nav-container {
+  padding: .75em 0;
   font-family: $family-heading;
 
   a {
     font-family: $family-heading;
     font-weight: 700;
   }
-}
-
-.top-nav-container {
-  background-color: $matrice-blue;
-  padding: .75em 0;
 
   .nav {
-    background-color: transparent;
-    color: $matrice-white;
 
     a {
-      color: $matrice-white;
       font-size: .9em;
       padding: 0 1em;
 
       &:hover {
-        color: $matrice-orange;
       }
 
       img {
@@ -33,8 +25,6 @@
     }
 
     a.button.matrice-top-button {
-      background: transparent;
-      border: 3px solid $matrice-orange;
       border-radius: 30px;
     }
 

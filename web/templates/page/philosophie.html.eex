@@ -1,0 +1,129 @@
+
+<%= render Matrice.PageView, "_section_header.html", title: "philosophie" %>
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column content">
+        <div class="restricted">
+          <h2 class="title is-3">Une nouvelle donne digitale résolument humaine</h2>
+          <p><b>Nous passons de l’ère industrielle à l’ère digitale.</b></p>
+          <p>Les désirs de créer, innover, construire n’ont jamais rencontré autant de possibilités de le faire. Tous les secteurs sont aujourd’hui concernés. Il n’y a plus de mathématiques sans big data, plus de géographie sans GPS, plus d’art sans image numérique. Il s’agit maintenant d’organiser ce grand dialogue productif.</p>
+          <br>
+          <p><b>Plus que des données, la matière première du digital reste l’humain.</b></p>
+          <p>La révolution numérique réside donc autant dans les savoirs sociaux que dans les technologies qui outilleront la vie sociale. Savoir coder ne peut pas s’envisager sans savoir lire la société et construire une distance critique sur la technologie en train de se faire. La révolution technologique appelle une nouvelle anthropologie.</p>
+          <p>Et elle pose des conditions.</p>
+        </div>
+      </div>
+      <div class="column content">
+        <figure class="image restricted is-hidden-mobile">
+          <img src="<%= static_path(@conn, "/images/philosophie/matrice-arts-1.jpg") %>" alt="Un programme de formation">
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column content">
+        <figure class="image is-3by2">
+          <img src="<%= static_path(@conn, "/images/philosophie/matrice-arts.jpg") %>" alt="Un programme de formation">
+        </figure>
+      </div>
+      <div class="column content">
+        <div class="restricted">
+          <h2 class="title is-3">Fonder un modèle « d’université productive »</h2>
+          <p>Dans cette nouvelle donne industrielle et intellectuelle, l’enjeu est de confronter des mondes qui ne se parlaient pas toujours : sciences humaines et technologies, recherche et entreprises, étudiants et professionnels… pour sceller de nouvelles alliances avec le numérique comme langage commun.</p>
+          <p>A la jonction de différents savoirs, de différents métiers, de différents mondes, Matrice est un programme culturel et politique exprimé comme un programme de formation autant que de production. Il s’agit de produire des savoirs autant que des objets (numériques).</p>
+          <p>Ce n’est pas seulement une école, une université ou un programme de formation orienté vers les savoirs. Ce n’est pas non plus un incubateur, un accélérateur ou une usine à startups. <b>C’est les deux à la fois, une université productive qui lie savoirs et productions ; citoyens numériques et entrepreneurs critiques.</b></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section unmarged">
+  <div class="container-fluid">
+    <div class="columns">
+      <div class="column content"></div>
+      <div class="column content padded reversed big-quote">
+        <quote>Pour fonder un modèle d’université productive, il faut lier savoirs et production, citoyens numériques et entrepreneurs critiques.</quote>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column content">
+        <figure class="image">
+          <img src="<%= static_path(@conn, "/images/philosophie/matrice-42-creative.png") %>" alt="Un programme de formation">
+        </figure>
+      </div>
+      <div class="column content">
+        <div class="restricted">
+          <h2 class="title is-3">Historique</h2>
+          <p><b>L’association MATRICE est née de la convergence de 42</b> -  école d’informatique d’un genre nouveau qui forme sans professeur, sans cours à tous les métiers de l’informatique, mais surtout à la créativité- et de <b>Creative Valley</b> -  hub d’innovation et incubateur de startups qui favorise les rencontres entre écoles, entreprises et sujets d’avenir.</p>
+          <p><b>MATRICE</b> incarne ainsi un processus qui va de la formation à l’incubation,  conciliant l’agilité des startups et la puissance de réflexion de la recherche en créant un environnement propice à l’innovation. Car créer un réel processus d’innovation, suppose de couvrir l’ensemble de la chaîne, depuis la recherche fondamentale jusqu’à la production.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section unmarged">
+  <div class="container-fluid">
+    <div class="columns square-row">
+      <div class="column content reversed big-quote up-square">
+        <quote>MATRICE, lauréat du PIA, prépare la France aux défis de demain.</quote>
+      </div>
+      <div class="column content square-container">
+        <div class="squared">
+          <p><b>Depuis sa création, Matrice bénéficie du Programme d’Investissements d’Avenir (PIA)</b> destiné à soutenir les progrès de l’enseignement et de la recherche, à valoriser la recherche et à accélérer la modernisation des entreprises.</p>
+          <p>La démarche gouvernementale du PIA obéit à trois mots qui en font la marque : </p>
+          <p><b>Excellence,</b> parce que les universités, les instituts, les laboratoires, les équipes, les projets entrepreneuriaux et industriels sont choisis en fonction de leur excellence sur la base d’avis de jurys ou d’experts indépendants.</p>
+          <p><b>Innovation,</b> parce qu’il faut apporter quelque chose de nouveau pour bénéficier du PIA. </p>
+          <p><b>Coopération,</b> parce que nous voulons faire travailler ensemble ceux qui portent l’avenir de notre pays.</p>
+          <!-- <h2 class="marged-title">Un accompagnement pédagogique transversal</h2>
+          <ul>
+            <li>Une <b>direction pédagogique</b>, pour implémenter le programme et continuer à innover par l’action.</li>
+            <li>Des <b>coachs</b>, pour des séances régulières afin de développer les compétences globales et apprendre à utiliser les potentialités du collectif.</li>
+            <li>Des  <b>ouvreurs</b>, pour aider à la compréhension des codes spécifiques aux milieux professionnels visés.</li>
+            <li>Des <b>experts techniques</b>, (entrepreneuriat/sciences de gestion, programmation/code, 	scientifique) mobilisables lorsque des besoins précis sont mis à jour.</li>
+            <li>Une <b>community manager</b>, pour les questions de calendrier, salles et matériels, etc.</li>
+          </ul> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="columns padded">
+      <div class="column content unmarged">
+        <div class="restricted">
+          <h2 class="title is-3">Un dispositif unique</h2>
+        </div>
+      </div>
+      <div class="column content"></div>
+    </div>
+    <div class="columns padded">
+      <div class="column content">
+        <div class="restricted">
+          <p>Nous avons conçu ce programme à la pointe de la recherche sur la formation à l’innovation.</p>
+          <p>Pour développer ce dispositif radicalement original et unique, nous synthétisons trois champs éducatifs :  l’équipe apprenante (P. Senge, Team Academy), le  connectivisme (Siemens, Varela), et la  pédagogie de la liberté  (P. Freire).</p>
+          <p><br><b>Team Academy</b> est une méthode développée en Finlande pour former des jeunes à l’esprit d’entreprendre. Elle est basée sur le concept d’équipe apprenante (P. Senge) et sur  l’action learning (R. Revans). C’est par le collectif, à travers le dialogue et la pratique, que l’individu est amené à progresser et à apprendre. Le  Bachelor Jeune Entrepreneur à Strasbourg est, à ce jour, la seule formation française qui applique ce modèle finlandais.</p>
+          <p><br><b>Le connectivisme</b> est une théorie de l’apprentissage, développée en premier lieu par G. Siemens et appuyée sur les théories cognitivistes de F. Varela, reconnaissant que la connaissance émerge de la diversité des sources et de leurs confrontations. La connaissance est ainsi toujours « située ». Elle se construit dans et par les interactions sociales, grâce à la notion de  réseau. La finalité de l’apprentissage est d’apprendre à apprendre.</p>
+        </div>
+      </div>
+      <div class="column content">
+        <div class="restricted">
+          <p><b>La pédagogie de la liberté où  méthode de conscientisation</b> a été théorisée par P. Freire. La conscientisation consiste à acquérir un esprit critique sur les réalités sociales. L’individu ne peut transformer le monde dans lequel il vit s’il ne se sent pas en capacité de le comprendre et d’analyser ses relations avec son environnement. C’est par la prise de conscience de ce qui le limite et l’opprime qu’il peut devenir acteur de son futur. Le but n’est donc pas d’enseigner quelque chose à un interlocuteur, mais de l’amener à trouver les moyens de la transformation de son environnement.</p>
+          <p>Cela constitue la différence fondamentale entre un objectif de formation (transmission d’outils et méthodes à appliquer dans des situations-types) plutôt que de transformation (la transformation réciproque coach/étudiants permet un changement dans le rapport à l’autre). Ce qui signifie que nous nous situons nous-mêmes comme une  équipe apprenante, amenée à faire évoluer notre démarche.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

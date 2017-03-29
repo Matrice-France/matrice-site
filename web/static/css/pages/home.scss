@@ -3,9 +3,8 @@
 $banner-height: 150px;
 $restricted-width: 450px;
 
-.page {
-
-  color: $matrice-blue;
+@mixin theme($bg, $fg, $text: '#fff') {
+  color: $bg;
 
   .content,
   .content h1,
@@ -15,8 +14,80 @@ $restricted-width: 450px;
   .content h5,
   .title,
   .content p {
-    color: $matrice-blue;
+    color: $bg;
   }
+
+  .top-nav-container {
+    background-color: $bg;
+
+    .nav {
+      background-color: transparent;
+      color: $text;
+
+      a {
+        color: $text;
+
+        &:hover {
+          color: $fg;
+        }
+      }
+
+      a.button.matrice-top-button {
+        background: transparent;
+        border: 3px solid $fg;
+      }
+
+    }
+  }
+
+  .page-section {
+    background-color: $fg;
+  }
+
+  @media(min-width: $tablet) {
+
+    .square-container {
+      .squared {
+        border: 5px solid $fg;
+      }
+    }
+  }
+
+
+  .section {
+    .reversed {
+      background-color: transparentize($fg, .25);
+      color: $text;
+    }
+
+    .square-row .reversed {
+      background-color: $fg;
+    }
+  }
+}
+
+body.page {
+  @include theme($matrice-blue, $matrice-orange, $matrice-white);
+
+  &.philosophie {
+    @include theme($matrice-blue, $matrice-green, $matrice-white);
+  }
+}
+
+.page {
+  //
+  // color: $matrice-blue;
+  //
+  // .content,
+  // .content h1,
+  // .content h2,
+  // .content h3,
+  // .content h4,
+  // .content h5,
+  // .title,
+  // .content p {
+  //   color: $matrice-blue;
+  // }
 
   #particles {
     position: relative;
@@ -53,6 +124,11 @@ $restricted-width: 450px;
     }
   }
 
+  .column + .column.reversed.big-quote quote {
+    margin: 0;
+    padding: 2em 1em 2em 3em;
+  }
+
   section.unmarged {
     padding: 0;
   }
@@ -60,7 +136,6 @@ $restricted-width: 450px;
   .page-section {
     text-align: center;
     height: $banner-height;
-    background-color: $matrice-orange;
     margin-bottom: 3em;
 
     h1 {
@@ -77,7 +152,7 @@ $restricted-width: 450px;
     padding-bottom: 0;
   }
 
-  @media(min-width: 770px) {
+  @media(min-width: $tablet) {
 
     .restricted {
       max-width: $restricted-width;
@@ -94,7 +169,7 @@ $restricted-width: 450px;
       z-index: 20;
 
       .squared {
-        border: 5px solid $matrice-orange;
+        // border: 5px solid $matrice-orange;
         border-radius: 5px;
         position: relative;
         padding: 1em;
@@ -124,6 +199,25 @@ $restricted-width: 450px;
         z-index: 10;
         bottom: -7em;
         padding-bottom: 7em;
+      }
+    }
+
+    .square-row {
+      position: relative;
+      margin-bottom: 290px;
+
+      .column.up-square {
+        align-self: flex-start;
+      }
+
+      .column.square-container {
+        .squared {
+          position: relative;
+          right: 7em;
+          top: 5em;
+          left: inherit;
+          padding: 6em 8em;
+        }
       }
     }
 
@@ -248,6 +342,12 @@ $restricted-width: 450px;
   .timeline {
     .column.is-half:empty {
       padding: 0;
+    }
+  }
+
+  @media(min-width: $tablet) {
+    &.philosophie {
+
     }
   }
 }
