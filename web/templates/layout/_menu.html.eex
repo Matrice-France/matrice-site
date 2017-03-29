@@ -4,7 +4,7 @@
     <nav class="nav">
       <div class="nav-left">
         <a class="nav-item" href="<%= page_path(@conn, :index) %>">
-          <img src="<%= static_path(@conn, "/images/logo-white.png") %>" alt="Matrice logo">
+          <img src="<%= static_path(@conn, "/images/SVG/mono_white.svg") %>" alt="Matrice logo">
         </a>
       </div>
 

@@ -6,6 +6,16 @@
   padding: 0.5em 0 1.5em;
   font-size: 3rem;
   font-weight: 700;
+
+  small {
+    font-family: $family-heading;
+    text-align: center;
+    color: $matrice-blue;
+    padding: 0.5em 0 1em;
+    font-weight: 400;
+    font-size: 1rem;
+    display: block;
+  }
 }
 
 h1.title,

@@ -84,6 +84,11 @@ $restricted-width: 450px;
       margin: auto;
     }
 
+    .double.restricted {
+      max-width: $restricted-width * 2;
+      margin: auto;
+    }
+
     .square-container {
       position: relative;
       z-index: 20;
