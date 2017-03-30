@@ -20,7 +20,13 @@ defmodule Matrice.Router do
     get "/philosophie", PageController, :philosophie
     get "/pedagogie", PageController, :pedagogie
     get "/processus", PageController, :processus
-    get "/en-action", PageController, :en_action
+    scope "/en-action" do
+      get "/", PageController, :en_action
+      get "/autisme", PageController, :en_action_autisme
+      get "/art", PageController, :en_action_art
+      get "/cpa", PageController, :en_action_cpa
+      get "/si", PageController, :en_action_si
+    end
     get "/matrice-et-vous", PageController, :matrice_et_vous
     get "/en-1-clic", PageController, :en_1_clic
   end

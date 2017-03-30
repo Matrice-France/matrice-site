@@ -17,26 +17,44 @@
         <span></span>
       </span>
 
-      <div class="nav-center">
-        <a class="nav-item" href="<%= page_path(@conn, :philosophie) %>">
-          Philosophie
-        </a>
-        <a class="nav-item" href="<%= page_path(@conn, :pedagogie) %>">
-          Pedagogie
-        </a>
-        <a class="nav-item" href="<%= page_path(@conn, :processus) %>">
-          Processus
-        </a>
-        <a class="nav-item" href="<%= page_path(@conn, :en_action) %>">
-          En action
-        </a>
-        <a class="nav-item" href="<%= page_path(@conn, :matrice_et_vous) %>">
-          Matrice et vous
-        </a>
-        <a class="nav-item" href="<%= page_path(@conn, :en_1_clic) %>">
-          En 1 clic
-        </a>
-      </div>
+      <ul class="nav-center">
+        <li class="nav-item">
+          <a href="<%= page_path(@conn, :philosophie) %>">
+            Philosophie
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="<%= page_path(@conn, :pedagogie) %>">
+            Pedagogie
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="<%= page_path(@conn, :processus) %>">
+            Processus
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="<%= page_path(@conn, :en_action_autisme) %>">
+            En action
+          </a>
+          <ul class="">
+            <li class="nav-item"><a href="<%= page_path(@conn, :en_action_autisme) %>">Autisme</a></li>
+            <li class="nav-item"><a href="<%= page_path(@conn, :en_action_cpa) %>">CPA</a></li>
+            <li class="nav-item"><a href="<%= page_path(@conn, :en_action_art) %>">Arts</a></li>
+            <li class="nav-item"><a href="<%= page_path(@conn, :en_action_si) %>">SI</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a href="<%= page_path(@conn, :matrice_et_vous) %>">
+            Matrice et vous
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="<%= page_path(@conn, :en_1_clic) %>">
+            En 1 clic
+          </a>
+        </li>
+      </ul>
 
       <!-- This "nav-menu" is hidden on mobile -->
       <!-- Add the modifier "is-active" to display it on mobile -->

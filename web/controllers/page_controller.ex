@@ -13,6 +13,26 @@ defmodule Matrice.PageController do
     render conn, "philosophie.html"
   end
 
+  def en_action(conn, _params) do
+    en_action_autisme(conn, _params)
+  end
+
+  def en_action_autisme(conn, _params) do
+    render conn, "en_action_autisme.html"
+  end
+
+  def en_action_art(conn, _params) do
+    render conn, "en_action_art.html"
+  end
+
+  def en_action_cpa(conn, _params) do
+    render conn, "en_action_cpa.html"
+  end
+
+  def en_action_si(conn, _params) do
+    render conn, "en_action_si.html"
+  end
+
   def matrice_et_vous(conn, _params) do
     render conn, "matrice_et_vous.html"
   end

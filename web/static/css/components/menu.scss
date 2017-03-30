@@ -12,12 +12,53 @@
 
   .nav {
 
+    li {
+      /* Hide Dropdowns by Default */
+      ul {
+      	display: none;
+      	position: absolute;
+        background: $matrice-blue;
+        padding: 1em;
+      	top: 50px; /* the height of the main nav */
+
+        li {
+          text-align: left;
+        }
+      }
+
+      /* Display Dropdowns on Hover */
+      &:hover > ul {
+      	display:block;
+      }
+
+      // /* Fisrt Tier Dropdown */
+      // ul li {
+      // 	width:170px;
+      // 	float:none;
+      // 	display:list-item;
+      // 	position: relative;
+      // }
+
+      // /* Second, Third and more Tiers	*/
+      // ul li {
+      // 	position: relative;
+      // 	top:-60px;
+      // 	left:170px;
+      // }
+    }
+    /* Change this in order to change the Dropdown symbol */
+    li > a:after { content:  ' ⌄'; }
+    li > a:only-child:after { content: ''; }
+
+
     a {
       font-size: .9em;
       padding: 0 1em;
 
       &:hover {
       }
+
+
 
       img {
         height: 300px;
