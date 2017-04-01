@@ -1,0 +1,50 @@
+
+<%= render Matrice.PageView, "_section_en_action_header.html", matrice: "CEA", conn: @conn %>
+
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column content">
+        <div class="restricted">
+          <h2 class="title arrow is-3">Problématique & enjeux</h2>
+          <h3 class="subtitle is-4">Comment aider les laboratoires de recherche à rendre accessible des technologies complexes en créant des démonstrateurs simples d’accès et techniquement compréhensibles ?</h3>
+          <p>Sous l’égide du Commissariat à l’énergie atomique et aux énergies alternatives (CEA) - et plus particulièrement du LIST - une Matrice a été créée associant 42 et l’école de design Strate. Le LIST travaille sur des systèmes intelligents : réseaux de neurones, technologies de reconnaissance d’images, systèmes d’expression automatique de règles.</p>
+        </div>
+      </div>
+      <div class="column content">
+        <figure class="image">
+          <img src="<%= static_path(@conn, "/images/philosophie/matrice-arts.jpg") %>" alt="Matrice autisme">
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section unmarged">
+  <div class="container-fluid">
+    <div class="columns">
+      <div class="column content padded reversed is-opaque big-quote">
+        <quote>Étudiants et chercheurs ont fait équipe pour développer des démonstrateurs fonctionnels, présentés lors des TechDays 2017.</quote>
+      </div>
+      <div class="column content">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-split">
+      <div class="column content">
+        <h2 class="title is-3">Partenaires</h2>
+      </div>
+      <div class="column content">
+        <div class="restricted">
+          <h2 class="title is-3">Écoles impliquées</h2>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

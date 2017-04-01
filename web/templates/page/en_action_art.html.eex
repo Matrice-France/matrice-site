@@ -1,0 +1,50 @@
+
+<%= render Matrice.PageView, "_section_en_action_header.html", matrice: "art_et_numerique", conn: @conn %>
+
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column content">
+        <div class="restricted">
+          <h2 class="title arrow is-3">Problématique & enjeux</h2>
+          <h3 class="subtitle is-4">De quelles manières le numérique impacte-t-il la culture, au sens de la création artistique, de la médiation par le biais des nouvelles technologies, et de la diffusion vers les publics - notamment ceux qui sont hors des canaux habituels ?</h3>
+          <p>Sous l’égide de la Direction Générale de la Création Artistique (DGCA) du ministère de la Culture, les équipes étudiantes pluridisciplinaires relèvent ce défi du monde contemporain et envisagent comment l’art s’insère sur internet, comment la technologie se glisse dans la ville et génère des pratiques artistiques, comment des nouveaux formats d’événements artistiques comme de billetteries peuvent être créés, ou comment d’autres publics peuvent être touchés.</p>
+        </div>
+      </div>
+      <div class="column content">
+        <figure class="image">
+          <img src="<%= static_path(@conn, "/images/philosophie/matrice-arts.jpg") %>" alt="Matrice autisme">
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section unmarged">
+  <div class="container-fluid">
+    <div class="columns">
+      <div class="column content padded reversed is-opaque big-quote">
+        <quote>À la réflexion théorique s’ajoute une production réelle et concrète de ces outils et dispositifs pour un art du XXIe siècle.</quote>
+      </div>
+      <div class="column content">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-split">
+      <div class="column content">
+        <h2 class="title is-3">Partenaires</h2>
+      </div>
+      <div class="column content">
+        <div class="restricted">
+          <h2 class="title is-3">Écoles impliquées</h2>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

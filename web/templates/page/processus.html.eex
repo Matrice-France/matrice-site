@@ -1,0 +1,128 @@
+
+<%= render Matrice.PageView, "_section_header.html", title: "processus" %>
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column content">
+        <div class="restricted">
+          <h2 class="title arrow is-3">Co-créer des laboratoires de projets avec les partenaires</h2>
+          <p><b>Chaque Matrice est thématique et se crée autour d’un grand partenaire. Dans ce programme, les étudiants sont confrontés à des institutions publiques, des entreprises, des laboratoires de recherche, tous porteurs d’enjeux d’ampleur.</b></p>
+          <p>Sont alors crées des équipes constituées d’étudiants d’origine différentes et connectées avec des professionnels portant les problématiques.</p>
+          <p>Toutes les équipes constituées autour d’un même enjeu formeront une « Matrice », c’est à dire un <a href="/en-action" class="is-underline">laboratoire de projets</a>.</p>
+        </div>
+      </div>
+      <div class="column content">
+        <figure class="image restricted is-hidden-mobile">
+          <img src="<%= static_path(@conn, "/images/philosophie/matrice-arts-1.jpg") %>" alt="Un programme de formation">
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column content">
+        <figure class="image is-3by2">
+          <img src="<%= static_path(@conn, "/images/philosophie/matrice-arts.jpg") %>" alt="Un programme de formation">
+        </figure>
+      </div>
+      <div class="column content">
+        <div class="restricted">
+          <h2 class="title arrow is-3">Un dispositif en 4 phases</h2>
+          <p><b>Le dispositif s’articule en 4 grandes phases</b> et nécessite, en amont, un temps spécifique, avec les partenaires, destiné au ciblage des besoins et des enjeux : choix des experts, implication de l’institution ou de l’entreprise, identification des écoles et des universités, recrutement spécifique des étudiants.</p>
+          <p><b>Le programme de formation à proprement parler dure en moyenne 10 mois et comprend 3 niveaux d’accompagnement :</b></p>
+          <ul>
+            <li>la connaissance du sujet (contexte, environnement, histoire, enjeux) ;</li>
+            <li>la conceptualisation du projet et sa mise en production ;</li>
+            <li>la gestion humaine du collectif, dans le but d’acquérir une identité d’entrepreneur.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container titler">
+
+    <div class="columns padded">
+      <div class="column content is-5 is-offset-1">
+        <h2 class="title arrow is-5">Phase 1 / Immersion</h2>
+        <p>Les étudiants plongent dans le sujet et la problématique. <b>C’est une phase de rencontres destinée à créer une communauté mixte.</b></p>
+        <p>Rencontre des étudiants entre eux, et début de métissage entre des personnes issues d’écoles différentes aux langages, modes de pensées et méthodologies distinctes. L’équipe pédagogique est là pour poser le cadre de cette rencontre et de la coopération future.</p>
+        <p>Rencontre avec un partenaire, un milieu et sa culture spécifique : codes, vocabulaire, représentations. Des acteurs ou experts viennent présenter aux étudiants les enjeux importants qui les animent.</p>
+        <p>Cette phase très intense se termine par un sprint créatif à l’issue duquel de premiers groupes d’étudiants sont constitués autour d’idées validées par une communauté de spécialistes.</p>
+      </div>
+    </div>
+    <div class="columns padded">
+      <div class="column content is-offset-3 is-5">
+        <h2 class="title arrow is-5">Phase 2 / Élaboration</h2>
+        <p><b>C’est la phase de construction et de maturation des équipes et des idées.</b></p>
+        <p>Elle a deux enjeux principaux : la transformation d’un groupe d’étudiants en équipe véritable et la maturation d’une idée en projet viable.
+          Les étudiants vont sur le terrain, rencontrent les acteurs-clés et réalisent une étude de l’environnement afin d’aboutir à un projet réellement innovant.
+          L’originalité de ce moment est qu’il n’est pas seulement une phase de conception innovante, mais une étape d’un processus où les équipes sont invitées à vivre le collectif tout en développant leurs projets.</p>
+      </div>
+    </div>
+    <div class="columns padded">
+      <div class="column content is-offset-5 is-5">
+        <h2 class="title arrow is-5">Phase 3 / Production</h2>
+        <p><b>Cette phase permet de passer du concept au produit.</b></p>
+        <p>Elle correspond à la transformation des projets en objets réels, pensés et réalisés. Sous forme de modélisation (2D, 3D), de maquette, ou bien de démonstrateur fonctionnel, les prototypes permettent de réaliser des tests partiels afin de valider ou non les choix effectués lors de la phase d’élaboration.</p>
+        <p>Du prototypage jusqu’aux enjeux juridiques et modèle économique viable, le projet est envisagé sous toutes ses facettes en vue d’une solution la plus complète possible.</p>
+      </div>
+    </div>
+    <div class="columns padded">
+      <div class="column content is-offset-7 is-5">
+        <h2 class="title arrow is-5">Phase 4 / Action</h2>
+        <p><b>Après la production, vient le lancement et la mise à l’épreuve de la solution et de l’équipe</b> dans un premier environnement facilité. L’accompagnement des équipes projets se poursuit sur le terrain en situation réelle par une phase de co-développement au sein d’une coopérative d’activité et d’emploi. Conçu dans une véritable dimension collective, cette structure permet d’intégrer toutes les Matrices projet dans une aventure entrepreneuriale commune (échange de ressources, de compétences, réseautage, aide structurelle…). Le but étant d’accélérer l’entrée dans la vie économique et de favoriser la croissance.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+
+    <div class="columns padded">
+      <div class="padded column is-10 is-offset-1 content">
+        <h3 class="title is-6">A l’issue du programme de formation, quels qu’en soient les formats finaux (startup, business unit…), la Matrice donnera naissance à des projets pertinents et insérés dans un écosystème, mais aussi à des étudiants capables d’innover et d’entreprendre. Pour ceux qui le souhaitent s’ouvre alors une phase d’Expansion. Un accompagnement stratégique transversal est proposé pour accélérer le développement, multiplier les opportunités et continuer à penser les projets dans une perspective collaborative.</h3>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section unmarged">
+  <div class="container-fluid">
+    <div class="columns">
+      <div class="column content padded reversed big-quote">
+        <quote>“Matrice est un programme tout terrain, ouvert à chaque champ professionnel, chaque entreprise, chaque collectivité ou institution publique…”</quote>
+      </div>
+      <div class="column content"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section unmarged">
+  <div class="container-fluid">
+    <div class="columns">
+      <div class="column is-offset-2 content">
+        <div class="restricted">
+          <h2 class="title arrow is-3">Un processus complet pour les étudiants</h2>
+          <p>Le programme de formation vise une transformation des étudiants en innovateurs à travers un processus complet centré sur l’apprentissage personnel, la responsabilisation et l’autonomisation, la compréhension du fonctionnement d’un collectif et le développement d’un esprit critique.</p>
+          <h2 class="title arrow is-3">Un levier de transformation pour les partenaires</h2>
+          <p>En se déployant sur un sujet, avec une institution ou une entreprise, Matrice se fait aussi programme de formation professionnelle pour des collaborateurs ou agents embarqués dans la transformation réelle, concrète et par le faire, de l’entreprise ou de l’institution publique à laquelle ils appartiennent.</p>
+          <p><b>En ce sens, Matrice est un véritable levier de transformation donnant accès à une force de développement.</b></p>
+          <p><a href="" class="button is-primary matrice-button">En savoir +</a></p>
+        </div>
+      </div>
+      <div class="column content">
+        <figure class="image">
+          <img src="<%= static_path(@conn, "/images/academie-pedago/matrice-arts.jpg") %>" alt="Un programme de formation">
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>

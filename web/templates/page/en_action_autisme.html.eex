@@ -1,0 +1,57 @@
+
+<%= render Matrice.PageView, "_section_en_action_header.html", matrice: "autisme", conn: @conn %>
+
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column content">
+        <div class="restricted">
+          <h2 class="title arrow is-3">Problématique & enjeux</h2>
+          <h3 class="subtitle is-4">Comment le numérique peut venir en renfort des généticiens et des praticiens qui accompagnent les autistes et leurs parents ?</h3>
+          <p>Quels outils numériques proposer afin de faciliter le quotidien des familles d’enfants autistes ? Mais surtout comment mettre en lien familles, psychologues et chercheurs ? Comment aider à constituer des parcours et à faire circuler des données de manière à renforcer l’efficacité de l’accompagnement comme de la recherche.</p>
+          <p>Le numérique peut beaucoup dans cette situation, à la jonction d’un quotidien, d’une pratique médicale, et d’une recherche fondamentale.</p>
+        </div>
+      </div>
+      <div class="column content">
+        <figure class="image is-3by2">
+          <img src="<%= static_path(@conn, "/images/Process/matrice_autisme.jpg") %>" alt="Matrice autisme">
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section unmarged">
+  <div class="container-fluid">
+    <div class="columns">
+      <div class="column content padded reversed is-opaque big-quote">
+        <quote>Les étudiants ont travaillé de concert avec des chercheurs et des praticiens à la création d’applications pratiques utiles.</quote>
+      </div>
+      <div class="column content">
+        <ul class="restricted">
+          <li>Améliorer le quotidien des personnes atteintes de troubles autistiques : l’échange entre les familles, les éducateurs et les chercheurs</li>
+          <li>Faciliter l’accès à l’expression des personnes autistes via des moyens non verbaux</li>
+          <li>Favoriser l’observation et la qualité du sommeil des enfants autistes</li>
+          <li>Créer un site de référence pour s’orienter parmi toutes les structures et ressources existantes</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-split">
+      <div class="column content">
+        <h2 class="title is-3">Partenaires</h2>
+      </div>
+      <div class="column content">
+        <div class="restricted">
+          <h2 class="title is-3">Écoles impliquées</h2>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,51 @@
+
+<%= render Matrice.PageView, "_section_en_action_header.html", matrice: "CPA", conn: @conn %>
+
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column content">
+        <div class="restricted">
+          <h2 class="title arrow is-3">Problématique & enjeux</h2>
+          <h3 class="subtitle is-4">Comment redonner la main aux citoyens sur leur parcours professionnel ?</h3>
+          <p>Quels outils numériques leur mettre à disposition afin qu’ils puissent avoir un accès facilité à l’ensemble de leurs droits / données et redevenir des acteurs conscients et “aux commandes” de leurs trajectoires professionnelles ?</p>
+          <p>C’est la problématique du compte personnel d’activité, un compte qui rassemble au même endroit un certain nombre de droits sociaux (sur l’emploi, la formation, l’engagement citoyen, la pénibilité).</p>
+        </div>
+      </div>
+      <div class="column content">
+        <figure class="image is-3by2">
+          <img src="<%= static_path(@conn, "/images/Process/matrice_autisme.jpg") %>" alt="Matrice autisme">
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section unmarged">
+  <div class="container-fluid">
+    <div class="columns">
+      <div class="column content padded reversed is-opaque big-quote">
+        <quote>
+          Connaître ses droits sociaux grâce à un grand portail de référence est un pas décisif, mais pouvoir les mobiliser et les utiliser est encore plus important. Alors la protection sociale devient bien plus qu’un filet de sécurité : une réelle capacité à agir.
+        </quote>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-split">
+      <div class="column content">
+        <h2 class="title is-3">Partenaires</h2>
+      </div>
+      <div class="column content">
+        <div class="restricted">
+          <h2 class="title is-3">Écoles impliquées</h2>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
