@@ -6,11 +6,11 @@
       <div class="column content">
         <div class="restricted">
           <h2 class="title arrow is-3">Une nouvelle donne digitale résolument humaine</h2>
-          <p><b>Nous passons de l’ère industrielle à l’ère digitale.</b></p>
-          <p>Les désirs de créer, innover, construire n’ont jamais rencontré autant de possibilités de le faire. Tous les secteurs sont aujourd’hui concernés. Il n’y a plus de mathématiques sans big data, plus de géographie sans GPS, plus d’art sans image numérique. Il s’agit maintenant d’organiser ce grand dialogue productif.</p>
+          <p><b>Nous passons de l’ère industrielle à l’ère digitale.</b></p>
+          <p>Les désirs de créer, innover, construire n’ont jamais rencontré autant de possibilités de le faire. Tous les secteurs sont aujourd’hui concernés. Il n’y a plus de mathématiques sans big data, plus de géographie sans GPS, plus d’art sans image numérique. Il s’agit maintenant d’organiser ce grand dialogue productif.</p>
           <br>
-          <p><b>Plus que des données, la matière première du digital reste l’humain.</b></p>
-          <p>La révolution numérique réside donc autant dans les savoirs sociaux que dans les technologies qui outilleront la vie sociale. Savoir coder ne peut pas s’envisager sans savoir lire la société et construire une distance critique sur la technologie en train de se faire. La révolution technologique appelle une nouvelle anthropologie.</p>
+          <p><b>Plus que des données, la matière première du digital reste l’humain.</b></p>
+          <p>La révolution numérique réside donc autant dans les savoirs sociaux que dans les technologies qui outilleront la vie sociale. Savoir coder ne peut pas s’envisager sans savoir lire la société et construire une distance critique sur la technologie en train de se faire. La révolution technologique appelle une nouvelle anthropologie.</p>
           <p>Et elle pose des conditions.</p>
         </div>
       </div>
@@ -34,9 +34,9 @@
       <div class="column content">
         <div class="restricted">
           <h2 class="title arrow is-3">Fonder un modèle « d’université productive »</h2>
-          <p>Dans cette nouvelle donne industrielle et intellectuelle, l’enjeu est de confronter des mondes qui ne se parlaient pas toujours : sciences humaines et technologies, recherche et entreprises, étudiants et professionnels… pour sceller de nouvelles alliances avec le numérique comme langage commun.</p>
-          <p>A la jonction de différents savoirs, de différents métiers, de différents mondes, Matrice est un programme culturel et politique exprimé comme un programme de formation autant que de production. Il s’agit de produire des savoirs autant que des objets (numériques).</p>
-          <p>Ce n’est pas seulement une école, une université ou un programme de formation orienté vers les savoirs. Ce n’est pas non plus un incubateur, un accélérateur ou une usine à startups. <b>C’est les deux à la fois, une université productive qui lie savoirs et productions ; citoyens numériques et entrepreneurs critiques.</b></p>
+          <p>Dans cette nouvelle donne industrielle et intellectuelle, l’enjeu est de confronter des mondes qui ne se parlaient pas toujours : sciences humaines et technologies, recherche et entreprises, étudiants et professionnels… pour sceller de nouvelles alliances avec le numérique comme langage commun.</p>
+          <p>A la jonction de différents savoirs, de différents métiers, de différents mondes, Matrice est un programme culturel et politique exprimé comme un programme de formation autant que de production. Il s’agit de produire des savoirs autant que des objets (numériques).</p>
+          <p>Ce n’est pas seulement une école, une université ou un programme de formation orienté vers les savoirs. Ce n’est pas non plus un incubateur, un accélérateur ou une usine à startups. <b>C’est les deux à la fois, une université productive qui lie savoirs et productions ; citoyens numériques et entrepreneurs critiques.</b></p>
         </div>
       </div>
     </div>
@@ -81,11 +81,11 @@
       </div>
       <div class="column content square-container">
         <div class="squared">
-          <p><b>Depuis sa création, Matrice bénéficie du Programme d’Investissements d’Avenir (PIA)</b> destiné à soutenir les progrès de l’enseignement et de la recherche, à valoriser la recherche et à accélérer la modernisation des entreprises.</p>
-          <p>La démarche gouvernementale du PIA obéit à trois mots qui en font la marque : </p>
-          <p><b>Excellence,</b> parce que les universités, les instituts, les laboratoires, les équipes, les projets entrepreneuriaux et industriels sont choisis en fonction de leur excellence sur la base d’avis de jurys ou d’experts indépendants.</p>
-          <p><b>Innovation,</b> parce qu’il faut apporter quelque chose de nouveau pour bénéficier du PIA. </p>
-          <p><b>Coopération,</b> parce que nous voulons faire travailler ensemble ceux qui portent l’avenir de notre pays.</p>
+          <p><b>Depuis sa création, Matrice bénéficie du Programme d’Investissements d’Avenir (PIA)</b> destiné à soutenir les progrès de l’enseignement et de la recherche, à valoriser la recherche et à accélérer la modernisation des entreprises.</p>
+          <p>La démarche gouvernementale du PIA obéit à trois mots qui en font la marque : </p>
+          <p><b>Excellence,</b> parce que les universités, les instituts, les laboratoires, les équipes, les projets entrepreneuriaux et industriels sont choisis en fonction de leur excellence sur la base d’avis de jurys ou d’experts indépendants.</p>
+          <p><b>Innovation,</b> parce qu’il faut apporter quelque chose de nouveau pour bénéficier du PIA. </p>
+          <p><b>Coopération,</b> parce que nous voulons faire travailler ensemble ceux qui portent l’avenir de notre pays.</p>
           <footer class="content is-centered">
             <figure class="image" style="max-width: 200px; margin: auto;">
               <img src="<%= static_path(@conn, "/images/philosophie/logos-PIA-site-internet.jpg") %>" alt="Un programme de formation">
@@ -112,11 +112,11 @@
         </div>
         <div class="minibox">
           <h3 class="title is-4">D’innovation,</h3>
-          <p>non pour « disrupter » un secteur donné, mais construire la transformation avec ses professionnels, ceux qui en maîtrisent les rouages, les problématiques et en ont la mémoire.</p>
+          <p>non pour « disrupter » un secteur donné, mais construire la transformation avec ses professionnels, ceux qui en maîtrisent les rouages, les problématiques et en ont la mémoire.</p>
         </div>
         <div class="minibox">
           <h3 class="title is-4">De production,</h3>
-          <p>qui ne se contente pas d’imaginer des idées, mais les transforme, en un temps court, en de réelles solutions numériques économiquement viables.</p>
+          <p>qui ne se contente pas d’imaginer des idées, mais les transforme, en un temps court, en de réelles solutions numériques économiquement viables.</p>
         </div>
       </div>
       <div class="padded column content">
