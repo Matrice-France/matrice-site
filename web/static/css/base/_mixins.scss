@@ -1,0 +1,74 @@
+
+@mixin theme($bg, $fg, $text: '#fff', $bgtext: $fg) {
+  color: $bg;
+
+  .content,
+  .content h1,
+  .content h2,
+  .content h3,
+  .content h4,
+  .content h5,
+  .title,
+  .content p {
+    color: $bg;
+  }
+
+  .button.is-primary {
+    background-color: $fg;
+    color: $bg;
+    font-size: .9em;
+    font-weight: bold;
+  }
+
+  .top-nav-container {
+    background-color: $bg;
+
+    .nav {
+      background-color: transparent;
+      color: $text;
+
+      a {
+        color: $text;
+
+        &:hover {
+          color: $bgtext;
+        }
+      }
+
+      a.button.matrice-top-button {
+        background: transparent;
+        border: 3px solid $fg;
+      }
+
+    }
+  }
+
+  .page-section {
+    background-color: $fg;
+  }
+
+  @media(min-width: $tablet) {
+
+    .square-container {
+      .squared {
+        border: 5px solid $fg;
+      }
+    }
+  }
+
+
+  .section {
+    .reversed {
+      background-color: transparentize($fg, .25);
+      color: $text;
+
+      &.is-opaque {
+        background-color: $fg;
+      }
+    }
+
+    .square-row .reversed {
+      background-color: $fg;
+    }
+  }
+}

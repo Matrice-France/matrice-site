@@ -18,7 +18,27 @@
   }
 }
 
+.is-underline {
+  color: currentColor;
+  text-decoration: underline;
+}
+
 @media(min-width: $tablet) {
+
+  .titler {
+    position: relative;
+
+    .arrow {
+      &:before {
+        position: absolute;
+        background-repeat: no-repeat;
+        left: -200px;
+        top: 2px;
+        z-index: 0;
+      }
+    }
+  }
+
   .arrow {
     position: relative;
     &:before {
@@ -45,20 +65,21 @@
 }
 
 @media(max-width: $tablet) {
+
   .arrow:before {
-      content: "";
-      background: url(/images/title-arrow.png);
-      background-position: center;
-      background-size: contain;
-      display: inline-block;
-      height: 20px;
-      width: 150px;
-      position: relative;
-      background-repeat: no-repeat;
-      left: 0;
-      top: 0;
-      z-index: 0;
-      margin-right: 1em;
+    content: "";
+    background: url(/images/title-arrow.png);
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    height: 20px;
+    width: 150px;
+    position: relative;
+    background-repeat: no-repeat;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    margin-right: 1em;
   }
 }
 

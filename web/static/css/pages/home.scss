@@ -1,107 +1,27 @@
 @import '../base/variables';
+@import '../base/mixins';
 
-$banner-height: 150px;
-$restricted-width: 450px;
-
-@mixin theme($bg, $fg, $text: '#fff') {
-  color: $bg;
-
-  .content,
-  .content h1,
-  .content h2,
-  .content h3,
-  .content h4,
-  .content h5,
-  .title,
-  .content p {
-    color: $bg;
-  }
-
-  .top-nav-container {
-    background-color: $bg;
-
-    .nav {
-      background-color: transparent;
-      color: $text;
-
-      a {
-        color: $text;
-
-        &:hover {
-          color: $fg;
-        }
-      }
-
-      a.button.matrice-top-button {
-        background: transparent;
-        border: 3px solid $fg;
-      }
-
-    }
-  }
-
-  .page-section {
-    background-color: $fg;
-  }
-
-  @media(min-width: $tablet) {
-
-    .square-container {
-      .squared {
-        border: 5px solid $fg;
-      }
-    }
-  }
-
-
-  .section {
-    .reversed {
-      background-color: transparentize($fg, .25);
-      color: $text;
-    }
-
-    .square-row .reversed {
-      background-color: $fg;
-    }
-  }
-}
 
 body.page {
   @include theme($matrice-blue, $matrice-orange, $matrice-white);
 
-  &.philosophie {
+  &.philosophie,
+  &.processus {
     @include theme($matrice-blue, $matrice-green, $matrice-white);
+  }
+
+  &.en_action_autisme,
+  &.en_action_cpa,
+  &.en_action_art,
+  &.en_action_si {
+    @include theme($matrice-blue, $matrice-blue, $matrice-white, $matrice-green);
   }
 }
 
 .page {
-  //
-  // color: $matrice-blue;
-  //
-  // .content,
-  // .content h1,
-  // .content h2,
-  // .content h3,
-  // .content h4,
-  // .content h5,
-  // .title,
-  // .content p {
-  //   color: $matrice-blue;
-  // }
-
-  #particles {
-    position: relative;
-
-    canvas {
-      position: absolute;
-      top: 0px;
-      left: 0px;
-    }
-  }
 
   .column.content {
     padding: 1em;
-
   }
 
   .title.is-centered {
@@ -121,6 +41,21 @@ body.page {
       max-width: $restricted-width * 1.2;
       margin: auto;
       padding: 1em 1em 1em 3em;
+    }
+
+    &:only-child {
+
+      @media(min-width: $tablet) {
+        quote {
+          max-width: 80%;
+        }
+      }
+      @media(max-width: $tablet) {
+        quote {
+          max-width: 100%;
+          padding: 1em;
+        }
+      }
     }
   }
 
@@ -187,122 +122,6 @@ body.page {
       max-width: $restricted-width * 2;
     }
 
-    .square-container {
-      position: relative;
-      z-index: 20;
-
-      .squared {
-        // border: 5px solid $matrice-orange;
-        border-radius: 5px;
-        position: relative;
-        padding: 1em;
-        left: 4em;
-        top: -6em;
-
-        h2 {
-          position: relative;
-          left: -3em;
-          margin-right: 1em;
-          font-weight: 100;
-          padding: 1em;
-          line-height: 1.5em;
-          background-color: $matrice-white;
-          display: inline-block;
-        }
-        ul {
-          padding: 0 3em;
-          position: relative;
-          top: -2em;
-        }
-      }
-      & + .column.content.bottom {
-        align-self: flex-end;
-        padding: 0;
-        position: relative;
-        z-index: 10;
-        bottom: -7em;
-        padding-bottom: 7em;
-      }
-    }
-
-    .square-row {
-      position: relative;
-      margin-bottom: 50px;
-
-      .column.up-square {
-        align-self: flex-start;
-      }
-
-      .column.square-container {
-        .squared {
-          position: relative;
-          right: 7em;
-          top: 5em;
-          left: inherit;
-          padding: 6em 8em;
-        }
-      }
-    }
-
-    .timeline {
-      $timeline-dot: 13px;
-      max-width: $restricted-width * 2;
-      padding: 1em 0 4em;
-
-      h2 {
-        padding: 1em 0 2em;
-      }
-
-      .column.is-half {
-        padding: 0rem 2rem;
-
-        &:first-of-type {
-          border-right: 3px solid #ddd;
-          text-align: right;
-
-          &.last {
-            border-right: 0px;
-          }
-        }
-
-        &:not(:empty) {
-
-          p {
-            b {
-              top: -5px;
-              position: relative;
-            }
-          }
-
-          &:before {
-            content: "";
-            display: inline-block;
-            height: $timeline-dot;
-            width: $timeline-dot;
-            position: absolute;
-            background-color: $matrice-orange;
-            border-radius: $timeline-dot;
-            top: 0px;
-          }
-
-          &:first-of-type {
-            position: relative;
-
-            &:before {
-              right: -8px;
-            }
-          }
-
-          &:last-of-type {
-            position: relative;
-
-            &:before {
-              left: -8px;
-            }
-          }
-        }
-      }
-    }
   }
 
   .section {
@@ -357,6 +176,21 @@ body.page {
     }
   }
 
+  $en-action-height: 300px;
+
+  .is-matrice-en-action {
+    max-height: $en-action-height;
+
+    img {
+      width: auto;
+      max-height: $en-action-height;
+      margin: auto;
+    }
+  }
+
+  .page-matrice-section {
+    margin: 0;
+  }
 
   .restricted {
     padding: 0em 0em;
@@ -366,15 +200,4 @@ body.page {
     padding: 0em 1em;
   }
 
-  .timeline {
-    .column.is-half:empty {
-      padding: 0;
-    }
-  }
-
-  @media(max-width: $tablet) {
-    .squared {
-      padding: 1em;
-    }
-  }
 }
