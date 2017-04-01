@@ -35,6 +35,12 @@
         }
       }
 
+      .nav-item {
+        ul {
+          border-top: 3px solid $bgtext;
+        }
+      }
+
       a.button.matrice-top-button {
         background: transparent;
         border: 3px solid $fg;
@@ -49,7 +55,8 @@
 
   @media(min-width: $tablet) {
 
-    .square-container {
+    .square-container,
+    .simple-square {
       .squared {
         border: 5px solid $fg;
       }

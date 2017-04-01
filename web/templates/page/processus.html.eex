@@ -1,19 +1,19 @@
 
 <%= render Matrice.PageView, "_section_header.html", title: "processus" %>
 <section class="section">
-  <div class="container">
-    <div class="columns">
-      <div class="column content">
-        <div class="restricted">
+  <div class="container-fluid">
+    <div class="columns is-desktop">
+      <div class="column content is-offset-1">
+        <div class="restrictedD">
           <h2 class="title arrow is-3">Co-créer des laboratoires de projets avec les partenaires</h2>
           <p><b>Chaque Matrice est thématique et se crée autour d’un grand partenaire. Dans ce programme, les étudiants sont confrontés à des institutions publiques, des entreprises, des laboratoires de recherche, tous porteurs d’enjeux d’ampleur.</b></p>
           <p>Sont alors crées des équipes constituées d’étudiants d’origine différentes et connectées avec des professionnels portant les problématiques.</p>
           <p>Toutes les équipes constituées autour d’un même enjeu formeront une « Matrice », c’est à dire un <a href="/en-action" class="is-underline">laboratoire de projets</a>.</p>
         </div>
       </div>
-      <div class="column content">
-        <figure class="image restricted is-hidden-mobile">
-          <img src="<%= static_path(@conn, "/images/philosophie/matrice-arts-1.jpg") %>" alt="Un programme de formation">
+      <div class="column content is-offset-2">
+        <figure class="image">
+          <img src="<%= static_path(@conn, "/images/philosophie/nucleus-creative-valley.jpg") %>" alt="Un programme de formation">
         </figure>
       </div>
     </div>
@@ -23,13 +23,23 @@
 <section class="section">
   <div class="container">
     <div class="columns">
-      <div class="column content">
-        <figure class="image is-3by2">
-          <img src="<%= static_path(@conn, "/images/philosophie/matrice-arts.jpg") %>" alt="Un programme de formation">
-        </figure>
+      <div class="column content simple-square is-4 is-offset-1">
+        <div class="squared">
+          <header>
+            <h2 class="marged-title">En chiffres</h2>
+          </header>
+          <b>Une Matrice c’est :</b>
+          <ul>
+            <li><b>1 ou 2 grands partenaires</b> institutionnels ou privés</li>
+            <li><b>Un processus de formation en 10 mois</b>, décliné en 4 phases  (Immersion, Élaboration, Production, Action)</li>
+            <li><b>20 à 40 étudiants</b></li>
+            <li><b>2 à 4 écoles et universités</b>, dont 42 mobilisées</li>
+            <li><b>4 à 8 projets</b> créés et développés</li>
+          </ul>
+        </div>
       </div>
-      <div class="column content">
-        <div class="restricted">
+      <div class="column content is-5 is-offset-2">
+        <div class="restrictedD">
           <h2 class="title arrow is-3">Un dispositif en 4 phases</h2>
           <p><b>Le dispositif s’articule en 4 grandes phases</b> et nécessite, en amont, un temps spécifique, avec les partenaires, destiné au ciblage des besoins et des enjeux : choix des experts, implication de l’institution ou de l’entreprise, identification des écoles et des universités, recrutement spécifique des étudiants.</p>
           <p><b>Le programme de formation à proprement parler dure en moyenne 10 mois et comprend 3 niveaux d’accompagnement :</b></p>

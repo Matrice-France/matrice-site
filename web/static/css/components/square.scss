@@ -8,9 +8,40 @@
 }
 
 @media(min-width: $tablet) {
+
+
+  .simple-square {
+    position: relative;
+    z-index: 20;
+
+    .squared {
+      border-radius: 5px;
+      position: relative;
+      padding: 1em;
+
+      header {
+        position: absolute;
+        left: 0;
+        right: 0;
+        display: block;
+        text-align: center;
+
+        h2 {
+          position: relative;
+          top: -1.3em;
+          padding: 0 1em;
+          display: inline-block;
+          font-weight: 300;
+          background: $matrice-white;
+        }
+      }
+    }
+  }
+
   .square-container {
     position: relative;
     z-index: 20;
+    margin-bottom: 5em;
 
     .squared {
       // border: 5px solid $matrice-orange;

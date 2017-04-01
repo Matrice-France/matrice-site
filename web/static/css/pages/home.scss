@@ -6,7 +6,8 @@ body.page {
   @include theme($matrice-blue, $matrice-orange, $matrice-white);
 
   &.philosophie,
-  &.processus {
+  &.processus,
+  &.matrice_et_vous {
     @include theme($matrice-blue, $matrice-green, $matrice-white);
   }
 
@@ -15,6 +16,19 @@ body.page {
   &.en_action_art,
   &.en_action_si {
     @include theme($matrice-blue, $matrice-blue, $matrice-white, $matrice-green);
+  }
+}
+
+.matrice_et_vous .simple-square {
+  .squared {
+    padding: 4em;
+    max-width: 500px;
+    margin: auto;
+
+    header h2 {
+      top: -2.9em;
+      max-width: 80%;
+    }
   }
 }
 

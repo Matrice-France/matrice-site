@@ -1,13 +1,42 @@
 
 @import '../base/variables';
 
+.container {
+  z-index: 20;
+}
 .top-nav-container {
   padding: .75em 0;
   font-family: $family-heading;
 
+  .nav-toggle {
+    background: transparent;
+
+    &:hover {
+      background: transparent;
+      color: $matrice-green;
+
+      span {
+        background-color: $matrice-green;
+      }
+    }
+
+    span {
+      background-color: $matrice-white;
+    }
+  }
+
   a {
     font-family: $family-heading;
     font-weight: 700;
+  }
+
+  .nav-item {
+    font-size: 0.9rem;
+
+
+    @media(max-width: $tablet) {
+      font-size: 0.8rem;
+    }
   }
 
   .nav {
@@ -17,12 +46,24 @@
       ul {
       	display: none;
       	position: absolute;
+        z-index: 30;
         background: $matrice-blue;
-        padding: 1em;
+        padding: 1em 0em;
+        min-width: 150px;
       	top: 50px; /* the height of the main nav */
 
         li {
           text-align: left;
+
+          b {
+            font-weight: bold;
+
+            & + span {
+              font-weight: lighter;
+              display: block;
+              font-size: .9em;
+            }
+          }
         }
       }
 
@@ -47,13 +88,20 @@
       // }
     }
     /* Change this in order to change the Dropdown symbol */
-    li > a:after { content:  ' ⌄'; }
+    li > a:after { content:  ''; }
     li > a:only-child:after { content: ''; }
 
 
     a {
       font-size: .9em;
       padding: 0 1em;
+
+      .fa-chevron-down {
+        padding-left: 1em;
+        font-size: .8em;
+        position: relative;
+        top: .5em;
+      }
 
       &:hover {
       }

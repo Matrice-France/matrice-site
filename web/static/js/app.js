@@ -24,3 +24,7 @@ import "particles.js"
 particlesJS.load('particles', '/json/config.json', function() {
   console.log('callback - particles.js config loaded');
 });
+
+document.querySelectorAll('.nav-toggle')[0].onclick = function() {
+  document.querySelectorAll('.nav-menu')[0].classList.toggle('is-active')
+}

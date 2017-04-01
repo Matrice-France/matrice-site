@@ -17,7 +17,7 @@
         <span></span>
       </span>
 
-      <ul class="nav-center">
+      <ul class="nav-right nav-menu">
         <li class="nav-item">
           <a href="<%= page_path(@conn, :philosophie) %>">
             Philosophie
@@ -36,12 +36,13 @@
         <li class="nav-item">
           <a href="<%= page_path(@conn, :en_action_autisme) %>">
             En action
+            <i class="fa fa-chevron-down" aria-hidden="true"></i>
           </a>
           <ul class="">
-            <li class="nav-item"><a href="<%= page_path(@conn, :en_action_autisme) %>">Autisme</a></li>
-            <li class="nav-item"><a href="<%= page_path(@conn, :en_action_cpa) %>">CPA</a></li>
-            <li class="nav-item"><a href="<%= page_path(@conn, :en_action_art) %>">Arts</a></li>
-            <li class="nav-item"><a href="<%= page_path(@conn, :en_action_si) %>">SI</a></li>
+            <li class="nav-item"><a href="<%= page_path(@conn, :en_action_autisme) %>"><b>MATRICE</b><span>Autisme</span></a></li>
+            <li class="nav-item"><a href="<%= page_path(@conn, :en_action_cpa) %>"><b>MATRICE</b><span>CPA</span></a></li>
+            <li class="nav-item"><a href="<%= page_path(@conn, :en_action_art) %>"><b>MATRICE</b><span>Arts</span></a></li>
+            <li class="nav-item"><a href="<%= page_path(@conn, :en_action_si) %>"><b>MATRICE</b><span>SI</span></a></li>
           </ul>
         </li>
         <li class="nav-item">
@@ -54,18 +55,17 @@
             En 1 clic
           </a>
         </li>
-      </ul>
 
       <!-- This "nav-menu" is hidden on mobile -->
       <!-- Add the modifier "is-active" to display it on mobile -->
-      <div class="nav-right nav-menu">
+      <!-- <div class="nav-right"> -->
 
-        <span class="nav-item">
+        <li class="nav-item is-hidden-touch">
           <a href="" class="button matrice-top-button">
             Contactez nous
           </a>
-        </span>
-        <span class="nav-item">
+        </li>
+        <li class="nav-item is-hidden-touch">
           <a href="" class="social-menu-link">
             <span class="icon">
               <i class="fa fa-facebook"></i>
@@ -81,7 +81,8 @@
               <i class="fa fa-linkedin"></i>
             </span>
           </a>
-        </span>
+        </li>
+      </ul>
       </div>
     </nav>
   </div>

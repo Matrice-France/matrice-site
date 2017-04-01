@@ -1,6 +1,7 @@
 
 #particles {
   position: relative;
+  z-index: 10;
 
   canvas {
     position: absolute;
