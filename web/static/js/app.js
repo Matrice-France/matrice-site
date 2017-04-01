@@ -21,6 +21,6 @@ import "particles.js"
 
 // import socket from "./socket"
 
-particlesJS.load('particles', 'json/config.json', function() {
+particlesJS.load('particles', '/json/config.json', function() {
   console.log('callback - particles.js config loaded');
 });
