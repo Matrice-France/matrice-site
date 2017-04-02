@@ -8,11 +8,11 @@ defmodule Matrice.PageController do
   def philosophie(conn, _params) do
     render conn, "philosophie.html"
   end
-  #
-  # def pedagogie(conn, _params) do
-  #   render conn, "pedagogie.html"
-  # end
-  #
+  
+  def pedagogie(conn, _params) do
+    render conn, "pedagogie.html"
+  end
+
   # def processus(conn, _params) do
   #   render conn, "processus.html"
   # end
