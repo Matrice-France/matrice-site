@@ -1,0 +1,10 @@
+
+.is-logo img {
+  max-height: 120px;
+  width: inherit;
+  padding: 1em;
+}
+
+.is-logo.is-tall img {
+  max-height: 200px;
+}

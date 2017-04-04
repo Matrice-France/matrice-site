@@ -7,7 +7,7 @@
             <img src="<%= static_path(@conn, "/images/SVG/mono_black.svg") %>" alt="Matrice logo">
           </a>
         </p> -->
-        <p>
+        <!-- <p>
           <a href="" class="social-menu-link">
             <span class="icon">
               <i class="fa fa-facebook"></i>
@@ -23,7 +23,7 @@
               <i class="fa fa-linkedin"></i>
             </span>
           </a>
-        </p>
+        </p> -->
       </div>
       <div class="column content has-text-centered">
         <p>

@@ -1,7 +1,69 @@
+@import '../base/variables';
 
 .is-split {
 
-  .column:first-of-type {
-    text-align: right;
+  .column {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+      text-transform: uppercase;
+    }
+  }
+
+  .logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    flex: 1 1;
+
+    .is-logo {
+      flex: 1 1 100%;
+      align-self: center;
+
+      img {
+        width: inherit;
+        margin: auto;
+      }
+    }
+
+    .is-logo.is-half {
+      flex: 1 1 50%;
+    }
+    .is-logo.is-tier {
+      flex: 1 1 33%;
+    }
+  }
+
+  @media(max-width: $tablet) {
+    .column.content {
+      text-align: center;
+    }
+  }
+
+  @media(min-width: $tablet) {
+    .column.content:first-of-type {
+      text-align: right;
+      padding-right: 4em;
+      margin-left: 1em;
+      border-right: 5px solid transparentize($matrice-blue, .5);
+
+      .is-logo {
+        img {
+          float: right;
+        }
+      }
+    }
+
+    .column.content:last-of-type {
+      text-align: left;
+      padding-left: 4em;
+
+      .is-logo {
+        float: left;
+      }
+    }
   }
 }

@@ -45,11 +45,30 @@
     <div class="columns is-split">
       <div class="column content">
         <h2 class="title is-3">Partenaires</h2>
+        <div class="logos">
+          <figure class="image is-logo">
+            <img src="<%= static_path(@conn, "/images/logo/logo_pasteur.png") %>" alt="Institut Pasteur">
+          </figure>
+          <figure class="image is-logo">
+            <img src="<%= static_path(@conn, "/images/logo/logo_debre.png") %>" alt="Hopital Debré">
+          </figure>
+        </div>
       </div>
       <div class="column content">
-        <div class="restricted">
-          <h2 class="title is-3">Écoles impliquées</h2>
-
+        <h2 class="title is-3">Écoles impliquées</h2>
+        <div class="logos">
+          <figure class="image is-logo is-half">
+            <img src="<%= static_path(@conn, "/images/logo/logo_artsup.png") %>" alt="ArtSup">
+          </figure>
+          <figure class="image is-logo is-half">
+            <img src="<%= static_path(@conn, "/images/logo/logo_42.svg") %>" alt="42">
+          </figure>
+          <figure class="image is-logo is-half">
+            <img src="<%= static_path(@conn, "/images/logo/logo_conde.png") %>" alt="Conde">
+          </figure>
+          <figure class="image is-logo is-half">
+            <img src="<%= static_path(@conn, "/images/logo/logo_cri.jpg") %>" alt="Cri">
+          </figure>
         </div>
       </div>
     </div>

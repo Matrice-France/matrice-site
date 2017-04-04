@@ -39,11 +39,27 @@
     <div class="columns is-split">
       <div class="column content">
         <h2 class="title is-3">Partenaires</h2>
+        <div class="logos">
+          <figure class="image is-logo is-half">
+            <img src="<%= static_path(@conn, "/images/logo/logo_mdt.jpeg") %>" alt="Ministere du travail">
+          </figure>
+          <figure class="image is-logo is-half">
+            <img src="<%= static_path(@conn, "/images/logo/logo_cdd.png") %>" alt="Caisse des dépots">
+          </figure>
+        </div>
       </div>
       <div class="column content">
-        <div class="restricted">
-          <h2 class="title is-3">Écoles impliquées</h2>
-
+        <h2 class="title is-3">Écoles impliquées</h2>
+        <div class="logos">
+          <figure class="image is-logo is-tier">
+            <img src="<%= static_path(@conn, "/images/logo/logo_42.svg") %>" alt="42">
+          </figure>
+          <figure class="image is-logo is-tier">
+            <img src="<%= static_path(@conn, "/images/logo/logo_ena.jpg") %>" alt="Ena">
+          </figure>
+          <figure class="image is-logo is-tier">
+            <img src="<%= static_path(@conn, "/images/logo/logo_cesacom.png") %>" alt="Cesacom">
+          </figure>
         </div>
       </div>
     </div>

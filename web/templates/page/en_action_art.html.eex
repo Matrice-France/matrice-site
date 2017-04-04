@@ -38,11 +38,27 @@
     <div class="columns is-split">
       <div class="column content">
         <h2 class="title is-3">Partenaires</h2>
+        <div class="logos">
+          <figure class="image is-logo is-tall">
+            <img src="<%= static_path(@conn, "/images/logo/logo_mdc.png") %>" alt="Ministere de la culture">
+          </figure>
+        </div>
       </div>
       <div class="column content">
-        <div class="restricted">
-          <h2 class="title is-3">Écoles impliquées</h2>
-
+        <h2 class="title is-3">Écoles impliquées</h2>
+        <div class="logos">
+          <figure class="image is-logo is-half">
+            <img src="<%= static_path(@conn, "/images/logo/logo_42.svg") %>" alt="42">
+          </figure>
+          <figure class="image is-logo is-half">
+            <img src="<%= static_path(@conn, "/images/logo/logo_icart.png") %>" alt="Icart">
+          </figure>
+          <figure class="image is-logo is-half">
+            <img src="<%= static_path(@conn, "/images/logo/logo_ensapc.jpg") %>" alt="Ensapc">
+          </figure>
+          <figure class="image is-logo is-half">
+            <img src="<%= static_path(@conn, "/images/logo/logo_ensad.jpg") %>" alt="Ensad">
+          </figure>
         </div>
       </div>
     </div>
