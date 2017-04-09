@@ -53,7 +53,7 @@
     <div class="columns is-desktop">
       <div class="column content is-offset-1">
         <div class="restrictedD">
-          <h2 class="title arrow is-3">Quelle place, quelles opportunités pour les entreprises ?</h2>
+          <h2 id="entreprises" class="title arrow is-3">Quelle place, quelles opportunités pour les entreprises ?</h2>
           <p>Pour les entreprises, MATRICE, c’est l’opportunité de travailler avec des équipes étudiantes qui apportent leur force de travail, leur temps, leur regard différent, leur dynamisme et leur droit de faire différemment.</p>
           <p>Cet apport accompagné d’un dispositif pédagogique unique fait germer et développe, en un temps court, plusieurs projets d’innovation disruptive, tant technologique, que dans l’offre de service ou l’organisation.</p>
           <p><b>MATRICE est ainsi l’occasion d’initier des projets d’avenir, d’être en avance de phase, de tester et parfois de réaliser un bond en avant…</b> mais aussi de faire réfléchir toute une entreprise confrontée d’un coup à d’autres manières de faire et de penser.</p>
