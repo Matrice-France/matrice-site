@@ -1,0 +1,233 @@
+
+<%= render Matrice.PageView, "_section_header.html", title: "en 1 clic" %>
+<section class="section">
+  <div class="container">
+    <div class="columns is-desktop">
+      <div class="column content is-offset-2">
+        <h2 class="title arrow is-3">L’essentiel en 1 clic</h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-desktop">
+      <div class="column is-5 is-offset-1">
+        <div class="columns is-mobile">
+          <div class="column is-6">
+            <figure class="image is-150">
+              <img src="<%= static_path(@conn, "/images/cover.png") %>" alt="Dossier de presse">
+            </figure>
+          </div>
+          <div class="column is-6 centered-flex">
+            <div>
+              <h4 class="title is-3">Dossier de presse</h4>
+            </div>
+            <div>
+              <p><a class="button is-primary" href="<%= static_path(@conn, "/documents/dossier-presse.pdf") %>">Dossier de presse</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-5 is-offset-1">
+        <div class="columns is-mobile">
+          <div class="column is-6">
+            <figure class="image is-150">
+              <img src="<%= static_path(@conn, "/images/cover.png") %>" alt="Communiqué de presse">
+            </figure>
+          </div>
+          <div class="column is-6 centered-flex">
+            <div>
+              <h4 class="title is-3">Communiqué de presse</h4>
+            </div>
+            <div>
+              <p><a class="button is-primary" href="<%= static_path(@conn, "/documents/communique-presse.pdf") %>">Communiqué de presse</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-desktop">
+      <div class="column content is-offset-2 is-8">
+        <div class="restrictedD">
+          <h2 class="title arrow is-3">Galerie</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="columns is-desktop">
+      <div class="column content is-offset-2 is-8">
+        <div class="slider">
+          <img src="<%= static_path(@conn, "/images/slider/1.jpg") %>" alt="">
+          <img src="<%= static_path(@conn, "/images/slider/2.jpg") %>" alt="">
+          <img src="<%= static_path(@conn, "/images/slider/3.jpg") %>" alt="">
+          <img src="<%= static_path(@conn, "/images/slider/4.jpg") %>" alt="">
+          <img src="<%= static_path(@conn, "/images/slider/5.jpg") %>" alt="">
+          <img src="<%= static_path(@conn, "/images/slider/6.jpg") %>" alt="">
+          <img src="<%= static_path(@conn, "/images/slider/7.jpg") %>" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="columns is-desktop">
+      <div class="column content is-offset-5 is-7">
+        <div class="restrictedD">
+          <h2 class="title arrow is-3">L'équipe Matrice</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="columns matrice-contacts">
+
+      <!-- fx -->
+      <div class="matrice-contact">
+        <img src="<%= static_path(@conn, "/images/team/fx.png") %>" alt="François-Xavier Petit">
+        <h3 class="title is-5">François-Xavier Petit</h3>
+        <h4 class="title is-5">Direction du programme Matrice</h4>
+        <a class="unstyled" href="mailto:fxpetit@matrice.io">fxpetit@matrice.io</a>
+      </div>
+
+      <!-- Tiphaine -->
+      <div class="matrice-contact">
+        <img src="<%= static_path(@conn, "/images/team/tiphaine.png") %>" alt="Tiphaine Liu">
+        <h3 class="title is-5">Tiphaine Liu</h3>
+        <h4 class="title is-5">Direction de la Pédagogie</h4>
+        <a class="unstyled" href="mailto:tliu@matrice.io">tliu@matrice.io</a>
+      </div>
+
+      <!-- Gabrielle -->
+      <div class="matrice-contact">
+        <img src="<%= static_path(@conn, "/images/team/gabrielle.jpg") %>" alt="Gabrielle Halpern">
+        <h3 class="title is-5">Gabrielle Halpern</h3>
+        <h4 class="title is-5">Direction du Développement</h4>
+        <a class="unstyled" href="mailto:ghalpern@matrice.io">ghalpern@matrice.io</a>
+      </div>
+
+      <!-- Isabelle -->
+      <div class="matrice-contact">
+        <img src="<%= static_path(@conn, "/images/team/isabelle.png") %>" alt="Isabelle Ampart">
+        <h3 class="title is-5">Isabelle Ampart</h3>
+        <h4 class="title is-5">Communication & coaching</h4>
+        <a class="unstyled" href="mailto:iampart@matrice.io">iampart@matrice.io</a>
+      </div>
+
+      <!-- Eléonore -->
+      <div class="matrice-contact">
+        <img src="<%= static_path(@conn, "/images/team/eleonore.png") %>" alt="Eléonore Rident">
+        <h3 class="title is-5">Eléonore Rident</h3>
+        <h4 class="title is-5">Conception & Design</h4>
+        <a class="unstyled" href="mailto:erident@matrice.io">erident@matrice.io</a>
+      </div>
+
+      <!-- Stéphanie -->
+      <div class="matrice-contact">
+        <img src="<%= static_path(@conn, "/images/team/steph.jpg") %>" alt="Stéphanie Durr">
+        <h3 class="title is-5">Stéphanie Durr</h3>
+        <h4 class="title is-5">Responsable Logistique</h4>
+        <a class="unstyled" href="mailto:sdurr@matrice.io">sdurr@matrice.io</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="columns is-desktop">
+      <div class="column content is-offset-5 is-7">
+        <div class="restrictedD">
+          <h2 class="title arrow is-3">La Gouvernance</h2>
+        </div>
+      </div>
+    </div>
+    <div class="columns is-desktop is-founders">
+      <div class="column">
+        <h3 class="title capitalized has-text-centered">Fondateurs et Administrateurs</h3>
+      </div>
+    </div>
+    <div class="columns matrice-contacts is-founders">
+      <div class="matrice-contact">
+        <img src="<%= static_path(@conn, "/images/team/ns.png") %>" alt="Nicolas Sadirac">
+        <h3 class="title is-6">Nicolas Sadirac</h3>
+        <h4 class="title is-6">Directeur Général, 42</h4>
+      </div>
+      <div class="matrice-contact">
+        <img src="<%= static_path(@conn, "/images/team/kwame.png") %>" alt="Kwame Yamgnane">
+        <h3 class="title is-6">Kwame Yamgnane</h3>
+        <h4 class="title is-6">Directeur Général Adjoint, 42</h4>
+      </div>
+      <div class="matrice-contact">
+        <img src="<%= static_path(@conn, "/images/team/yann.png") %>" alt="Yann Gozlan">
+        <h3 class="title is-6">Yann Gozlan</h3>
+        <h4 class="title is-6">Fondateur, Creative Valley</h4>
+      </div>
+      <div class="matrice-contact">
+        <img src="<%= static_path(@conn, "/images/team/hacene.jpg") %>" alt="Hacène Lahreche">
+        <h3 class="title is-6">Hacène Lahreche</h3>
+        <h4 class="title is-6">COO, Creative Valley</h4>
+      </div>
+    </div>
+    <div class="columns is-desktop is-bureau">
+      <div class="column">
+        <h3 class="title capitalized  has-text-centered">Membres du bureau</h3>
+      </div>
+    </div>
+    <div class="columns matrice-contacts is-bureau">
+      <div class="matrice-contact">
+        <img src="<%= static_path(@conn, "/images/team/vallenet.jpg") %>" alt="Thierry Vallenet">
+        <h3 class="title is-6">Thierry Vallenet</h3>
+        <h4 class="title is-6">Président</h4>
+      </div>
+      <div class="matrice-contact">
+        <img src="<%= static_path(@conn, "/images/team/rameau.png") %>" alt="Nicolas Rameau">
+        <h3 class="title is-6">Nicolas Rameau</h3>
+        <h4 class="title is-6">Secrétaire</h4>
+      </div>
+      <div class="matrice-contact">
+        <img src="<%= static_path(@conn, "/images/team/bouleuc.jpg") %>" alt="Frédéric Bouleuc">
+        <h3 class="title is-6">Frédéric Bouleuc</h3>
+        <h4 class="title is-6">Trésorier</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-desktop">
+      <div class="column content is-offset-5 is-7">
+        <div class="restrictedD">
+          <h2 class="title arrow is-3">Mentions Légales</h2>
+        </div>
+      </div>
+    </div>
+    <div class="columns is-desktop">
+      <div class="column content is-offset-2 is-4">
+        <h3 class="title is-6">Gestionnaire du site :</h3>
+        <p>MATRICE
+          <br>16 avenue F.Roosevelt,
+          <br>75008 Paris
+        </p>
+
+        <h3 class="title is-6">Hébergement :</h3>
+        <p>OVH</p>
+      </div>
+      <div class="column content is-offset-2 is-4">
+        <h3 class="title is-6">Développement :</h3>
+        <p>Emilie Codron (Direction Artistique)</p>
+        <p>Eléonore Rident (Conception Graphique)</p>
+        <p>André Aubin (développement)</p>
+      </div>
+    </div>
+  </div>
+</section>

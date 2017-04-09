@@ -89,4 +89,16 @@
       background-color: $fg;
     }
   }
+
+
+  @media(max-width: $tablet) {
+    .top-nav-container {
+
+      .nav {
+        a {
+          color: $fg;
+        }
+      }
+    }
+  }
 }

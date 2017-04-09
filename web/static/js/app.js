@@ -20,6 +20,7 @@ import "particles.js"
 // paths "./socket" or full ones "web/static/js/socket".
 
 // import socket from "./socket"
+import Siema from 'siema';
 
 particlesJS.load('particles', '/json/config.json', function() {
   console.log('callback - particles.js config loaded');
@@ -27,4 +28,19 @@ particlesJS.load('particles', '/json/config.json', function() {
 
 document.querySelectorAll('.nav-toggle')[0].onclick = function() {
   document.querySelectorAll('.nav-menu')[0].classList.toggle('is-active')
+}
+
+if (document.querySelectorAll('.slider')[0]) {
+  new Siema({
+    selector: '.slider',
+    duration: 200,
+    easing: 'ease-out',
+    perPage: 1,
+    startIndex: 0,
+    draggable: true,
+    threshold: 20,
+    loop: true,
+    onInit: function(){},
+    onChange: function(){},
+  });
 }

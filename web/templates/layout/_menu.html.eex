@@ -25,7 +25,7 @@
         </li>
         <li class="nav-item">
           <a href="<%= page_path(@conn, :pedagogie) %>">
-            Pedagogie
+            Pédagogie
           </a>
         </li>
         <li class="nav-item">
@@ -51,7 +51,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a href="<%= page_path(@conn, :en_1_clic) %>">
+          <a href="<%= page_path(@conn, :en_un_clic) %>">
             En 1 clic
           </a>
         </li>
@@ -61,22 +61,22 @@
       <!-- <div class="nav-right"> -->
 
         <li class="nav-item is-hidden-touch">
-          <a href="" class="button matrice-top-button">
-            Contactez nous
+          <a href="mailto:contact@matrice.io" class="button matrice-top-button">
+            Contactez-nous
           </a>
         </li>
         <li class="nav-item is-hidden-touch">
-          <a href="" class="social-menu-link">
+          <a href="https://www.facebook.com/Matriceio-235750366900502/" class="social-menu-link">
             <span class="icon">
               <i class="fa fa-facebook"></i>
             </span>
           </a>
-          <a href="" class="social-menu-link">
+          <a href="https://twitter.com/Matrice_io" class="social-menu-link">
             <span class="icon">
               <i class="fa fa-twitter"></i>
             </span>
           </a>
-          <a href="" class="social-menu-link">
+          <a href="https://www.linkedin.com/company-beta/11053411/" class="social-menu-link">
             <span class="icon">
               <i class="fa fa-linkedin"></i>
             </span>

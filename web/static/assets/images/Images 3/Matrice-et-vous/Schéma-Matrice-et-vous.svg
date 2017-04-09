@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1372px" height="809px" viewBox="0 0 1372 809" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>Schéma-Matrice-et-vous</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Schéma-Matrice-et-vous" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(99.000000, 110.000000)">
+                <polygon id="Path-2" stroke="#0C3644" points="513 131 567.211529 522.172092 828.629894 253.015946"></polygon>
+                <polygon id="Path-3" stroke="#23E29F" points="311 372.352929 830.231414 250.864131 493.581492 150"></polygon>
+                <polyline id="Path-4" stroke="#D8D8D8" points="591.45888 527.251461 505.0066 112.02824 327 384.526127 610.276182 523.288438 717.861451 112 353.272682 519.381894 369.181257 190.695673 872.833564 406.675759"></polyline>
+                <path d="M873.192406,406 L362,510.648301" id="Path-5" stroke="#0C3644"></path>
+                <ellipse id="Oval-2" fill="#0C3644" cx="510.5" cy="135.5" rx="41.5" ry="41.5"></ellipse>
+                <circle id="Oval-2" fill="#23E29F" cx="829.5" cy="250.5" r="33.5"></circle>
+                <circle id="Oval-2" fill="#D8D8D8" cx="722" cy="112" r="13"></circle>
+                <circle id="Oval-2" fill="#D8D8D8" cx="866" cy="406" r="13"></circle>
+                <circle id="Oval-2" fill="#D8D8D8" cx="357" cy="515" r="13"></circle>
+                <circle id="Oval-2" fill="#D8D8D8" cx="366" cy="190" r="13"></circle>
+                <ellipse id="Oval-2" fill="#FF8668" cx="313" cy="376" rx="27" ry="27"></ellipse>
+                <text id="Des-institutions-pub" font-family="Asap-Bold, Asap" font-size="18" font-weight="bold" line-spacing="11" fill="#0C3644">
+                    <tspan x="47" y="17">Des institutions publiques, </tspan>
+                    <tspan x="47" y="38">des entreprises privées</tspan>
+                </text>
+                <text id="Qui-soulèvent-des-pr" font-family="SourceSansPro-Light, Source Sans Pro" font-size="13" font-weight="300" fill="#0C3644">
+                    <tspan x="47" y="68">Qui soulèvent des problématiques, des </tspan>
+                    <tspan x="47" y="85">enjeux de sociétés, des questionnements, </tspan>
+                    <tspan x="47" y="102">des réflexions… Elles constituent une </tspan>
+                    <tspan x="47" y="119">source d’immersion, d’inspiration et de </tspan>
+                    <tspan x="47" y="136">réseau pour les étudiants et pour leur </tspan>
+                    <tspan x="47" y="153">permettre de comprendre les jeux de </tspan>
+                    <tspan x="47" y="170">force et les opportunités sur le terrain. </tspan>
+                </text>
+                <text id="Des-étudiants" font-family="Asap-Bold, Asap" font-size="18" font-weight="bold" fill="#23E29F">
+                    <tspan x="981" y="225">Des étudiants </tspan>
+                    <tspan x="981" y="256"></tspan>
+                </text>
+                <text id="Issus-d’horizons-div" font-family="SourceSansPro-Light, Source Sans Pro" font-size="13" font-weight="300" fill="#0C3644">
+                    <tspan x="981" y="250">Issus d’horizons divers mais tous nourris par </tspan>
+                    <tspan x="981" y="267">la même volonté d’entreprendre et </tspan>
+                    <tspan x="981" y="284">d’innover au contact de professionnels </tspan>
+                    <tspan x="981" y="301">porteurs d’enjeux ambitieux. </tspan>
+                </text>
+                <path d="M831.114738,249.205596 L953.833,219.733341" id="Path-6" stroke="#23E29F"></path>
+                <circle id="Oval-2" fill="#23E29F" cx="954" cy="221" r="13"></circle>
+                <path d="M139.5,411.5 L319.5,376.5" id="Path-6" stroke="#FF8668"></path>
+                <circle id="Oval-2" fill="#FF8668" cx="143" cy="407" r="13"></circle>
+                <path d="M603,535.472255 L933.5,525.5" id="Path-6" stroke="#C2CDD0"></path>
+                <circle id="Oval-2" fill="#C2CDD0" cx="937" cy="525" r="13"></circle>
+                <path d="M504.800567,134.049087 L282.399809,13.2675864" id="Path-7" stroke="#0C3644"></path>
+                <circle id="Oval-2" fill="#D8D8D8" cx="578" cy="522" r="43"></circle>
+                <circle id="Oval-2" fill="#0C3644" cx="286" cy="13" r="13"></circle>
+                <text id="Des-experts" font-family="Asap-Bold, Asap" font-size="18" font-weight="bold" fill="#869BA1">
+                    <tspan x="966" y="529">Des experts </tspan>
+                    <tspan x="966" y="560"></tspan>
+                    <tspan x="966" y="591"></tspan>
+                </text>
+                <text id="Issus-du-monde-de-l’" font-family="SourceSansPro-Light, Source Sans Pro" font-size="13" font-weight="300" letter-spacing="-0.300000012" fill="#0C3644">
+                    <tspan x="967" y="558">Issus du monde de l’entreprise, de la </tspan>
+                    <tspan x="967" y="575">recherche, d’institutions publiques … qui </tspan>
+                    <tspan x="967" y="592">accompagnent et posent un regard critique </tspan>
+                    <tspan x="967" y="609">sur les projets tout au long du processus de </tspan>
+                    <tspan x="967" y="626">production</tspan>
+                    <tspan x="1022.708" y="626">.</tspan>
+                </text>
+                <text id="Une-équipe-pédagogiq" font-family="Asap-Bold, Asap" font-size="18" font-weight="bold" fill="#FF8668">
+                    <tspan x="0" y="410">Une équipe </tspan>
+                    <tspan x="0" y="431">pédagogique </tspan>
+                    <tspan x="0" y="462"></tspan>
+                    <tspan x="0" y="493"></tspan>
+                </text>
+                <text id="Qui-forme-les-porteu" font-family="SourceSansPro-Light, Source Sans Pro" font-size="13" font-weight="300" fill="#0C3644">
+                    <tspan x="0" y="467">Qui forme les porteurs de projets </tspan>
+                    <tspan x="0" y="484">dans une dimension créative, </tspan>
+                    <tspan x="0" y="501">innovante, humaine, sociétale, </tspan>
+                    <tspan x="0" y="518">technique.</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

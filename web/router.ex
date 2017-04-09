@@ -28,7 +28,7 @@ defmodule Matrice.Router do
       get "/si", PageController, :en_action_si
     end
     get "/matrice-et-vous", PageController, :matrice_et_vous
-    get "/en-1-clic", PageController, :en_1_clic
+    get "/en-1-clic", PageController, :en_un_clic
   end
 
   # Other scopes may use custom stacks.

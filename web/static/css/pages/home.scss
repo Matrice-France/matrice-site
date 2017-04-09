@@ -7,6 +7,7 @@ body.page {
 
   &.philosophie,
   &.processus,
+  &.index,
   &.matrice_et_vous {
     @include theme($matrice-blue, $matrice-green, $matrice-white);
   }
@@ -17,6 +18,121 @@ body.page {
   &.en_action_si {
     @include theme($matrice-blue, $matrice-blue, $matrice-white, $matrice-green);
   }
+
+  &.index .top-nav-container {
+    background: transparentize($matrice-blue, .7);
+  }
+}
+
+.matrice-contacts {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  max-width: 960px;
+  margin: 0 auto;
+
+  &.is-founders,
+  &.is-bureau {
+    .matrice-contact {
+      flex: 0 1 200px;
+      font-size: 1em;
+
+      img {
+        max-height: 120px;
+      }
+
+    }
+  }
+
+}
+
+
+
+.is-founders.columns:not(:last-child),
+.is-bureau.columns:not(:last-child) {
+  max-width: 960px;
+  margin: 0 auto;
+  margin-bottom: 0;
+}
+
+.title.capitalized {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 1em 0;
+}
+
+.is-founders {
+  background-color: #D8D8D8;
+}
+
+.is-bureau {
+  background-color: #FF9E86;
+}
+
+.matrice-contact {
+  flex: 0 1 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  align-content: space-around;
+  margin: 0 auto;
+  padding: 20px 0px;
+
+  img {
+    margin: 0 30px;
+    max-width: inherit;
+    max-height: 150px;
+  }
+
+  h3.title {
+    margin: 0;
+    padding-top: 20px;
+  }
+
+  h4.title {
+    margin: 0;
+  }
+
+  .title {
+    padding: 5px;
+  }
+
+  a {
+    color: $matrice-blue;
+  }
+}
+
+.centered-flex {
+
+  // @media(min-width: $tablet) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: space-around;
+
+    & > div {
+      flex: 1 1;
+      display: flex;
+      align-items: center;
+    }
+  // }
+
+  // @media(max-width: $tablet) {
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // align-content: space-around;
+    //
+    // & > div {
+    //   flex: 1 1;
+    //   display: flex;
+    //   align-items: center;
+    //   padding: .5em;
+    // }
+  // }
 }
 
 .matrice_et_vous .simple-square {
@@ -85,7 +201,9 @@ body.page {
   .page-section {
     text-align: center;
     height: $banner-height;
+    margin-top: $menu-height;
     margin-bottom: 3em;
+
 
     h1 {
       font-family: $family-heading;
@@ -94,11 +212,37 @@ body.page {
       position: relative;
       bottom: - ($banner-height / 2);
     }
+
+    @media(max-width: $tablet) {
+      height: $banner-height * (2/3);
+      margin-bottom: 1em;
+
+      h1 {
+        bottom: -50px;
+      }
+    }
   }
 
   .content.unmarged {
     margin-bottom: 0;
     padding-bottom: 0;
+  }
+
+  @media(max-width: $tablet) {
+
+    .minibox-header {
+      // padding-left: 5em;
+    }
+
+    .minibox {
+      padding: .5em 0;
+
+      h3 {
+        margin: 0;
+        padding: 1em 0 .5em;
+        font-size: 1.2rem;
+      }
+    }
   }
 
   @media(min-width: $tablet) {
@@ -148,7 +292,7 @@ body.page {
 
   // The homepage
   &.index {
-    .top-nav-container {
+    .top-nav-containera {
       // background-color: rgba(0, 0, 0, 0.1);
       background-color: transparentize($matrice-blue, .5);
       position: absolute;
@@ -173,6 +317,23 @@ body.page {
           border: 3px solid $matrice-green;
         }
       }
+
+
+      @media(max-width: $tablet) {
+        .nav {
+          background-color: $matrice-blue;
+          color: $matrice-white;
+
+          a {
+            color: $matrice-white;
+
+            &:hover {
+              color: $matrice-green;
+            }
+          }
+        }
+      }
+
     }
 
 
@@ -214,4 +375,10 @@ body.page {
     padding: 0em 1em;
   }
 
+
+  @media(max-width: $tablet) {
+    .section {
+      padding: 1.5rem;
+    }
+  }
 }

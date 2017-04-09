@@ -48,9 +48,9 @@
 
    <div class="hero-body">
      <div class="container has-text-centered">
-       <div class="matrice-logo">
+       <a href="#home-section" class="matrice-logo">
          <img src="<%= static_path(@conn, "/images/logo-white.png") %>" alt="Matrice logo">
-       </div>
+       </a>
      </div>
    </div>
 
@@ -65,7 +65,7 @@
    </div>
  </section>
 
- <section class="section">
+ <section class="section" id="home-section">
    <div class="container">
      <h1 class="main-title">L’université productive
       <small>Lier savoirs et production, citoyens numériques et entrepreneurs critiques</small>

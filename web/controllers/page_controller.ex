@@ -40,4 +40,8 @@ defmodule Matrice.PageController do
   def matrice_et_vous(conn, _params) do
     render conn, "matrice_et_vous.html"
   end
+
+  def en_un_clic(conn, _params) do
+    render conn, "en_un_clic.html"
+  end
 end

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1392px" height="826px" viewBox="0 0 1392 826" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>Schéma Processus sans picto 30-03</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <pattern id="pattern-1" patternUnits="objectBoundingBox" y="-5.92118946e-15%" height="100%" width="100%">
+            <use xlink:href="#image-2" transform="scale(0.3125,0.3125)"></use>
+        </pattern>
+        <image id="image-2" width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAV9JREFUaAXt2O0NgjAQBmBrt4DoDiawEHEQB1F3MK7BHKxR+2oKQfnseXCX0B/SEr3zucZIz+R57nZ+OOfuZVmeMcWaOEyWZVdjTBHicMW3aZpekMQnOyVJcqiq6hmSUq6Ig3iIyxnf+iRH7iSc8e1SleJCWGyvZsQboBlRA7QiWgCNiB+ANkQnQBOiF6AFMQjQgBgFSEdMAkhGTAZIRcwCSETMBkhDRAEkIaIBUhAkgAQEGbA2AgCDL0Edax2KrO8e3JCcCsDn10CgK/HQ2I0IZ+w9KucXBfo4mGJNHA79JfSBQhzO+FtfKFS567rEb2LrC3VV/vse507Uf2ScSQDiil8DOJOEHeFAtAAaET8AbYhOgCZEL0ALYhCgATEKkI6YBJCMmAyQipgFkIiYDZCGiAJIQkQDpCBIAAkIMmBtBAD/OMizPe+jQBh9j+JbX+hTn+a1r1K437wrfvYd/wV+UgblD/bGFgAAAABJRU5ErkJggg=="></image>
+        <pattern id="pattern-3" patternUnits="objectBoundingBox" x="-1.18423789e-14%" width="100%" height="100%">
+            <use xlink:href="#image-4" transform="scale(0.3125,0.3125)"></use>
+        </pattern>
+        <image id="image-4" width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAV9JREFUaAXt2O0NgjAQBmBrt4DoDiawEHEQB1F3MK7BHKxR+2oKQfnseXCX0B/SEr3zucZIz+R57nZ+OOfuZVmeMcWaOEyWZVdjTBHicMW3aZpekMQnOyVJcqiq6hmSUq6Ig3iIyxnf+iRH7iSc8e1SleJCWGyvZsQboBlRA7QiWgCNiB+ANkQnQBOiF6AFMQjQgBgFSEdMAkhGTAZIRcwCSETMBkhDRAEkIaIBUhAkgAQEGbA2AgCDL0Edax2KrO8e3JCcCsDn10CgK/HQ2I0IZ+w9KucXBfo4mGJNHA79JfSBQhzO+FtfKFS567rEb2LrC3VV/vse507Uf2ScSQDiil8DOJOEHeFAtAAaET8AbYhOgCZEL0ALYhCgATEKkI6YBJCMmAyQipgFkIiYDZCGiAJIQkQDpCBIAAkIMmBtBAD/OMizPe+jQBh9j+JbX+hTn+a1r1K437wrfvYd/wV+UgblD/bGFgAAAABJRU5ErkJggg=="></image>
+        <pattern id="pattern-5" patternUnits="objectBoundingBox" x="-1.18423789e-14%" width="100%" height="100%">
+            <use xlink:href="#image-6" transform="scale(0.3125,0.3125)"></use>
+        </pattern>
+        <image id="image-6" width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAV9JREFUaAXt2O0NgjAQBmBrt4DoDiawEHEQB1F3MK7BHKxR+2oKQfnseXCX0B/SEr3zucZIz+R57nZ+OOfuZVmeMcWaOEyWZVdjTBHicMW3aZpekMQnOyVJcqiq6hmSUq6Ig3iIyxnf+iRH7iSc8e1SleJCWGyvZsQboBlRA7QiWgCNiB+ANkQnQBOiF6AFMQjQgBgFSEdMAkhGTAZIRcwCSETMBkhDRAEkIaIBUhAkgAQEGbA2AgCDL0Edax2KrO8e3JCcCsDn10CgK/HQ2I0IZ+w9KucXBfo4mGJNHA79JfSBQhzO+FtfKFS567rEb2LrC3VV/vse507Uf2ScSQDiil8DOJOEHeFAtAAaET8AbYhOgCZEL0ALYhCgATEKkI6YBJCMmAyQipgFkIiYDZCGiAJIQkQDpCBIAAkIMmBtBAD/OMizPe+jQBh9j+JbX+hTn+a1r1K437wrfvYd/wV+UgblD/bGFgAAAABJRU5ErkJggg=="></image>
+        <pattern id="pattern-7" patternUnits="objectBoundingBox" x="-1.18423789e-14%" width="100%" height="100%">
+            <use xlink:href="#image-8" transform="scale(0.3125,0.3125)"></use>
+        </pattern>
+        <image id="image-8" width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAV9JREFUaAXt2O0NgjAQBmBrt4DoDiawEHEQB1F3MK7BHKxR+2oKQfnseXCX0B/SEr3zucZIz+R57nZ+OOfuZVmeMcWaOEyWZVdjTBHicMW3aZpekMQnOyVJcqiq6hmSUq6Ig3iIyxnf+iRH7iSc8e1SleJCWGyvZsQboBlRA7QiWgCNiB+ANkQnQBOiF6AFMQjQgBgFSEdMAkhGTAZIRcwCSETMBkhDRAEkIaIBUhAkgAQEGbA2AgCDL0Edax2KrO8e3JCcCsDn10CgK/HQ2I0IZ+w9KucXBfo4mGJNHA79JfSBQhzO+FtfKFS567rEb2LrC3VV/vse507Uf2ScSQDiil8DOJOEHeFAtAAaET8AbYhOgCZEL0ALYhCgATEKkI6YBJCMmAyQipgFkIiYDZCGiAJIQkQDpCBIAAkIMmBtBAD/OMizPe+jQBh9j+JbX+hTn+a1r1K437wrfvYd/wV+UgblD/bGFgAAAABJRU5ErkJggg=="></image>
+        <pattern id="pattern-9" patternUnits="objectBoundingBox" x="-1.18423789e-14%" width="100%" height="100%">
+            <use xlink:href="#image-10" transform="scale(0.3125,0.3125)"></use>
+        </pattern>
+        <image id="image-10" width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAV9JREFUaAXt2O0NgjAQBmBrt4DoDiawEHEQB1F3MK7BHKxR+2oKQfnseXCX0B/SEr3zucZIz+R57nZ+OOfuZVmeMcWaOEyWZVdjTBHicMW3aZpekMQnOyVJcqiq6hmSUq6Ig3iIyxnf+iRH7iSc8e1SleJCWGyvZsQboBlRA7QiWgCNiB+ANkQnQBOiF6AFMQjQgBgFSEdMAkhGTAZIRcwCSETMBkhDRAEkIaIBUhAkgAQEGbA2AgCDL0Edax2KrO8e3JCcCsDn10CgK/HQ2I0IZ+w9KucXBfo4mGJNHA79JfSBQhzO+FtfKFS567rEb2LrC3VV/vse507Uf2ScSQDiil8DOJOEHeFAtAAaET8AbYhOgCZEL0ALYhCgATEKkI6YBJCMmAyQipgFkIiYDZCGiAJIQkQDpCBIAAkIMmBtBAD/OMizPe+jQBh9j+JbX+hTn+a1r1K437wrfvYd/wV+UgblD/bGFgAAAABJRU5ErkJggg=="></image>
+    </defs>
+    <g id="Schémas-processus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Schéma-Processus-sans-picto-30-03">
+            <text id="Schéma-Processus" font-family="Asap-Bold, Asap" font-size="30" font-weight="bold" fill="#0C3644">
+                <tspan x="621.795" y="85">Schéma Processus</tspan>
+            </text>
+            <text id="Sprint-:-48h-pour-ac" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="12" font-weight="normal" letter-spacing="0.320000023" fill="#0C3644">
+                <tspan x="199" y="732">Sprint : 48h pour accéler son projet, sous forme d’un Hackathon</tspan>
+            </text>
+            <text id="Escale-:-Présentatio" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="12" font-weight="normal" letter-spacing="0.320000023" fill="#0C3644">
+                <tspan x="200" y="763">Escale : Présentation et échanges autour des projets devant une communauté d’experts</tspan>
+            </text>
+            <ellipse id="Oval-2" stroke="#0C3644" stroke-width="2" fill="url(#pattern-1)" cx="183.5" cy="727.5" rx="7.5" ry="7.5"></ellipse>
+            <ellipse id="Oval-2" fill="#0C3644" cx="183.5" cy="760.5" rx="7.5" ry="7.5"></ellipse>
+            <path d="M166,568 L1253,568" id="Line" stroke="#0C3644" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M160.533743,568 L61,568" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square" stroke-dasharray="1,1,1,4"></path>
+            <text id="Phase-0" font-family="Asap-Bold, Asap" font-size="17" font-weight="bold" letter-spacing="0.453333348" fill="#869BA1">
+                <tspan x="61" y="595">Phase 0</tspan>
+            </text>
+            <text id="Phase-1" font-family="Asap-Bold, Asap" font-size="17" font-weight="bold" letter-spacing="0.453333348" fill="#0C3644">
+                <tspan x="169" y="595">Phase 1</tspan>
+            </text>
+            <text id="Conception" font-family="Asap-Bold, Asap" font-size="17" font-weight="bold" letter-spacing="0.453333348" fill="#869BA1">
+                <tspan x="58" y="547">Conception</tspan>
+            </text>
+            <text id="1-mois" font-family="Asap-Italic, Asap" font-size="14" font-style="italic" font-weight="normal" letter-spacing="0.373333335" fill="#869BA1">
+                <tspan x="187" y="190">1 mois</tspan>
+            </text>
+            <text id="1-mois" font-family="Asap-Italic, Asap" font-size="14" font-style="italic" font-weight="normal" letter-spacing="0.373333335" fill="#869BA1">
+                <tspan x="71" y="190">1 mois</tspan>
+            </text>
+            <text id="2-mois" font-family="Asap-Italic, Asap" font-size="14" font-style="italic" font-weight="normal" letter-spacing="0.373333335" fill="#869BA1">
+                <tspan x="342" y="190">2 mois</tspan>
+            </text>
+            <text id="2-mois" font-family="Asap-Italic, Asap" font-size="14" font-style="italic" font-weight="normal" letter-spacing="0.373333335" fill="#869BA1">
+                <tspan x="537" y="190">2 mois</tspan>
+            </text>
+            <text id="5-mois" font-family="Asap-Italic, Asap" font-size="14" font-style="italic" font-weight="normal" letter-spacing="0.373333335" fill="#869BA1">
+                <tspan x="732" y="190">5 mois</tspan>
+            </text>
+            <text id="TEMPS-(mois)" font-family="Asap-Regular, Asap" font-size="14" font-weight="normal" letter-spacing="0.373333335" fill="#0C3644">
+                <tspan x="1203.51067" y="595">TEMPS </tspan>
+                <tspan x="1205.501" y="611">(mois)</tspan>
+            </text>
+            <text id="Courbe-de-progressio" font-family="Asap-Regular, Asap" font-size="14" font-weight="normal" letter-spacing="0.373333335" fill="#23E29F">
+                <tspan x="1009" y="221">Courbe de progression</tspan>
+            </text>
+            <text id="Immersion" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="17" font-weight="bold" letter-spacing="0.453333348" fill="#0C3644">
+                <tspan x="174" y="474">Immersion</tspan>
+            </text>
+            <text id="Créer-une-communauté" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="12" font-weight="normal" letter-spacing="0.320000023" fill="#0C3644">
+                <tspan x="171" y="626">Créer une </tspan>
+                <tspan x="171" y="641">communauté mixte</tspan>
+            </text>
+            <text id="Faire-équipe-pour-dé" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="12" font-weight="normal" letter-spacing="0.320000023" fill="#0C3644">
+                <tspan x="315" y="626">Faire équipe pour </tspan>
+                <tspan x="315" y="641">développer des projets</tspan>
+            </text>
+            <path d="M170,594 L170,151" id="Line" stroke="#D8D8D8" stroke-width="2" stroke-linecap="square" stroke-dasharray="1,1,1,14"></path>
+            <path d="M359.5,561.5 L359.5,575.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M359.5,561.5 L359.5,575.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M564.5,560.5 L564.5,574.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M751.5,560.5 L751.5,574.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M842.5,560.5 L842.5,574.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M943.5,560.5 L943.5,574.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M1062.5,560.5 L1062.5,574.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M268,596 L268,149.212362" id="Line" stroke="#D8D8D8" stroke-width="2" stroke-linecap="square" stroke-dasharray="1,1,1,14"></path>
+            <path d="M464,594 L464,150" id="Line" stroke="#D8D8D8" stroke-width="2" stroke-linecap="square" stroke-dasharray="1,1,1,14"></path>
+            <path d="M664,594 L664,150" id="Line" stroke="#D8D8D8" stroke-width="2" stroke-linecap="square" stroke-dasharray="1,1,1,14"></path>
+            <path d="M1168,595 L1168,150" id="Line" stroke="#D8D8D8" stroke-width="2" stroke-linecap="square" stroke-dasharray="1,1,1,14"></path>
+            <text id="Passer-du-concept-au" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="12" font-weight="normal" letter-spacing="0.320000023" fill="#0C3644">
+                <tspan x="511" y="626">Passer du concept </tspan>
+                <tspan x="511" y="641">au produit</tspan>
+            </text>
+            <text id="Lancement-de-l’activ" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="12" font-weight="normal" letter-spacing="0.320000023" fill="#0C3644">
+                <tspan x="703" y="626">Lancement de l’activité et mise à </tspan>
+                <tspan x="703" y="641">l’épreuve sur le terrain</tspan>
+            </text>
+            <text id="Élaboration" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="17" font-weight="bold" letter-spacing="0.453333348" fill="#0C3644">
+                <tspan x="330" y="410">Élaboration</tspan>
+            </text>
+            <text id="Production" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="17" font-weight="bold" letter-spacing="0.453333348" fill="#0C3644">
+                <tspan x="513" y="364">Production</tspan>
+            </text>
+            <text id="Action" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="17" font-weight="bold" letter-spacing="0.453333348" fill="#0C3644">
+                <tspan x="725" y="305">Action</tspan>
+            </text>
+            <text id="Phase-2" font-family="Asap-Bold, Asap" font-size="17" font-weight="bold" letter-spacing="0.453333348" fill="#0C3644">
+                <tspan x="315" y="598">Phase 2</tspan>
+            </text>
+            <text id="Phase-3" font-family="Asap-Bold, Asap" font-size="17" font-weight="bold" letter-spacing="0.453333348" fill="#0C3644">
+                <tspan x="514" y="601">Phase 3</tspan>
+            </text>
+            <text id="Phase-4" font-family="Asap-Bold, Asap" font-size="17" font-weight="bold" letter-spacing="0.453333348" fill="#0C3644">
+                <tspan x="701" y="601">Phase 4</tspan>
+            </text>
+            <path d="M161,568.394531 C161,568.394531 197.43643,566.564251 224.613281,524.121094 C251.790132,481.677937 281.551758,503.401367 290.679688,510.992188 C299.807617,518.583008 314.802338,533.40791 330.210938,534.371094 C349.504883,535.577148 365.183594,532.453125 389.875,515.136719 C399.227865,508.577432 424.483278,473.897675 443.695685,454.349829 C477.625,419.828125 501.210938,434.494141 505.469727,435.822266 C509.728516,437.150391 531.734721,454.957826 537.884766,456.260742 C544.771484,457.719727 569.608398,470.526587 603.085938,454.349829 C636.563477,438.173071 679.828972,398.517417 681.421875,397.355469 C765.785156,335.816406 1147.43973,236 1162.83984,236" id="Path-2" stroke="#23E29F" stroke-width="2" stroke-dasharray="1,1,1,1"></path>
+            <path d="M159.5,567.5 L1165.5,236.5" id="Line" stroke="#23E29F" stroke-width="3" stroke-linecap="square"></path>
+            <ellipse id="Oval-2" fill="#0C3644" cx="267.5" cy="568.5" rx="7.5" ry="7.5"></ellipse>
+            <ellipse id="Oval-2" stroke="#0C3644" stroke-width="2" fill="url(#pattern-3)" cx="234.5" cy="569.5" rx="7.5" ry="7.5"></ellipse>
+            <ellipse id="Oval-2" stroke="#0C3644" stroke-width="2" fill="url(#pattern-5)" cx="387.5" cy="567.5" rx="7.5" ry="7.5"></ellipse>
+            <ellipse id="Oval-2" stroke="#0C3644" stroke-width="2" fill="url(#pattern-7)" cx="594.5" cy="568.5" rx="7.5" ry="7.5"></ellipse>
+            <ellipse id="Oval-2" stroke="#0C3644" stroke-width="2" fill="url(#pattern-9)" cx="1001.5" cy="567.5" rx="7.5" ry="7.5"></ellipse>
+            <ellipse id="Oval-2" fill="#0C3644" cx="464.5" cy="568.5" rx="7.5" ry="7.5"></ellipse>
+            <ellipse id="Oval-2" fill="#0C3644" cx="663.5" cy="568.5" rx="7.5" ry="7.5"></ellipse>
+            <ellipse id="Oval-2" fill="#0C3644" cx="1168.5" cy="568.5" rx="7.5" ry="7.5"></ellipse>
+            <text id="Accompagnement-strat" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="12" font-weight="normal" letter-spacing="0.320000023" fill="#0C3644">
+                <tspan x="1206" y="237">Accompagnement </tspan>
+                <tspan x="1206" y="252">stratégique des </tspan>
+                <tspan x="1206" y="267">équipes pour favoriser </tspan>
+                <tspan x="1206" y="282">la croissance, le </tspan>
+                <tspan x="1206" y="297">développement et la </tspan>
+                <tspan x="1206" y="312">diffusion.</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
