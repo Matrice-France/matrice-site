@@ -13,7 +13,7 @@
 
 <section class="section">
   <div class="container">
-    <div class="columns is-desktop">
+    <div class="columns">
       <div class="column is-5 is-offset-1">
         <div class="columns is-mobile">
           <div class="column is-6">
@@ -65,18 +65,25 @@
 </section>
 <section class="section">
   <div class="container">
-    <div class="columns is-desktop">
-      <div class="column content is-offset-2 is-8">
+    <div class="columns">
+      <div class="column is-2 link-left is-hidden-mobile">
+        <a class="prev">
+        <i class="fa fa-chevron-left"></i>
+        </a></div>
+      <div class="column content is-8">
         <div class="slider">
           <img src="<%= static_path(@conn, "/images/slider/1.jpg") %>" alt="">
           <img src="<%= static_path(@conn, "/images/slider/2.jpg") %>" alt="">
-          <img src="<%= static_path(@conn, "/images/slider/3.jpg") %>" alt="">
           <img src="<%= static_path(@conn, "/images/slider/4.jpg") %>" alt="">
           <img src="<%= static_path(@conn, "/images/slider/5.jpg") %>" alt="">
           <img src="<%= static_path(@conn, "/images/slider/6.jpg") %>" alt="">
           <img src="<%= static_path(@conn, "/images/slider/7.jpg") %>" alt="">
         </div>
       </div>
+      <div class="column is-2 link-right is-hidden-mobile">
+        <a class="next">
+        <i class="fa fa-chevron-right"></i>
+        </a></div>
     </div>
   </div>
   <div class="container">
@@ -140,7 +147,9 @@
       </div>
     </div>
   </div>
+</section>
 
+<section class="section">
   <div class="container">
     <div class="columns is-desktop">
       <div class="column content is-offset-5 is-7">
@@ -212,7 +221,7 @@
       </div>
     </div>
     <div class="columns is-desktop">
-      <div class="column content is-offset-2 is-4">
+      <div class="column content is-offset-1 is-4">
         <h3 class="title is-6">Gestionnaire du site :</h3>
         <p>MATRICE
           <br>16 avenue F.Roosevelt,
@@ -222,7 +231,7 @@
         <h3 class="title is-6">Hébergement :</h3>
         <p>OVH</p>
       </div>
-      <div class="column content is-offset-2 is-4">
+      <div class="column content is-offset-1 is-4">
         <h3 class="title is-6">Développement :</h3>
         <p>Emilie Codron (Direction Artistique)</p>
         <p>Eléonore Rident (Conception Graphique)</p>

@@ -38,6 +38,17 @@
     }
   }
 
+  .custom-square {
+    position: relative;
+
+    .squared {
+      position: relative;
+      top: -5em;
+      right: 0em;
+    }
+
+  }
+
   .square-container {
     position: relative;
     z-index: 20;

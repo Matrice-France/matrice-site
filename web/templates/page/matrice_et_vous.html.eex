@@ -1,7 +1,101 @@
 
 <%= render Matrice.PageView, "_section_header.html", title: "matrice et vous" %>
 <section class="section">
-  <div class="container-fluid">
+  <div class="container">
+    <div class="columns is-desktop">
+      <figure class="image">
+        <svg width="1370px" height="600px" viewBox="0 0 1370 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+            <title>Schéma-Matrice-et-vous</title>
+            <desc>Created with Sketch.</desc>
+            <defs></defs>
+            <g id="Schéma-Matrice-et-vous" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g>
+                    <g transform="translate(99.000000, 0.000000)">
+                        <polygon id="Path-2" stroke="#0C3644" points="513 131 567.211529 522.172092 828.629894 253.015946"></polygon>
+                        <polygon id="Path-3" stroke="#23E29F" points="311 372.352929 830.231414 250.864131 493.581492 150"></polygon>
+                        <polyline id="Path-4" stroke="#D8D8D8" points="591.45888 527.251461 505.0066 112.02824 327 384.526127 610.276182 523.288438 717.861451 112 353.272682 519.381894 369.181257 190.695673 872.833564 406.675759"></polyline>
+                        <path d="M873.192406,406 L362,510.648301" id="Path-5" stroke="#0C3644"></path>
+                        <ellipse id="Oval-2" fill="#0C3644" cx="510.5" cy="135.5" rx="41.5" ry="41.5"></ellipse>
+                        <circle id="Oval-2" fill="#23E29F" cx="829.5" cy="250.5" r="33.5"></circle>
+                        <circle id="Oval-2" fill="#D8D8D8" cx="722" cy="112" r="13"></circle>
+                        <circle id="Oval-2" fill="#D8D8D8" cx="866" cy="406" r="13"></circle>
+                        <circle id="Oval-2" fill="#D8D8D8" cx="357" cy="515" r="13"></circle>
+                        <circle id="Oval-2" fill="#D8D8D8" cx="366" cy="190" r="13"></circle>
+                        <ellipse id="Oval-2" fill="#FF8668" cx="313" cy="376" rx="27" ry="27"></ellipse>
+                        <text id="Des-institutions-pub" font-family="Asap-Bold, Asap" font-size="18" font-weight="bold" line-spacing="11" fill="#0C3644">
+                            <tspan x="47" y="17">Des institutions publiques, </tspan>
+                            <tspan x="47" y="38">des entreprises privées</tspan>
+                        </text>
+                        <text id="Qui-soulèvent-des-pr" font-family="SourceSansPro-Light, Source Sans Pro" font-size="13" font-weight="300" fill="#0C3644">
+                            <tspan x="47" y="68">Qui soulèvent des problématiques, des </tspan>
+                            <tspan x="47" y="85">enjeux de sociétés, des questionnements, </tspan>
+                            <tspan x="47" y="102">des réflexions… Elles constituent une </tspan>
+                            <tspan x="47" y="119">source d’immersion, d’inspiration et de </tspan>
+                            <tspan x="47" y="136">réseau pour les étudiants et pour leur </tspan>
+                            <tspan x="47" y="153">permettre de comprendre les jeux de </tspan>
+                            <tspan x="47" y="170">force et les opportunités sur le terrain. </tspan>
+                        </text>
+                        <text id="Des-étudiants" font-family="Asap-Bold, Asap" font-size="18" font-weight="bold" fill="#23E29F">
+                            <tspan x="981" y="225">Des étudiants </tspan>
+                            <tspan x="981" y="256"></tspan>
+                        </text>
+                        <text id="Issus-d’horizons-div" font-family="SourceSansPro-Light, Source Sans Pro" font-size="13" font-weight="300" fill="#0C3644">
+                            <tspan x="981" y="250">Issus d’horizons divers mais tous nourris par </tspan>
+                            <tspan x="981" y="267">la même volonté d’entreprendre et </tspan>
+                            <tspan x="981" y="284">d’innover au contact de professionnels </tspan>
+                            <tspan x="981" y="301">porteurs d’enjeux ambitieux. </tspan>
+                        </text>
+                        <path d="M831.114738,249.205596 L953.833,219.733341" id="Path-6" stroke="#23E29F"></path>
+                        <circle id="Oval-2" fill="#23E29F" cx="954" cy="221" r="13"></circle>
+                        <path d="M139.5,411.5 L319.5,376.5" id="Path-6" stroke="#FF8668"></path>
+                        <circle id="Oval-2" fill="#FF8668" cx="143" cy="407" r="13"></circle>
+                        <path d="M603,535.472255 L933.5,525.5" id="Path-6" stroke="#C2CDD0"></path>
+                        <circle id="Oval-2" fill="#C2CDD0" cx="937" cy="525" r="13"></circle>
+                        <path d="M504.800567,134.049087 L282.399809,13.2675864" id="Path-7" stroke="#0C3644"></path>
+                        <circle id="Oval-2" fill="#D8D8D8" cx="578" cy="522" r="43"></circle>
+                        <circle id="Oval-2" fill="#0C3644" cx="286" cy="13" r="13"></circle>
+                        <text id="Des-experts" font-family="Asap-Bold, Asap" font-size="18" font-weight="bold" fill="#869BA1">
+                            <tspan x="966" y="529">Des experts </tspan>
+                            <tspan x="966" y="560"></tspan>
+                            <tspan x="966" y="591"></tspan>
+                        </text>
+                        <text id="Issus-du-monde-de-l’" font-family="SourceSansPro-Light, Source Sans Pro" font-size="13" font-weight="300" letter-spacing="-0.300000012" fill="#0C3644">
+                            <tspan x="967" y="558">Issus du monde de l’entreprise, de la </tspan>
+                            <tspan x="967" y="575">recherche, d’institutions publiques … qui </tspan>
+                            <tspan x="967" y="592">accompagnent et posent un regard critique </tspan>
+                            <tspan x="967" y="609">sur les projets tout au long du processus de </tspan>
+                            <tspan x="967" y="626">production</tspan>
+                            <tspan x="1022.708" y="626">.</tspan>
+                        </text>
+                        <text id="Une-équipe-pédagogiq" font-family="Asap-Bold, Asap" font-size="18" font-weight="bold" fill="#FF8668">
+                            <tspan x="0" y="410">Une équipe </tspan>
+                            <tspan x="0" y="431">pédagogique </tspan>
+                            <tspan x="0" y="462"></tspan>
+                            <tspan x="0" y="493"></tspan>
+                        </text>
+                        <text id="Qui-forme-les-porteu" font-family="SourceSansPro-Light, Source Sans Pro" font-size="13" font-weight="300" fill="#0C3644">
+                            <tspan x="0" y="467">Qui forme les porteurs de projets </tspan>
+                            <tspan x="0" y="484">dans une dimension créative, </tspan>
+                            <tspan x="0" y="501">innovante, humaine, sociétale, </tspan>
+                            <tspan x="0" y="518">technique.</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </svg>
+      </figure>
+    </div>
+    <div class="columns">
+      <div class="column is-8 is-offset-2">
+        <h4 class="title is-4 has-text-centered">Le processus MATRICE fonctionne grâce à la création d’un écosystème qui confronte et implique chacun de ses acteurs</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
     <div class="columns is-desktop">
       <div class="column content is-offset-1">
         <div class="restrictedD">
@@ -21,7 +115,7 @@
       </div>
       <div class="column content is-offset-1">
         <figure class="image">
-          <img src="<%= static_path(@conn, "/images/philosophie/nucleus-creative-valley.jpg") %>" alt="Un programme de formation">
+          <img src="<%= static_path(@conn, "/images/matrice-et-vous/1.jpg") %>" alt="Un programme de formation">
         </figure>
       </div>
     </div>
@@ -29,10 +123,55 @@
 </section>
 
 
+
+<section class="section unmarged">
+  <div class="container-fluid">
+    <div class="columns is-desktop">
+      <div class="column content is-5">
+        <figure class="image">
+          <img src="<%= static_path(@conn, "/images/matrice-et-vous/2.jpg") %>" alt="Un programme de formation">
+        </figure>
+      </div>
+      <div class="column content is-4 is-offset-2">
+        <div class="restrictedD">
+          <h4 id="entreprises" class="title arrow is-3">Quelle place, quelles opportunités pour <b>les entreprises ?</b></h4>
+          <p>Pour les entreprises, MATRICE, c’est l’opportunité de travailler avec des équipes étudiantes qui apportent leur force de travail, leur temps, leur regard différent, leur dynamisme et leur droit de faire différemment.</p>
+          <p>Cet apport accompagné d’un dispositif pédagogique unique fait germer et développe, en un temps court, plusieurs projets d’innovation disruptive, tant technologique, que dans l’offre de service ou l’organisation.</p>
+          <p><b>MATRICE est ainsi l’occasion d’initier des projets d’avenir, d’être en avance de phase, de tester et parfois de réaliser un bond en avant…</b> mais aussi de faire réfléchir toute une entreprise confrontée d’un coup à d’autres manières de faire et de penser.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container-fluid">
+    <div class="columns is-desktop">
+      <div class="column content is-5 is-offset-2">
+        <div class="restrictedD">
+          <h4 class="title arrow is-3">Quelle place, quelles opportunités pour <b>les Institutions publiques ?</b></h4>
+          <p>Pour les institutions publiques confrontées à la transformation numérique, il reste encore beaucoup de travail culturel, fonctionnel, technologique pour concrétiser de nouvelles formes de puissance publique. MATRICE leur permet d’initier des programmes concrets d’innovation et de production de solutions innovantes. Ce n’est pas seulement du conseil ou de la méthodologie, c’est bien réel, rapide et productif.</p>
+          <p><b>Mais ce que les institutions trouveront dans MATRICE, c’est aussi une compréhension fine de leurs enjeux, de leurs histoires, de leurs logiques et de la complexité inhérente aux mondes publics et à l’intérêt général.</b></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section unmarged">
+  <div class="container-fluid">
+    <div class="columns">
+      <div class="column content"></div>
+      <div class="column is-offset-2 content padded reversed big-quote">
+        <quote>En se déployant sur un sujet, avec une institution ou une entreprise, les différentes Matrices résonnent comme un programme de formation professionnelle pour des collaborateurs ou agents embarqués dans la transformation réelle, concrète et par le faire, de l’entreprise ou de l’institution publique à laquelle ils appartiennent.</quote>
+      </div>
+    </div>
+  </div>
+</section>
 <section class="section">
   <div class="container">
     <div class="columns is-desktop">
-      <div class="column content simple-square is-half is-offset-one-quarter">
+      <div class="column content custom-square simple-square is-6 is-offset-2">
         <div class="squared">
           <header>
             <h2 class="marged-title">L’enjeu : innover en milieu complexe</h2>
@@ -48,58 +187,11 @@
 </section>
 
 
-<section class="section">
-  <div class="container-fluid">
-    <div class="columns is-desktop">
-      <div class="column content is-offset-1">
-        <div class="restrictedD">
-          <h2 id="entreprises" class="title arrow is-3">Quelle place, quelles opportunités pour les entreprises ?</h2>
-          <p>Pour les entreprises, MATRICE, c’est l’opportunité de travailler avec des équipes étudiantes qui apportent leur force de travail, leur temps, leur regard différent, leur dynamisme et leur droit de faire différemment.</p>
-          <p>Cet apport accompagné d’un dispositif pédagogique unique fait germer et développe, en un temps court, plusieurs projets d’innovation disruptive, tant technologique, que dans l’offre de service ou l’organisation.</p>
-          <p><b>MATRICE est ainsi l’occasion d’initier des projets d’avenir, d’être en avance de phase, de tester et parfois de réaliser un bond en avant…</b> mais aussi de faire réfléchir toute une entreprise confrontée d’un coup à d’autres manières de faire et de penser.</p>
-        </div>
-      </div>
-      <div class="column content is-offset-2">
-        <figure class="image">
-          <img src="<%= static_path(@conn, "/images/philosophie/nucleus-creative-valley.jpg") %>" alt="Un programme de formation">
-        </figure>
-      </div>
-    </div>
-  </div>
-</section>
 
 <section class="section">
   <div class="container-fluid">
     <div class="columns is-desktop">
-      <div class="column content">
-      </div>
-      <div class="column content is-offset-1">
-        <div class="restrictedD">
-          <h2 class="title arrow is-3">Quelle place, quelles opportunités pour les Institutions publiques ?</h2>
-          <p>Pour les institutions publiques confrontées à la transformation numérique, il reste encore beaucoup de travail culturel, fonctionnel, technologique pour concrétiser de nouvelles formes de puissance publique. MATRICE leur permet d’initier des programmes concrets d’innovation et de production de solutions innovantes. Ce n’est pas seulement du conseil ou de la méthodologie, c’est bien réel, rapide et productif.</p>
-          <p><b>Mais ce que les institutions trouveront dans MATRICE, c’est aussi une compréhension fine de leurs enjeux, de leurs histoires, de leurs logiques et de la complexité inhérente aux mondes publics et à l’intérêt général.</b></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section unmarged">
-  <div class="container-fluid">
-    <div class="columns">
-      <div class="column content padded reversed big-quote">
-        <quote>En se déployant sur un sujet, avec une institution ou une entreprise, les différentes Matrices résonnent comme un programme de formation professionnelle pour des collaborateurs ou agents embarqués dans la transformation réelle, concrète et par le faire, de l’entreprise ou de l’institution publique à laquelle ils appartiennent.</quote>
-      </div>
-      <div class="column content"></div>
-    </div>
-  </div>
-</section>
-
-
-<section class="section">
-  <div class="container-fluid">
-    <div class="columns is-desktop">
-      <div class="column content is-offset-1">
+      <div class="column content is-offset-2 is-4">
         <div class="restrictedD">
           <h2 class="title arrow is-3">Quelle place, quelles opportunités pour les écoles et les universités ?</h2>
           <p><b>Toutes les écoles et universités sont confrontées à des enjeux de professionnalisation et d’insertion dans l’emploi.</b></p>
@@ -111,9 +203,9 @@
           <p>MATRICE s’inscrit comme le chaînon manquant entre le monde du numérique, de la recherche et celui de l’entreprise.</p>
         </div>
       </div>
-      <div class="column content is-offset-2">
+      <div class="column content is-offset-1 is-4">
         <figure class="image">
-          <img src="<%= static_path(@conn, "/images/philosophie/nucleus-creative-valley.jpg") %>" alt="Un programme de formation">
+          <img src="<%= static_path(@conn, "/images/matrice-et-vous/3.jpg") %>" alt="Un programme de formation">
         </figure>
       </div>
     </div>

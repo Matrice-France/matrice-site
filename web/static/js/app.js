@@ -31,7 +31,7 @@ document.querySelectorAll('.nav-toggle')[0].onclick = function() {
 }
 
 if (document.querySelectorAll('.slider')[0]) {
-  new Siema({
+  var mySiema = new Siema({
     selector: '.slider',
     duration: 200,
     easing: 'ease-out',
@@ -43,4 +43,7 @@ if (document.querySelectorAll('.slider')[0]) {
     onInit: function(){},
     onChange: function(){},
   });
+  document.querySelector('.prev').addEventListener('click', () => mySiema.prev());
+  document.querySelector('.next').addEventListener('click', () => mySiema.next());
+
 }
