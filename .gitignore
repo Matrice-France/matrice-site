@@ -23,3 +23,5 @@ erl_crash.dump
 # variables.
 /config/prod.secret.exs
 rel
+web/static/assets/images/Icons*
+web/static/assets/images/Images*
