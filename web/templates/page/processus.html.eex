@@ -1,7 +1,7 @@
 
 <%= render Matrice.PageView, "_section_header.html", title: "processus" %>
 <section class="section">
-  <div class="container-fluid">
+  <div class="container">
     <div class="columns is-desktop">
       <div class="column content is-offset-1">
         <div class="restrictedD">
@@ -13,7 +13,7 @@
       </div>
       <div class="column content is-offset-2">
         <figure class="image">
-          <img src="<%= static_path(@conn, "/images/philosophie/nucleus-creative-valley.jpg") %>" alt="Un programme de formation">
+          <img src="<%= static_path(@conn, "/images/processus/1.jpg") %>" alt="Un programme de formation">
         </figure>
       </div>
     </div>
@@ -49,6 +49,20 @@
             <li>la gestion humaine du collectif, dans le but d’acquérir une identité d’entrepreneur.</li>
           </ul>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container titler">
+    <h4 class="title has-text-centered is-3">Les principales phases du programme de formation</h4>
+    <div class="columns padded">
+      <div class="column content">
+        <figure class="image">
+          <img src="<%= static_path(@conn, "/images/graph.png") %>" alt="Les principales phases du programme de formation">
+          <!-- <img src="<%= static_path(@conn, "/images/processus/schema.svg") %>" alt="Les principales phases du programme de formation"> -->
+        </figure>
       </div>
     </div>
   </div>

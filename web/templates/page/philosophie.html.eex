@@ -3,7 +3,7 @@
 <section class="section">
   <div class="container">
     <div class="columns">
-      <div class="column content">
+      <div class="column content is-offset-1 is-5">
         <div class="restricted">
           <h2 class="title arrow is-3">Une nouvelle donne digitale résolument humaine</h2>
           <p><b>Nous passons de l’ère industrielle à l’ère digitale.</b></p>
@@ -14,7 +14,7 @@
           <p>Et elle pose des conditions.</p>
         </div>
       </div>
-      <div class="column content is-hidden-mobile">
+      <div class="column content is-hidden-mobile  is-offset-1 is-5">
         <figure class="image restricted">
           <img src="<%= static_path(@conn, "/images/philosophie/matrice-arts-1.jpg") %>" alt="Un programme de formation">
         </figure>
@@ -31,7 +31,7 @@
           <img src="<%= static_path(@conn, "/images/philosophie/matrice-arts.jpg") %>" alt="Un programme de formation">
         </figure>
       </div>
-      <div class="column content">
+      <div class="column content is-offset-1 is-5">
         <div class="restricted">
           <h2 class="title arrow is-3">Fonder un modèle « d’université productive »</h2>
           <p>Dans cette nouvelle donne industrielle et intellectuelle, l’enjeu est de confronter des mondes qui ne se parlaient pas toujours : sciences humaines et technologies, recherche et entreprises, étudiants et professionnels… pour sceller de nouvelles alliances avec le numérique comme langage commun.</p>
@@ -62,7 +62,7 @@
           <img src="<%= static_path(@conn, "/images/philosophie/matrice-42-creative.png") %>" alt="Un programme de formation">
         </figure>
       </div>
-      <div class="column content">
+      <div class="column content is-offset-1 is-5">
         <div class="restricted">
           <h2 class="title arrow is-3">Historique</h2>
           <p><b>L’association MATRICE est née de la convergence de 42</b> -  école d’informatique d’un genre nouveau qui forme sans professeur, sans cours à tous les métiers de l’informatique, mais surtout à la créativité- et de <b>Creative Valley</b> -  hub d’innovation et incubateur de startups qui favorise les rencontres entre écoles, entreprises et sujets d’avenir.</p>
