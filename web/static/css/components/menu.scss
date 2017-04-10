@@ -56,6 +56,8 @@
 
     li {
       /* Hide Dropdowns by Default */
+      position: relative;
+
       ul {
       	display: none;
       	position: absolute;
@@ -64,6 +66,7 @@
         padding: 1em 0em;
         min-width: 150px;
       	top: 50px; /* the height of the main nav */
+        left: 0px;
 
         li {
           text-align: left;
