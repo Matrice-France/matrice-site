@@ -66,17 +66,17 @@
           </a>
         </li>
         <li class="nav-item is-hidden-touch">
-          <a href="https://www.facebook.com/Matriceio-235750366900502/" class="social-menu-link">
+          <a target="_blank" href="https://www.facebook.com/Matriceio-235750366900502/" class="social-menu-link">
             <span class="icon">
               <i class="fa fa-facebook"></i>
             </span>
           </a>
-          <a href="https://twitter.com/Matrice_io" class="social-menu-link">
+          <a target="_blank" href="https://twitter.com/Matrice_io" class="social-menu-link">
             <span class="icon">
               <i class="fa fa-twitter"></i>
             </span>
           </a>
-          <a href="https://www.linkedin.com/company-beta/11053411/" class="social-menu-link">
+          <a target="_blank" href="https://www.linkedin.com/company-beta/11053411/" class="social-menu-link">
             <span class="icon">
               <i class="fa fa-linkedin"></i>
             </span>
