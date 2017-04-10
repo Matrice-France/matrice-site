@@ -109,6 +109,8 @@
 
   </div>
 </section>
+<br>
+<br>
 
 <section class="section unmarged">
   <div class="container-fluid">
@@ -120,9 +122,11 @@
     </div>
   </div>
 </section>
+<br>
 
 <section class="section unmarged">
   <div class="container-fluid">
+    <br>
     <br>
     <br>
     <div class="columns">
@@ -133,7 +137,7 @@
           <h2 class="title arrow is-3">Un levier de transformation pour les partenaires</h2>
           <p>En se déployant sur un sujet, avec une institution ou une entreprise, Matrice se fait aussi programme de formation professionnelle pour des collaborateurs ou agents embarqués dans la transformation réelle, concrète et par le faire, de l’entreprise ou de l’institution publique à laquelle ils appartiennent.</p>
           <p><b>En ce sens, Matrice est un véritable levier de transformation donnant accès à une force de développement.</b></p>
-          <p><a href="/matrice-et-vous#entreprises" class="button is-primary matrice-button">En savoir +</a></p>
+          <p><a href="/matrice-et-vous#1matrice-1partenaire" class="button is-primary matrice-button">En savoir +</a></p>
         </div>
       </div>
       <div class="column content">

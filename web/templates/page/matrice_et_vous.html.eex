@@ -99,7 +99,7 @@
     <div class="columns is-desktop">
       <div class="column content is-offset-1">
         <div class="restrictedD">
-          <h2 class="title arrow is-3">1 Matrice = 1 partenaire </h2>
+          <h2 id="1matrice-1partenaire" class="title arrow is-3">1 Matrice = 1 partenaire </h2>
           <p>Chaque Matrice est thématique et se crée avec un grand partenaire autour d’une problématique spécifique, autant interne que d’intérêt général.</p>
           <p>En s’impliquant au sein d’une Matrice, chaque partenaire s’engage dans un processus de co-construction et de co-création aux côtés de différents acteurs dans  environnement collaboratif.</p>
           <br>
@@ -211,3 +211,6 @@
     </div>
   </div>
 </section>
+<br>
+<br>
+<br>
