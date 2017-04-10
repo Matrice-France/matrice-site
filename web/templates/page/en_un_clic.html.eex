@@ -26,7 +26,7 @@
               <h4 class="title is-3">Dossier de presse</h4>
             </div>
             <div>
-              <p><a class="button is-primary" href="<%= static_path(@conn, "/documents/dossier-presse.pdf") %>">Dossier de presse</a></p>
+              <p><a class="button is-primary" href="<%= static_path(@conn, "/documents/dossier-presse.pdf") %>">Télécharger le pdf</a></p>
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@
               <h4 class="title is-3">Communiqué de presse</h4>
             </div>
             <div>
-              <p><a class="button is-primary" href="<%= static_path(@conn, "/documents/communique-presse.pdf") %>">Communiqué de presse</a></p>
+              <p><a class="button is-primary" href="<%= static_path(@conn, "/documents/communique-presse.pdf") %>">Ouvrir le lien</a></p>
             </div>
           </div>
         </div>
@@ -180,7 +180,7 @@
         <h4 class="title is-6">Fondateur, Creative Valley</h4>
       </div>
       <div class="matrice-contact">
-        <img src="<%= static_path(@conn, "/images/team/hacene.jpg") %>" alt="Hacène Lahreche">
+        <img src="<%= static_path(@conn, "/images/team/hacene.png") %>" alt="Hacène Lahreche">
         <h3 class="title is-6">Hacène Lahreche</h3>
         <h4 class="title is-6">COO, Creative Valley</h4>
       </div>
@@ -192,7 +192,7 @@
     </div>
     <div class="columns matrice-contacts is-bureau">
       <div class="matrice-contact">
-        <img src="<%= static_path(@conn, "/images/team/vallenet.jpg") %>" alt="Thierry Vallenet">
+        <img src="<%= static_path(@conn, "/images/team/vallenet.png") %>" alt="Thierry Vallenet">
         <h3 class="title is-6">Thierry Vallenet</h3>
         <h4 class="title is-6">Président</h4>
       </div>
@@ -202,7 +202,7 @@
         <h4 class="title is-6">Secrétaire</h4>
       </div>
       <div class="matrice-contact">
-        <img src="<%= static_path(@conn, "/images/team/bouleuc.jpg") %>" alt="Frédéric Bouleuc">
+        <img src="<%= static_path(@conn, "/images/team/bouleuc.png") %>" alt="Frédéric Bouleuc">
         <h3 class="title is-6">Frédéric Bouleuc</h3>
         <h4 class="title is-6">Trésorier</h4>
       </div>
@@ -235,7 +235,7 @@
         <h3 class="title is-6">Développement :</h3>
         <p>Emilie Codron (Direction Artistique)</p>
         <p>Eléonore Rident (Conception Graphique)</p>
-        <p>André Aubin (développement)</p>
+        <p>André Aubin (Développement)</p>
       </div>
     </div>
   </div>

@@ -16,7 +16,7 @@
       </div>
       <div class="column content is-hidden-mobile  is-offset-1 is-5">
         <figure class="image restricted">
-          <img src="<%= static_path(@conn, "/images/philosophie/matrice-arts-1.jpg") %>" alt="Un programme de formation">
+          <img src="<%= static_path(@conn, "/images/philosophie/philo.jpg") %>" alt="Un programme de formation">
         </figure>
       </div>
     </div>
