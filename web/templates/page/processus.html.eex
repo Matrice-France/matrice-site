@@ -8,7 +8,7 @@
           <h2 class="title arrow is-3">Co-créer des laboratoires de projets avec les partenaires</h2>
           <p><b>Chaque Matrice est thématique et se crée autour d’un grand partenaire. Dans ce programme, les étudiants sont confrontés à des institutions publiques, des entreprises, des laboratoires de recherche, tous porteurs d’enjeux d’ampleur.</b></p>
           <p>Sont alors crées des équipes constituées d’étudiants d’origine différentes et connectées avec des professionnels portant les problématiques.</p>
-          <p>Toutes les équipes constituées autour d’un même enjeu formeront une « Matrice », c’est à dire un <a href="/en-action" class="is-underline">laboratoire de projets</a>.</p>
+          <p>Toutes les équipes constituées autour d’un même enjeu formeront une « Matrice », c’est à dire un laboratoire de projets.</p>
         </div>
       </div>
       <div class="column content is-offset-2">
@@ -24,6 +24,8 @@
   <div class="container">
     <div class="columns">
       <div class="column content simple-square is-4 is-offset-1">
+        <br>
+        <br>
         <div class="squared">
           <header>
             <h2 class="marged-title">En chiffres</h2>

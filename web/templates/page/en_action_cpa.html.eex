@@ -40,10 +40,10 @@
       <div class="column content">
         <h2 class="title is-3">Partenaires</h2>
         <div class="logos">
-          <figure class="image is-logo is-half">
+          <figure class="image is-logo is-half is-tall">
             <img src="<%= static_path(@conn, "/images/logo/logo_mdt.jpeg") %>" alt="Ministere du travail">
           </figure>
-          <figure class="image is-logo is-half">
+          <figure class="image is-logo is-half is-tall">
             <img src="<%= static_path(@conn, "/images/logo/logo_cdd.png") %>" alt="Caisse des dépots">
           </figure>
         </div>
