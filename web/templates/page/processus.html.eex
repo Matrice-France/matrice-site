@@ -100,14 +100,10 @@
       </div>
     </div>
   </div>
-</section>
-
-<section class="section">
   <div class="container">
-
     <div class="columns padded">
-      <div class="padded column is-10 is-offset-1 content">
-        <h3 class="title is-6">A l’issue du programme de formation, quels qu’en soient les formats finaux (startup, business unit…), la Matrice donnera naissance à des projets pertinents et insérés dans un écosystème, mais aussi à des étudiants capables d’innover et d’entreprendre. Pour ceux qui le souhaitent s’ouvre alors une phase d’Expansion. Un accompagnement stratégique transversal est proposé pour accélérer le développement, multiplier les opportunités et continuer à penser les projets dans une perspective collaborative.</h3>
+      <div class="padded column is-11 is-offset-1 content">
+        <h4 class="title is-5"><p>A l’issue du programme de formation, quels qu’en soient les formats finaux (startup, business unit…), la Matrice donnera naissance à des projets pertinents et insérés dans un écosystème, mais aussi à des étudiants capables d’innover et d’entreprendre. Pour ceux qui le souhaitent s’ouvre alors une phase d’Expansion. Un accompagnement stratégique transversal est proposé pour accélérer le développement, multiplier les opportunités et continuer à penser les projets dans une perspective collaborative.</p></h4>
       </div>
     </div>
 
@@ -127,6 +123,8 @@
 
 <section class="section unmarged">
   <div class="container-fluid">
+    <br>
+    <br>
     <div class="columns">
       <div class="column is-offset-2 content">
         <div class="restricted">
