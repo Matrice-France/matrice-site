@@ -5,7 +5,7 @@
     <div class="columns">
       <div class="column content">
         <div class="restricted">
-          <h2 class="title is-3">Un programme de formation à l’innovation développant intuition et leadership</h2>
+          <h2 class="title is-arrow is-3">Un programme de formation à l’innovation développant intuition et leadership</h2>
           <p>Matrice est un programme de formation sans cours et sans professeurs.</p>
           <p>Son objectif est de transmettre l’esprit d’entreprendre et d’innover aux étudiants, pour apporter des réponses ingénieuses et nouvelles aux différentes problématiques de la société à l’ère du numérique.</p>
           <p>Pour acquérir cet esprit, l’étudiant doit prendre conscience que, dans le cadre du programme, il n’est plus un élève, mais un acteur autonome garant de son apprentissage, de ses objectifs et des moyens qu'il va utiliser pour les atteindre.</p>
@@ -23,10 +23,10 @@
 <section class="section unmarged">
   <div class="container-fluid">
     <div class="columns">
-      <div class="column content reversed big-quote">
+      <div class="column is-5 content reversed big-quote">
         <quote>“Matrice n’est pas une énième formation à l’entrepreneuriat. Sa pédagogie valorise le collectif et la réflexivité, conditions pour que l’apprentissage soit réel et que les projets développés par les étudiants aient du sens.”</quote>
       </div>
-      <div class="column content padded">
+      <div class="column is-5 is-offset-1 content padded">
         <div class="restricted">
           <h2 class="title is-4">Comment former des innovateurs ?</h2>
           <p>Les formations à l’innovation actuelles voient l’innovateur comme un individu réunissant un ensemble de compétences (créativité, communication, stratégie, management, etc.). Cette approche par  compétences conduit à une formation par compétences : différents cours et projets distincts.</p>

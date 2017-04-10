@@ -87,7 +87,7 @@
           <p><b>Innovation,</b> parce qu’il faut apporter quelque chose de nouveau pour bénéficier du PIA. </p>
           <p><b>Coopération,</b> parce que nous voulons faire travailler ensemble ceux qui portent l’avenir de notre pays.</p>
           <footer class="content is-centered">
-            <figure class="image" style="max-width: 200px; margin: auto;">
+            <figure class="image" style="max-width: 300px; margin: auto; margin-top: 50px;">
               <img src="<%= static_path(@conn, "/images/philosophie/logos-PIA-site-internet.jpg") %>" alt="Un programme de formation">
             </figure>
             <a style="margin: auto;text-align: center;display: block;" href="http://www.gouvernement.fr/pia3-5236">http://www.gouvernement.fr/pia3-5236</a>
