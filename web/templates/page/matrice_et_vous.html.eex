@@ -134,7 +134,7 @@
       </div>
       <div class="column content is-4 is-offset-2">
         <div class="restrictedD">
-          <h4 id="entreprises" class="title arrow is-3">Quelle place, quelles opportunités pour <b>les entreprises ?</b></h4>
+          <h4 id="entreprises" class="title arrow is-3">Quelle place, quelles opportunités <br>pour <b>les entreprises ?</b></h4>
           <p>Pour les entreprises, MATRICE, c’est l’opportunité de travailler avec des équipes étudiantes qui apportent leur force de travail, leur temps, leur regard différent, leur dynamisme et leur droit de faire différemment.</p>
           <p>Cet apport accompagné d’un dispositif pédagogique unique fait germer et développe, en un temps court, plusieurs projets d’innovation disruptive, tant technologique, que dans l’offre de service ou l’organisation.</p>
           <p><b>MATRICE est ainsi l’occasion d’initier des projets d’avenir, d’être en avance de phase, de tester et parfois de réaliser un bond en avant…</b> mais aussi de faire réfléchir toute une entreprise confrontée d’un coup à d’autres manières de faire et de penser.</p>
@@ -149,7 +149,7 @@
     <div class="columns is-desktop">
       <div class="column content is-5 is-offset-2">
         <div class="restrictedD">
-          <h4 class="title arrow is-3">Quelle place, quelles opportunités pour <b>les Institutions publiques ?</b></h4>
+          <h4 class="title arrow is-3">Quelle place, quelles opportunités <br>pour <b>les Institutions publiques ?</b></h4>
           <p>Pour les institutions publiques confrontées à la transformation numérique, il reste encore beaucoup de travail culturel, fonctionnel, technologique pour concrétiser de nouvelles formes de puissance publique. MATRICE leur permet d’initier des programmes concrets d’innovation et de production de solutions innovantes. Ce n’est pas seulement du conseil ou de la méthodologie, c’est bien réel, rapide et productif.</p>
           <p><b>Mais ce que les institutions trouveront dans MATRICE, c’est aussi une compréhension fine de leurs enjeux, de leurs histoires, de leurs logiques et de la complexité inhérente aux mondes publics et à l’intérêt général.</b></p>
         </div>
@@ -179,7 +179,7 @@
           <p>L’objectif de Matrice est la conduite de projet en milieu complexe, c’est-à-dire parmi des institutions et des acteurs qui ont leurs enjeux propres, leurs calendriers, leurs tabous et un immense sujet de transformation…</p>
           <p>à la conception et la réalisation du produit, s’ajoute donc une capacité à s’articuler à l’existant, à le comprendre, le traduire et  le dépasser.</p>
           <p><b>MATRICE est surtout un programme de co-construction modulable et adaptable à de nombreux formats.</b></p>
-          <p><a href="" class="button is-primary matrice-button">Parlons en</a></p>
+          <p><a href="mailto:contact@matrice.io" class="button is-primary matrice-button">Parlons-en</a></p>
         </div>
       </div>
     </div>
@@ -193,7 +193,7 @@
     <div class="columns is-desktop">
       <div class="column content is-offset-2 is-4">
         <div class="restrictedD">
-          <h2 class="title arrow is-3">Quelle place, quelles opportunités pour les écoles et les universités ?</h2>
+          <h2 class="title arrow is-3">Quelle place, quelles opportunités <br>pour les écoles et les universités ?</h2>
           <p><b>Toutes les écoles et universités sont confrontées à des enjeux de professionnalisation et d’insertion dans l’emploi.</b></p>
           <p>A l’issue de leur formation, de nombreux étudiants sont aussi désireux de s’engager dans un processus d’entrepreneuriat collectif en mettant à profit leurs compétences et leur vision de la société.</p>
           <p>Dans cette perspective, MATRICE leur conviendra, comme aux institutions qui les forment. Car ce que nous imaginons ensemble, c’est d’abord une formation (en l’occurrence “by doing”) qui s’appuie aussi sur chaque école.</p>
