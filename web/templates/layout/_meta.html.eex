@@ -1,0 +1,57 @@
+<!-- Meta datas -->
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title><%= @title || 'Matrice' %></title>
+
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+<!-- Allows control over where resources are loaded from -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+<!-- Place as early in the document as possible -->
+<!-- Only applies to content below this tag -->
+
+<!-- Short description of the page (limit to 150 characters) -->
+<!-- In *some* situations this description is used as a part of the snippet shown in the search results. -->
+<meta name="description" content="<%= @description || 'Matrice' %>">
+
+<!-- Control the behavior of search engine crawling and indexing -->
+<meta name="robots" content="index,follow,noodp"><!-- All Search Engines -->
+<meta name="googlebot" content="index,follow"><!-- Google Specific -->
+
+<!-- Tells Google not to show the sitelinks search box -->
+<meta name="google" content="nositelinkssearchbox">
+
+<!-- Tells Google not to provide a translation for this page -->
+<meta name="google" content="notranslate">
+
+<!-- Verify ownership for Google Search Console -->
+<meta name="google-site-verification" content="verification_token">
+
+<!-- Short description of your site's subject -->
+<meta name="subject" content="MATRICE est un programme d’innovation, de formation et de production qui rassemble différentes écoles, universités, entreprises et institutions autour d’enjeux spécifiques, ambitieux et de nature à dessiner le futur intellectuel et professionnel d’un secteur.">
+
+<!-- Very short (10 words or less) description. Primarily for academic papers -->
+<meta name="abstract" content="programme d’innovation, de formation et de production">
+
+<!-- Full domain name or web address -->
+<meta name="url" content="http://matrice.io/">
+
+<meta name="directory" content="submission">
+
+<!-- Gives a general age rating based on sites content -->
+<meta name="rating" content="General">
+
+<!-- Allows control over how referrer information is passed -->
+<meta name="referrer" content="no-referrer">
+
+<!-- Disable automatic detection and formatting of possible phone numbers -->
+<meta name="format-detection" content="telephone=no">
+
+<!-- Completely opt out of DNS prefetching by setting to 'off' -->
+<meta http-equiv="x-dns-prefetch-control" content="off">
+
+<!-- Geo tags -->
+<meta name="geo.region" content="FR"><!-- Country code (ISO 3166-1): mandatory, state code (ISO 3166-2): optional; eg. content="US" / content="US-NY" -->
+<meta name="geo.placename" content="Paris"><!-- eg. content="New York City" -->
