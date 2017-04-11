@@ -3,15 +3,15 @@
 <section class="section">
   <div class="container">
     <div class="columns">
-      <div class="column content">
-        <div class="restricted">
-          <h2 class="title is-arrow is-3">Un programme de formation à l’innovation développant intuition et leadership</h2>
+      <div class="column is-4 is-offset-1 content">
+        <div class="restricteD">
+          <h2 class="title arrow is-3">Un programme de formation à l’innovation développant intuition et leadership</h2>
           <p>Matrice est un programme de formation sans cours et sans professeurs.</p>
           <p>Son objectif est de transmettre l’esprit d’entreprendre et d’innover aux étudiants, pour apporter des réponses ingénieuses et nouvelles aux différentes problématiques de la société à l’ère du numérique.</p>
           <p>Pour acquérir cet esprit, l’étudiant doit prendre conscience que, dans le cadre du programme, il n’est plus un élève, mais un acteur autonome garant de son apprentissage, de ses objectifs et des moyens qu'il va utiliser pour les atteindre.</p>
         </div>
       </div>
-      <div class="column content">
+      <div class="column is-6 is-offset-1 content">
         <figure class="image is-3by2">
           <img src="<%= static_path(@conn, "/images/1.jpg") %>" alt="Un programme de formation">
         </figure>
@@ -23,12 +23,12 @@
 <section class="section unmarged">
   <div class="container-fluid">
     <div class="columns">
-      <div class="column is-5 content reversed big-quote">
+      <div class="column is-5 content reversed big-quote light-big-quote">
         <quote>“Matrice n’est pas une énième formation à l’entrepreneuriat. Sa pédagogie valorise le collectif et la réflexivité, conditions pour que l’apprentissage soit réel et que les projets développés par les étudiants aient du sens.”</quote>
       </div>
-      <div class="column is-5 is-offset-1 content padded">
-        <div class="restricted">
-          <h2 class="title is-4">Comment former des innovateurs ?</h2>
+      <div class="column is-4 is-offset-2 content padded">
+        <div class="restricteD">
+          <h2 class="title arrow is-3">Comment former des innovateurs ?</h2>
           <p>Les formations à l’innovation actuelles voient l’innovateur comme un individu réunissant un ensemble de compétences (créativité, communication, stratégie, management, etc.). Cette approche par  compétences conduit à une formation par compétences : différents cours et projets distincts.</p>
           <p><b>Notre vision est tout autre :</b> l’innovation passe d’abord par la construction d’une identité d’innovateur. Cette identité repose sur une capacité à écouter son intuition, sa voix intérieure, puis à transmettre cette voix vers l’extérieur (leadership) afin de s’appuyer sur une structure collective pour la réaliser.</p>
           <p>Notre projet pédagogique consiste donc en premier lieu à développer cette identité chez des étudiants engagés dans leur apprentissage et l'action au sein d'un collectif.</p>

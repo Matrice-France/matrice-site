@@ -26,12 +26,12 @@
 <section class="section">
   <div class="container">
     <div class="columns">
-      <div class="column content">
+      <div class="column content is-5">
         <figure class="image is-3by2">
           <img src="<%= static_path(@conn, "/images/philosophie/matrice-arts.jpg") %>" alt="Un programme de formation">
         </figure>
       </div>
-      <div class="column content is-offset-1 is-5">
+      <div class="column content is-offset-2 is-5">
         <div class="restricted">
           <h2 class="title arrow is-3">Fonder un modèle « d’université productive »</h2>
           <p>Dans cette nouvelle donne industrielle et intellectuelle, l’enjeu est de confronter des mondes qui ne se parlaient pas toujours : sciences humaines et technologies, recherche et entreprises, étudiants et professionnels… pour sceller de nouvelles alliances avec le numérique comme langage commun.</p>
@@ -64,8 +64,8 @@
       </div>
       <div class="column content is-offset-1 is-5">
         <div class="restricted">
-          <h2 class="title arrow is-3">Historique</h2>
-          <p><b>L’association MATRICE est née de la convergence de 42</b> -  école d’informatique d’un genre nouveau qui forme sans professeur, sans cours à tous les métiers de l’informatique, mais surtout à la créativité- et de <b>Creative Valley</b> -  hub d’innovation et incubateur de startups qui favorise les rencontres entre écoles, entreprises et sujets d’avenir.</p>
+          <h2 class="title is-3">Historique</h2>
+          <p><br><b>L’association MATRICE est née de la convergence de 42</b> -  école d’informatique d’un genre nouveau qui forme sans professeur, sans cours à tous les métiers de l’informatique, mais surtout à la créativité- et de <b>Creative Valley</b> -  hub d’innovation et incubateur de startups qui favorise les rencontres entre écoles, entreprises et sujets d’avenir.</p>
           <p><b>MATRICE</b> incarne ainsi un processus qui va de la formation à l’incubation,  conciliant l’agilité des startups et la puissance de réflexion de la recherche en créant un environnement propice à l’innovation. Car créer un réel processus d’innovation, suppose de couvrir l’ensemble de la chaîne, depuis la recherche fondamentale jusqu’à la production.</p>
         </div>
       </div>
@@ -81,7 +81,7 @@
       </div>
       <div class="column content square-container">
         <div class="squared">
-          <p><b>Depuis sa création, Matrice bénéficie du Programme d’Investissements d’Avenir (PIA)</b> destiné à soutenir les progrès de l’enseignement et de la recherche, à valoriser la recherche et à accélérer la modernisation des entreprises.</p>
+          <p><b>Depuis sa création, Matrice bénéficie du Programme d’Investissements d’Avenir (PIA)</b> destiné à soutenir les progrès de l’enseignement et de la formation professionnelle, à valoriser la recherche, à accélérer la modernisation des entreprises et à favoriser l’insertion dans l’emploi.</p>
           <p>La démarche gouvernementale du PIA obéit à trois mots qui en font la marque : </p>
           <p><b>Excellence,</b> parce que les universités, les instituts, les laboratoires, les équipes, les projets entrepreneuriaux et industriels sont choisis en fonction de leur excellence sur la base d’avis de jurys ou d’experts indépendants.</p>
           <p><b>Innovation,</b> parce qu’il faut apporter quelque chose de nouveau pour bénéficier du PIA. </p>
@@ -155,6 +155,10 @@
 
         <div class="minibox">
           <p><b>Pour que nos jeunes soient innovants,</b> produisent des objets et des idées qui ont un impact fort, il faut qu’ils se confrontent au monde réel, aux problématiques des entreprises, de la recherche et de l’État, afin d’y apporter la force du numérique. Créer des ponts entre ces mondes pour leur permettre de se développer en temps que citoyens, savants et entrepreneurs de demain.</p>
+        </div>
+
+        <div class="minibox">
+          <p><b>Pour être à la hauteur de sa responsabilité, le moment est venu pour le numérique</b> de se confronter à la complexité de paysages institutionnels pleins de jeux politiques et de rapports de force, mais aussi aux savoirs critiques - y compris sur le numérique lui-même. Le numérique ne peut pas dériver vers le seul ciblage publicitaire ou la prédation sur les données. Sa puissance de feu doit être mise au service d’autres causes.</p>
         </div>
       </div>
       <div class="padded column content absolute-offset">

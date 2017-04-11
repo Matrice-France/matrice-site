@@ -159,15 +159,19 @@ body.page {
   // }
 }
 
-.matrice_et_vous .simple-square {
-  .squared {
-    padding: 4em;
-    max-width: 500px;
-    margin: auto;
 
-    header h2 {
-      top: -2.9em;
-      max-width: 80%;
+@media(min-width: $tablet) {
+  .matrice_et_vous .simple-square {
+    .squared {
+      padding: 4em;
+      max-width: 500px;
+      margin: auto;
+      margin-bottom: -5em;
+
+      header h2 {
+        top: -2.9em;
+        max-width: 80%;
+      }
     }
   }
 }
@@ -190,6 +194,17 @@ body.page {
     font-size: 1.4em;
     text-align: left;
     padding: 0;
+
+    &.light-big-quote {
+      margin-bottom: 3em;
+      margin-top: 4em;
+    }
+
+
+    @media(min-width: $tablet) {
+      margin-bottom: 2em;
+      margin-top: 1.5em;
+    }
 
     quote {
       max-width: $restricted-width * 1.2;
@@ -274,11 +289,14 @@ body.page {
     // Hopla
     .is-absolute {
       position: absolute;
-      margin-top: 30px;
+      // margin-top: 30px;
+      margin-top: 6em;
+      padding-left: 5em;
     }
 
     .absolute-offset {
-      margin-top: 100px;
+      // margin-top: 100px;
+      margin-top: 13.5em;
     }
 
     .minibox-header {

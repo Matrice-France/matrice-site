@@ -35,6 +35,14 @@
           background: $matrice-white;
         }
       }
+
+      &.is-large {
+        padding: 5em;
+
+        header h2 {
+          top: -3.5em;
+        }
+      }
     }
   }
 
@@ -43,7 +51,7 @@
 
     .squared {
       position: relative;
-      top: -5em;
+      top: -8em;
       right: 0em;
     }
 

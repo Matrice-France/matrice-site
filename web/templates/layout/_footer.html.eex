@@ -1,7 +1,7 @@
 <footer class="footer">
   <div class="container">
     <div class="columns">
-      <div class="column content has-text-centered">
+      <!-- <div class="column content has-text-centered"> -->
         <!-- <p>
           <a class="column is-4 is-hidden-touch" href="<%= page_path(@conn, :index) %>">
             <img src="<%= static_path(@conn, "/images/SVG/mono_black.svg") %>" alt="Matrice logo">
@@ -24,20 +24,20 @@
             </span>
           </a>
         </p> -->
-      </div>
+      <!-- </div> -->
       <div class="column content has-text-centered">
         <p>
           <strong>Copyright</strong> @ <a class="is-underline" href="http://matrice.io">Matrice</a>
+          <br>Non profit organization - All rights reserved
         </p>
-        <p>Non profit organization - All rights reserved</p>
         <!-- <p>
           <a class="icon" href="https://github.com/jgthms/bulma">
             <i class="fa fa-github"></i>
           </a>
         </p> -->
       </div>
-      <div class="column content has-text-centered">
-      </div>
+      <!-- <div class="column content has-text-centered">
+      </div> -->
     </div>
   </div>
 </footer>

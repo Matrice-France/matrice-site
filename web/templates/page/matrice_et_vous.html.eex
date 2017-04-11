@@ -5,11 +5,8 @@
     <div class="columns is-desktop">
       <figure class="image">
         <svg width="1370px" height="600px" viewBox="0 0 1370 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-            <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
-            <title>Schéma-Matrice-et-vous</title>
-            <desc>Created with Sketch.</desc>
             <defs></defs>
-            <g id="Schéma-Matrice-et-vous" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="une-matrice-un-partenaire" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g>
                     <g transform="translate(99.000000, 0.000000)">
                         <polygon id="Path-2" stroke="#0C3644" points="513 131 567.211529 522.172092 828.629894 253.015946"></polygon>
@@ -99,16 +96,15 @@
     <div class="columns is-desktop">
       <div class="column content is-offset-1">
         <div class="restrictedD">
-          <h2 id="1matrice-1partenaire" class="title arrow is-3">1 Matrice = 1 partenaire </h2>
+          <h2 class="title arrow is-3">1 Matrice = 1 partenaire </h2>
           <p>Chaque Matrice est thématique et se crée avec un grand partenaire autour d’une problématique spécifique, autant interne que d’intérêt général.</p>
-          <p>En s’impliquant au sein d’une Matrice, chaque partenaire s’engage dans un processus de co-construction et de co-création aux côtés de différents acteurs dans  environnement collaboratif.</p>
+          <p>En s’impliquant au sein d’une Matrice, chaque partenaire s’engage dans un processus de co-construction et de co-création aux côtés de différents acteurs dans un environnement collaboratif.</p>
           <br>
           <p>Le programme Matrice s’adresse donc aux institutions publiques et entreprises privées qui :</p>
           <ul>
             <li>sont convaincues que le partage de savoirs et de compétences est source de créativité et d’innovation ;</li>
             <li>savent que leur métamorphose, notamment numérique, passe par une approche pluridisciplinaire ;</li>
-            <li>croient au prototypage collaboratif  et à l’association de talents pour répondre concrètement aux grand enjeux de société ;</li>
-            <li>dans leur quête de stratégies alternatives, capitalisent sur la coopération en s’appuyant sur des étudiants motivés et issus d’horizons divers, sur leur force de travail et leur créativité</li>
+            <li>croient au prototypage collaboratif et à l’association de talents pour répondre concrètement aux grand enjeux de société ;</li>
             <li>acceptent d’être surprises…</li>
           </ul>
         </div>
@@ -145,12 +141,12 @@
 </section>
 
 <section class="section">
-  <div class="container-fluid">
+  <div class="container">
     <div class="columns is-desktop">
-      <div class="column content is-5 is-offset-2">
+      <div class="column content is-5 is-offset-1">
         <div class="restrictedD">
           <h4 class="title arrow is-3">Quelle place, quelles opportunités <br>pour <b>les Institutions publiques ?</b></h4>
-          <p>Pour les institutions publiques confrontées à la transformation numérique, il reste encore beaucoup de travail culturel, fonctionnel, technologique pour concrétiser de nouvelles formes de puissance publique. MATRICE leur permet d’initier des programmes concrets d’innovation et de production de solutions innovantes. Ce n’est pas seulement du conseil ou de la méthodologie, c’est bien réel, rapide et productif.</p>
+          <p>Pour les institutions publiques faisant face à la transformation numérique, il reste encore beaucoup de travail culturel, fonctionnel, technologique pour concrétiser de nouvelles formes de puissance publique. MATRICE initie des programmes concrets d’innovation et de production de solutions innovantes. Ce n’est pas seulement du conseil ou de la méthodologie, cela permet de concevoir, produire et tester rapidement des solutions dédiées et opérationnelles.</p>
           <p><b>Mais ce que les institutions trouveront dans MATRICE, c’est aussi une compréhension fine de leurs enjeux, de leurs histoires, de leurs logiques et de la complexité inhérente aux mondes publics et à l’intérêt général.</b></p>
         </div>
       </div>
@@ -179,7 +175,7 @@
           <p>L’objectif de Matrice est la conduite de projet en milieu complexe, c’est-à-dire parmi des institutions et des acteurs qui ont leurs enjeux propres, leurs calendriers, leurs tabous et un immense sujet de transformation…</p>
           <p>à la conception et la réalisation du produit, s’ajoute donc une capacité à s’articuler à l’existant, à le comprendre, le traduire et  le dépasser.</p>
           <p><b>MATRICE est surtout un programme de co-construction modulable et adaptable à de nombreux formats.</b></p>
-          <p><a href="mailto:contact@matrice.io" class="button is-primary matrice-button">Parlons-en</a></p>
+          <p><a href="mailto:contact@matrice.io" class="button is-primary matrice-button">Parlons-en !</a></p>
         </div>
       </div>
     </div>
@@ -189,9 +185,9 @@
 
 
 <section class="section">
-  <div class="container-fluid">
+  <div class="container">
     <div class="columns is-desktop">
-      <div class="column content is-offset-2 is-4">
+      <div class="column content is-offset-1 is-5">
         <div class="restrictedD">
           <h2 class="title arrow is-3">Quelle place, quelles opportunités <br>pour les écoles et les universités ?</h2>
           <p><b>Toutes les écoles et universités sont confrontées à des enjeux de professionnalisation et d’insertion dans l’emploi.</b></p>
@@ -203,7 +199,7 @@
           <p>MATRICE s’inscrit comme le chaînon manquant entre le monde du numérique, de la recherche et celui de l’entreprise.</p>
         </div>
       </div>
-      <div class="column content is-offset-1 is-4">
+      <div class="column content is-offset-1 is-5">
         <figure class="image">
           <img src="<%= static_path(@conn, "/images/matrice-et-vous/3.jpg") %>" alt="Un programme de formation">
         </figure>
