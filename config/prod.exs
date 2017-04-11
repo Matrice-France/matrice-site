@@ -20,13 +20,12 @@ use Mix.Config
 config :logger, level: :info
 
 config :matrice, Matrice.Endpoint,
-  http: [port: 4001],
-  url: [host: "alpha.matrice.io"],
+  http: [ip: {127, 0, 0, 1}, port: 4001],
+  url: [host: "matrice.io"],
   root: ".",
   cache_static_manifest: "priv/static/manifest.json",
   server: true,
   version: Mix.Project.config[:version]
-
 
 # ## SSL Support
 #
