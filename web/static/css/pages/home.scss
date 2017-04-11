@@ -16,6 +16,10 @@
 
   a {
     color: $matrice-orange;
+
+    .fa {
+      font-size: 3em;
+    }
   }
 }
 
@@ -59,7 +63,7 @@ body.page {
   &.is-founders,
   &.is-bureau {
     .matrice-contact {
-      flex: 0 1 200px;
+      flex: 0 1 220px;
       font-size: 1em;
 
       img {
@@ -102,6 +106,7 @@ body.page {
   align-items: center;
   text-align: center;
   align-content: space-around;
+  position: relative;
   margin: 0 auto;
   padding: 20px 0px;
 
@@ -126,6 +131,33 @@ body.page {
 
   a {
     color: $matrice-blue;
+  }
+
+  .bio {
+    opacity: 0;
+    font-size: .9rem;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 20px;
+    text-align: left;
+    line-height: 1.2em;
+    color: $matrice-blue;
+    background-color: $matrice-orange;
+    transition: .2s all;
+    transition-delay: .2s;
+    transform: translateY(-50px);
+    cursor: help;
+  }
+
+  &:hover {
+    .bio {
+      opacity: 1;
+      transition-delay: 0s;
+      transform: translateY(0px);
+    }
   }
 }
 
@@ -159,6 +191,9 @@ body.page {
   // }
 }
 
+.section.is-large {
+  padding: 5rem 0 5.5rem;
+}
 
 @media(min-width: $tablet) {
   .matrice_et_vous .simple-square {
@@ -281,6 +316,10 @@ body.page {
         padding: 1em 0 .5em;
         font-size: 1.2rem;
       }
+    }
+
+    section.unmarged {
+      padding: 0.75em;
     }
   }
 

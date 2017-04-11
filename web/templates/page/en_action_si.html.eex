@@ -13,7 +13,7 @@
       </div>
       <div class="column content">
         <figure class="image">
-          <img src="<%= static_path(@conn, "/images/philosophie/matrice-arts.jpg") %>" alt="Matrice autisme">
+          <img src="<%= static_path(@conn, "/images/en-action-si.jpg") %>" alt="Matrice autisme">
         </figure>
       </div>
     </div>
@@ -25,7 +25,7 @@
   <div class="container-fluid">
     <div class="columns">
       <div class="column content padded reversed is-opaque big-quote">
-        <quote>Étudiants et chercheurs ont fait équipe pour développer des démonstrateurs fonctionnels, présentés lors des TechDays 2017.</quote>
+        <quote>étudiants et chercheurs ont fait équipe pour développer des démonstrateurs fonctionnels, présentés lors des TechDays 2017.</quote>
       </div>
       <div class="column content">
       </div>
@@ -33,7 +33,7 @@
   </div>
 </section>
 
-<section class="section">
+<section class="section is-large">
   <div class="container">
     <div class="columns is-split">
       <div class="column content">
@@ -45,7 +45,7 @@
         </div>
       </div>
       <div class="column content">
-        <h2 class="title is-3">Écoles impliquées</h2>
+        <h2 class="title is-3">écoles impliquées</h2>
         <div class="logos">
           <figure class="image is-logo is-half">
             <img src="<%= static_path(@conn, "/images/logo/logo_42.svg") %>" alt="42">

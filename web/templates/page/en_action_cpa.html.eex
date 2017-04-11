@@ -14,7 +14,7 @@
       </div>
       <div class="column content">
         <figure class="image is-3by2">
-          <img src="<%= static_path(@conn, "/images/Process/matrice_autisme.jpg") %>" alt="Matrice autisme">
+          <img src="<%= static_path(@conn, "/images/en-action-cpa.jpg") %>" alt="Matrice CPA">
         </figure>
       </div>
     </div>
@@ -34,7 +34,7 @@
   </div>
 </section>
 
-<section class="section">
+<section class="section is-large">
   <div class="container">
     <div class="columns is-split">
       <div class="column content">
@@ -49,16 +49,16 @@
         </div>
       </div>
       <div class="column content">
-        <h2 class="title is-3">Écoles impliquées</h2>
+        <h2 class="title is-3">écoles impliquées</h2>
         <div class="logos">
-          <figure class="image is-logo is-tier">
+          <figure class="image is-logo">
+            <img src="<%= static_path(@conn, "/images/logo/logo_cesacom.png") %>" alt="Cesacom">
+          </figure>
+          <figure class="image is-logo is-half">
             <img src="<%= static_path(@conn, "/images/logo/logo_42.svg") %>" alt="42">
           </figure>
-          <figure class="image is-logo is-tier">
+          <figure class="image is-logo is-half">
             <img src="<%= static_path(@conn, "/images/logo/logo_ena.jpg") %>" alt="Ena">
-          </figure>
-          <figure class="image is-logo is-tier">
-            <img src="<%= static_path(@conn, "/images/logo/logo_cesacom.png") %>" alt="Cesacom">
           </figure>
         </div>
       </div>

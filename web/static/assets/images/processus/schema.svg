@@ -102,8 +102,8 @@
                 <tspan x="703" y="626">Lancement de l’activité et mise à </tspan>
                 <tspan x="703" y="641">l’épreuve sur le terrain</tspan>
             </text>
-            <text id="Élaboration" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="17" font-weight="bold" letter-spacing="0.453333348" fill="#0C3644">
-                <tspan x="330" y="410">Élaboration</tspan>
+            <text id="élaboration" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="17" font-weight="bold" letter-spacing="0.453333348" fill="#0C3644">
+                <tspan x="330" y="410">élaboration</tspan>
             </text>
             <text id="Production" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="17" font-weight="bold" letter-spacing="0.453333348" fill="#0C3644">
                 <tspan x="513" y="364">Production</tspan>

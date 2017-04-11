@@ -17,16 +17,18 @@
       <div class="column is-5 is-offset-1">
         <div class="columns is-mobile">
           <div class="column is-6">
-            <figure class="image is-150">
-              <img src="<%= static_path(@conn, "/images/cover.png") %>" alt="Dossier de presse">
-            </figure>
+            <a href="<%= static_path(@conn, "/documents/dossier-presse.pdf") %>" target="_blank">
+              <figure class="image is-150">
+                <img src="<%= static_path(@conn, "/images/dp-cover.jpg") %>" alt="Dossier de presse">
+              </figure>
+            </a>
           </div>
           <div class="column is-6 centered-flex">
             <div>
               <h4 class="title is-3">Dossier de presse</h4>
             </div>
             <div>
-              <p><a class="button is-primary" href="<%= static_path(@conn, "/documents/dossier-presse.pdf") %>">Télécharger le pdf</a></p>
+              <p><a class="button is-primary" href="<%= static_path(@conn, "/documents/dossier-presse.pdf") %>" target="_blank">Télécharger le pdf</a></p>
             </div>
           </div>
         </div>
@@ -34,16 +36,18 @@
       <div class="column is-5 is-offset-1">
         <div class="columns is-mobile">
           <div class="column is-6">
-            <figure class="image is-150">
-              <img src="<%= static_path(@conn, "/images/cover.png") %>" alt="Communiqué de presse">
-            </figure>
+            <a href="<%= static_path(@conn, "/documents/communique-presse.pdf") %>" target="_blank">
+              <figure class="image is-150">
+                <img src="<%= static_path(@conn, "/images/cp-cover.png") %>" alt="Communiqué de presse">
+              </figure>
+            </a>
           </div>
           <div class="column is-6 centered-flex">
             <div>
               <h4 class="title is-3">Communiqué de presse</h4>
             </div>
             <div>
-              <p><a class="button is-primary" href="<%= static_path(@conn, "/documents/communique-presse.pdf") %>">Ouvrir le lien</a></p>
+              <p><a class="button is-primary" href="<%= static_path(@conn, "/documents/communique-presse.pdf") %>" target="_blank">Télécharger le PDF</a></p>
             </div>
           </div>
         </div>
@@ -55,9 +59,9 @@
 <section class="section">
   <div class="container">
     <div class="columns is-desktop">
-      <div class="column content is-offset-2 is-8">
+      <div class="column content is-offset-4 is-8">
         <div class="restrictedD">
-          <h2 class="title arrow is-3">Galerie</h2>
+          <h2 class="title arrow is-3">Galerie Photos</h2>
         </div>
       </div>
     </div>
@@ -104,6 +108,7 @@
         <h3 class="title is-5">François-Xavier Petit</h3>
         <h4 class="title is-5">Direction du programme Matrice</h4>
         <a class="unstyled" href="mailto:fxpetit@matrice.io">fxpetit@matrice.io</a>
+        <aside class="bio">Agrégé d'histoire et anthropologue, François-Xavier explore les sciences humaines à travers ses recherches sur le changement social et politique et en enseignant l’histoire à Paris I. Son travail prend une dimension plus stratégique lorsqu’il rejoint les mondes publics et politiques en tant que conseiller numérique et innovation au sein des différents cabinets ministériels du travail de 2012 à 2015. Il s'agissait ensuite de passer à l'acte différemment. Ainsi est née Matrice, entre 42 et Creative Valley.</aside>
       </div>
 
       <!-- Tiphaine -->
@@ -112,6 +117,7 @@
         <h3 class="title is-5">Tiphaine Liu</h3>
         <h4 class="title is-5">Direction de la Pédagogie</h4>
         <a class="unstyled" href="mailto:tliu@matrice.io">tliu@matrice.io</a>
+        <aside class="bio">Chercheuse en Sciences de l’Education et en sociologie des organisations, Tiphaine a conçu et supervise le processus pédagogique de Matrice dans la continuité de ses recherches. Enseignante, elle étudie depuis quinze ans la problématique de la transmission. Ses publications sont <a href="https://publicationsliu.wordpress.com/publication/">disponibles ici</a>. Elle soutient sa thèse sur les formations à l’innovation à l’automne prochain.</aside>
       </div>
 
       <!-- Gabrielle -->
@@ -120,14 +126,16 @@
         <h3 class="title is-5">Gabrielle Halpern</h3>
         <h4 class="title is-5">Direction du Développement</h4>
         <a class="unstyled" href="mailto:ghalpern@matrice.io">ghalpern@matrice.io</a>
+        <aside class="bio">Diplômée de l’Ecole Normale Supérieure en philosophie et de l’Université Paris-Dauphine en management stratégique, Gabrielle a eu plusieurs expériences dans le conseil aux entreprises, en particulier dans le domaine de la créativité et de l’innovation, avant de travailler au sein de différents cabinets ministériels. Parallèlement à son doctorat, elle rejoint Matrice, en tant que directrice du développement</aside>
       </div>
 
       <!-- Isabelle -->
       <div class="matrice-contact">
         <img src="<%= static_path(@conn, "/images/team/isabelle.png") %>" alt="Isabelle Ampart">
         <h3 class="title is-5">Isabelle Ampart</h3>
-        <h4 class="title is-5">Communication & coaching</h4>
+        <h4 class="title is-5">Direction de la Communication & Coaching</h4>
         <a class="unstyled" href="mailto:iampart@matrice.io">iampart@matrice.io</a>
+        <aside class="bio">Issue d’une formation scientifique et journalistique, Isabelle a travaillé pendant 16 ans dans la presse, la communication et la gestion de projets. Depuis 6 ans, son travail s’oriente plus particulièrement dans le domaine social et la formation à travers notamment, une expérience en remédiation auprès de lycéens déscolarisés et un poste de RH / communication au sein d’une entreprise technologique innovante (CAPITALDATA).</aside>
       </div>
 
       <!-- Eléonore -->
@@ -136,6 +144,7 @@
         <h3 class="title is-5">Eléonore Rident</h3>
         <h4 class="title is-5">Conception & Design</h4>
         <a class="unstyled" href="mailto:erident@matrice.io">erident@matrice.io</a>
+        <aside class="bio">Après une formation pluridisciplinaire (Sciences-Politiques, Lettres, Design, Arts) Eléonore rejoint Creative Valley dans le cadre de son mémoire de fin d’étude axé sur la convergence entre innovation, design, art et numérique. Elle rejoint Matrice en 2016 pour y développer ses compétences de manière transversale tant sur le design et la conception graphique que sur la production et les relations avec les partenaires.  </aside>
       </div>
 
       <!-- Stéphanie -->
@@ -144,6 +153,7 @@
         <h3 class="title is-5">Stéphanie Durr</h3>
         <h4 class="title is-5">Responsable Logistique</h4>
         <a class="unstyled" href="mailto:sdurr@matrice.io">sdurr@matrice.io</a>
+        <aside class="bio">Après une première formation en informatique et une expérience professionnelle d’assistance technique, Stéphanie intègre l’école 42 en 2014. Elle y développe un lien communautaire fort et un large savoir faire technique. Depuis 2016, elle met à profit ses compétences aux côtés de l’équipe Matrice et construit en parallèle sa propre aventure entrepreneuriale technologique : Ciconia.</aside>
       </div>
     </div>
   </div>
@@ -197,7 +207,7 @@
         <h4 class="title is-6">Président</h4>
       </div>
       <div class="matrice-contact">
-        <img src="<%= static_path(@conn, "/images/team/rameau.png") %>" alt="Nicolas Rameau">
+        <img src="<%= static_path(@conn, "/images/team/nicolas-rameau.png") %>" alt="Nicolas Rameau">
         <h3 class="title is-6">Nicolas Rameau</h3>
         <h4 class="title is-6">Secrétaire</h4>
       </div>
@@ -221,17 +231,24 @@
       </div>
     </div>
     <div class="columns is-desktop">
-      <div class="column content is-offset-1 is-4">
+      <div class="column content is-offset-3 is-3">
         <h3 class="title is-6">Gestionnaire du site :</h3>
-        <p>MATRICE
+        <adress>MATRICE
           <br>16 avenue F.Roosevelt,
           <br>75008 Paris
-        </p>
+        </adress>
 
         <h3 class="title is-6">Hébergement :</h3>
-        <p>OVH</p>
+        <adress>OVH
+          <br>SAS au capital de 10 069 020 €
+          <br>RCS Lille Métropole 424 761 419 00045
+          <br>Code APE 2620Z
+          <br>N° TVA : FR 22 424 761 419
+          <br>Siège social : 2 rue Kellermann - 59100 Roubaix - France.
+          <br>Directeur de la publication : Octave KLABA
+        </adress>
       </div>
-      <div class="column content is-offset-1 is-4">
+      <div class="column content is-offset-1 is-3">
         <h3 class="title is-6">Développement :</h3>
         <p>Emilie Codron (Direction Artistique)</p>
         <p>Eléonore Rident (Conception Graphique)</p>

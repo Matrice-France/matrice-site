@@ -13,7 +13,7 @@
       </div>
       <div class="column content">
         <figure class="image">
-          <img src="<%= static_path(@conn, "/images/philosophie/matrice-arts.jpg") %>" alt="Matrice autisme">
+          <img src="<%= static_path(@conn, "/images/en-action-arts.jpg") %>" alt="Matrice autisme">
         </figure>
       </div>
     </div>
@@ -33,7 +33,7 @@
   </div>
 </section>
 
-<section class="section">
+<section class="section is-large">
   <div class="container">
     <div class="columns is-split">
       <div class="column content">
@@ -45,18 +45,18 @@
         </div>
       </div>
       <div class="column content">
-        <h2 class="title is-3">Écoles impliquées</h2>
+        <h2 class="title is-3">écoles impliquées</h2>
         <div class="logos">
-          <figure class="image is-logo is-half">
-            <img src="<%= static_path(@conn, "/images/logo/logo_42.svg") %>" alt="42">
-          </figure>
-          <figure class="image is-logo is-half">
-            <img src="<%= static_path(@conn, "/images/logo/logo_icart.png") %>" alt="Icart">
-          </figure>
-          <figure class="image is-logo is-half">
+          <figure class="image is-logo">
             <img src="<%= static_path(@conn, "/images/logo/logo_ensapc.jpg") %>" alt="Ensapc">
           </figure>
-          <figure class="image is-logo is-half">
+          <figure class="image is-logo is-tier">
+            <img src="<%= static_path(@conn, "/images/logo/logo_42.svg") %>" alt="42">
+          </figure>
+          <figure class="image is-logo is-tier">
+            <img src="<%= static_path(@conn, "/images/logo/logo_icart.png") %>" alt="Icart">
+          </figure>
+          <figure class="image is-logo is-tier">
             <img src="<%= static_path(@conn, "/images/logo/logo_ensad.jpg") %>" alt="Ensad">
           </figure>
         </div>

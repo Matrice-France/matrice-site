@@ -33,7 +33,7 @@
           <b>Une Matrice c’est :</b>
           <ul>
             <li><b>1 ou 2 grands partenaires</b> institutionnels ou privés</li>
-            <li><b>Un processus de formation en 10 mois</b>, décliné en 4 phases  (Immersion, Élaboration, Production, Action)</li>
+            <li><b>Un processus de formation en 10 mois</b>, décliné en 4 phases  (Immersion, élaboration, Production, Action)</li>
             <li><b>20 à 40 étudiants</b></li>
             <li><b>2 à 4 écoles et universités mobilisées</b> (dont 42)</li>
             <li><b>4 à 8 projets</b> créés et développés</li>
@@ -165,8 +165,8 @@
                           <tspan x="703" y="626">Lancement de l’activité et mise à </tspan>
                           <tspan x="703" y="641">l’épreuve sur le terrain</tspan>
                       </text>
-                      <text id="Élaboration" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="17" font-weight="bold" letter-spacing="0.453333348" fill="#0C3644">
-                          <tspan x="330" y="410">Élaboration</tspan>
+                      <text id="élaboration" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="17" font-weight="bold" letter-spacing="0.453333348" fill="#0C3644">
+                          <tspan x="330" y="410">élaboration</tspan>
                       </text>
                       <text id="Production" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="17" font-weight="bold" letter-spacing="0.453333348" fill="#0C3644">
                           <tspan x="513" y="364">Production</tspan>
@@ -222,7 +222,7 @@
         <p>Cette phase très intense se termine par un sprint créatif à l’issue duquel de premiers groupes d’étudiants sont constitués autour d’idées validées par une communauté de spécialistes.</p>
       </div>
       <div class="column content is-offset-1 is-5">
-        <h2 class="title arrow is-5">Phase 2 / Élaboration</h2>
+        <h2 class="title arrow is-5">Phase 2 / élaboration</h2>
         <p><b>C’est la phase de construction et de maturation des équipes et des idées.</b></p>
         <p>Elle a deux enjeux principaux : la transformation d’un groupe d’étudiants en équipe véritable et la maturation d’une idée en projet viable.
           Les étudiants vont sur le terrain, rencontrent les acteurs-clés et réalisent une étude de l’environnement afin d’aboutir à un projet réellement innovant.

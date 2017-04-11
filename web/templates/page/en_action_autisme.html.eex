@@ -40,7 +40,7 @@
   </div>
 </section>
 
-<section class="section">
+<section class="section is-large">
   <div class="container">
     <div class="columns is-split">
       <div class="column content">
@@ -55,7 +55,7 @@
         </div>
       </div>
       <div class="column content">
-        <h2 class="title is-3">Écoles impliquées</h2>
+        <h2 class="title is-3">écoles impliquées</h2>
         <div class="logos">
           <figure class="image is-logo is-half">
             <img src="<%= static_path(@conn, "/images/logo/logo_artsup.png") %>" alt="ArtSup">
