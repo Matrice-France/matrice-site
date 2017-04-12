@@ -7,7 +7,7 @@
       <div class="column content">
         <div class="restricted">
           <h2 class="title arrow is-3">Problématique & enjeux</h2>
-          <h3 class="subtitle is-4">Comment le numérique peut venir en renfort des généticiens et des praticiens qui accompagnent les autistes et leurs parents ?</h3>
+          <h3 class="is-4">Comment le numérique peut venir en renfort des généticiens et des praticiens qui accompagnent les autistes et leurs parents ?</h3>
           <p>Quels outils numériques proposer afin de faciliter le quotidien des familles d’enfants autistes ? Mais surtout comment mettre en lien familles, psychologues et chercheurs ? Comment aider à constituer des parcours et à faire circuler des données de manière à renforcer l’efficacité de l’accompagnement comme de la recherche.</p>
           <p>Le numérique peut beaucoup dans cette situation, à la jonction d’un quotidien, d’une pratique médicale, et d’une recherche fondamentale.</p>
         </div>
@@ -25,10 +25,10 @@
 <section class="section unmarged">
   <div class="container-fluid">
     <div class="columns">
-      <div class="column content padded reversed is-opaque big-quote">
+      <div class="column is-5 content padded reversed is-opaque big-quote">
         <quote>Les étudiants ont travaillé de concert avec des chercheurs et des praticiens à la création d’applications pratiques utiles.</quote>
       </div>
-      <div class="column content">
+      <div class="column is-5 is-offset-1 content">
         <ul class="restricted">
           <li>Améliorer le quotidien des personnes atteintes de troubles autistiques : l’échange entre les familles, les éducateurs et les chercheurs</li>
           <li>Faciliter l’accès à l’expression des personnes autistes via des moyens non verbaux</li>
