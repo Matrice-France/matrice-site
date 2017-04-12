@@ -3,7 +3,14 @@
 <section class="section">
   <div class="container">
     <div class="columns is-desktop">
-      <figure class="image">
+      <!-- matrice-et-vous/schema.png -->
+
+        <figure class="image is-hidden-desktop">
+          <a target="_blank" href="<%= static_path(@conn, "/images/matrice-et-vous/schema.png") %>">
+            <img src="<%= static_path(@conn, "/images/matrice-et-vous/schema.png") %>" alt="Matrice et vous">
+          </a>
+        </figure>
+        <figure class="image is-hidden-touch">
         <svg width="1370px" height="600px" viewBox="0 0 1370 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <defs></defs>
             <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
