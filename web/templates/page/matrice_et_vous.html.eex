@@ -6,7 +6,7 @@
       <figure class="image">
         <svg width="1370px" height="600px" viewBox="0 0 1370 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <defs></defs>
-            <g id="une-matrice-un-partenaire" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g>
                     <g transform="translate(99.000000, 0.000000)">
                         <polygon id="Path-2" stroke="#0C3644" points="513 131 567.211529 522.172092 828.629894 253.015946"></polygon>
@@ -85,7 +85,7 @@
     </div>
     <div class="columns">
       <div class="column is-8 is-offset-2">
-        <h4 class="title is-4 has-text-centered">Le processus MATRICE fonctionne grâce à la création d’un écosystème qui confronte et implique chacun de ses acteurs</h4>
+        <h4 id="une-matrice-un-partenaire" class="title is-4 has-text-centered">Le processus MATRICE fonctionne grâce à la création d’un écosystème qui confronte et implique chacun de ses acteurs</h4>
       </div>
     </div>
   </div>

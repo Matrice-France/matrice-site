@@ -65,7 +65,7 @@
       <div class="column content is-offset-1 is-5">
         <div class="restricted">
           <h2 class="title is-3">Historique</h2>
-          <p><br><b>L’association MATRICE est née de la convergence de 42</b> -  école d’informatique d’un genre nouveau qui forme sans professeur, sans cours à tous les métiers de l’informatique, mais surtout à la créativité- et de <b>Creative Valley</b> -  hub d’innovation et incubateur de startups qui favorise les rencontres entre écoles, entreprises et sujets d’avenir.</p>
+          <p><br><br><b>L’association MATRICE est née de la convergence de 42</b> -  école d’informatique d’un genre nouveau qui forme sans professeur, sans cours à tous les métiers de l’informatique, mais surtout à la créativité- et de <b>Creative Valley</b> -  hub d’innovation et incubateur de startups qui favorise les rencontres entre écoles, entreprises et sujets d’avenir.</p>
           <p><b>MATRICE</b> incarne ainsi un processus qui va de la formation à l’incubation,  conciliant l’agilité des startups et la puissance de réflexion de la recherche en créant un environnement propice à l’innovation. Car créer un réel processus d’innovation, suppose de couvrir l’ensemble de la chaîne, depuis la recherche fondamentale jusqu’à la production.</p>
         </div>
       </div>
@@ -87,7 +87,7 @@
           <p><b>Innovation,</b> parce qu’il faut apporter quelque chose de nouveau pour bénéficier du PIA. </p>
           <p><b>Coopération,</b> parce que nous voulons faire travailler ensemble ceux qui portent l’avenir de notre pays.</p>
           <footer class="content is-centered">
-            <figure class="image" style="max-width: 300px; margin: auto; margin-top: 50px;">
+            <figure class="image" style="max-width: 400px; margin: auto; margin-top: 50px;">
               <img src="<%= static_path(@conn, "/images/philosophie/logos-PIA-site-internet.jpg") %>" alt="Un programme de formation">
             </figure>
             <a style="margin: auto;text-align: center;display: block;" href="http://www.gouvernement.fr/pia3-5236">http://www.gouvernement.fr/pia3-5236</a>
@@ -121,12 +121,12 @@
       </div>
       <div class="padded column content">
         <div class="minibox">
-          <h3 class="title is-4">De professionnalisation</h3>
+          <h3 class="title is-4">De professionnalisation,</h3>
           <p>et d’insertion dans l’emploi des étudiants qui viennent « inventer » leur propre avenir, à partir d’enjeux porteurs de sens, au sein de ce programme de créativité.</p>
         </div>
 
         <div class="minibox">
-          <h3 class="title is-4">De formation</h3>
+          <h3 class="title is-4">De formation,</h3>
           <p>qui, au-delà de développer une solution numérique, vise à transformer des étudiants en innovateurs mûrs, dotés d’une réelle identité et capables d’avoir une distance critique à l’égard de la technologie qu’ils contribuent à fabriquer.</p>
         </div>
 

@@ -10,9 +10,18 @@
     h2 {
       text-transform: uppercase;
     }
+
+    .title {
+      border: 4px solid $matrice-blue;
+      border-radius: 3px;
+      padding: 0.5em 0.7em;
+      display: inline-block;
+      margin: auto;
+    }
   }
 
   .logos {
+    padding-top: 2em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
