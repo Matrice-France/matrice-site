@@ -21,7 +21,7 @@ config :logger, level: :info
 
 config :matrice, Matrice.Endpoint,
   http: [ip: {127, 0, 0, 1}, port: 4001],
-  url: [host: "matrice.io"],
+  url: [host: "alpha.matrice.io"],
   root: ".",
   cache_static_manifest: "priv/static/manifest.json",
   server: true,
