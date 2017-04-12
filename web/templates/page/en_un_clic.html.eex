@@ -117,7 +117,7 @@
         <h3 class="title is-5">Tiphaine Liu</h3>
         <h4 class="title is-5">Direction de la Pédagogie</h4>
         <a class="unstyled" href="mailto:tliu@matrice.io">tliu@matrice.io</a>
-        <aside class="bio">Chercheuse en Sciences de l’Education et en sociologie des organisations, Tiphaine a conçu et supervise le processus pédagogique de Matrice dans la continuité de ses recherches. Enseignante, elle étudie depuis quinze ans la problématique de la transmission. Ses publications sont <a href="https://publicationsliu.wordpress.com/publication/">disponibles ici</a>. Elle soutient sa thèse sur les formations à l’innovation à l’automne prochain.</aside>
+        <aside class="bio">Chercheuse en Sciences de l’Education et en sociologie des organisations, Tiphaine a conçu et supervise le processus pédagogique de Matrice dans la continuité de ses recherches. Enseignante, elle étudie depuis quinze ans la problématique de la transmission. Ses publications sont <a style="text-decoration: underline;" class="underline" target="_blank" href="https://publicationsliu.wordpress.com/publication/">disponibles ici</a>. Elle soutient sa thèse sur les formations à l’innovation à l’automne prochain.</aside>
       </div>
 
       <!-- Gabrielle -->
@@ -240,12 +240,12 @@
 
         <h3 class="title is-6">Hébergement :</h3>
         <adress>OVH
-          <br>SAS au capital de 10 069 020 €
+          <!-- <br>SAS au capital de 10 069 020 €
           <br>RCS Lille Métropole 424 761 419 00045
           <br>Code APE 2620Z
-          <br>N° TVA : FR 22 424 761 419
-          <br>Siège social : 2 rue Kellermann - 59100 Roubaix - France.
-          <br>Directeur de la publication : Octave KLABA
+          <br>N° TVA : FR 22 424 761 419 -->
+          <br>Siège social : 2 rue Kellermann<br>59100 Roubaix - France
+          <!-- <br>Directeur de la publication : Octave KLABA -->
         </adress>
       </div>
       <div class="column content is-offset-1 is-3">
