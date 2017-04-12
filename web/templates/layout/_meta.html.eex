@@ -3,7 +3,7 @@
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<title><%= @title ? 'Matrice ∙ ' <> @title : 'Matrice' %></title>
+<title><%= @title %></title>
 
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
@@ -27,7 +27,7 @@
 <!-- Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="<%= @title %>">
-<meta property="og:image" content="<%= @image || 'https://matrice.io/images/logo-black.png' %>">
+<meta property="og:image" content="<%= assigns[:image] || 'https://matrice.io/images/logo-black.png' %>">
 <meta property="og:description" content="<%= @description || '' %>">
 <meta property="og:site_name" content="Matrice">
 <meta property="og:locale" content="fr_FR">
@@ -38,7 +38,7 @@
 <meta name="twitter:creator" content="@Matrice_io">
 <meta name="twitter:title" content="<%= @title %>">
 <meta name="twitter:description" content="<%= @description || '' %>">
-<meta name="twitter:image" content="<%= @image || 'https://matrice.io/images/logo-black.png' %>">
+<meta name="twitter:image" content="<%= assigns[:image] || 'https://matrice.io/images/logo-black.png' %>">
 
 <!-- Control the behavior of search engine crawling and indexing -->
 <meta name="robots" content="index,follow,noodp"><!-- All Search Engines -->
