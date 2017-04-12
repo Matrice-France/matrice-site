@@ -13,7 +13,7 @@ defmodule Matrice.Endpoint do
 
   # On cache les pdfs
   plug Plug.Static,
-    at: "/documents", from: :matrice, gzip: true,
+    at: "/documents", from: :matrice, gzip: false,
     only: ~w(dossier-presse.pdf communique-presse.pdf invitation23052017.pdf)
 
   # Code reloading can be explicitly enabled under the
