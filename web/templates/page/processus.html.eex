@@ -56,7 +56,12 @@
     <!-- <h4 class="title has-text-centered is-3">Les principales phases du programme de formation</h4> -->
     <div class="columns">
       <div class="column content">
-        <figure class="image">
+        <figure class="image is-hidden-desktop">
+          <a target="_blank" href="<%= static_path(@conn, "/images/processus/schema.png") %>">
+            <img src="<%= static_path(@conn, "/images/processus/schema.png") %>" alt="Les principales phases du programme de formation">
+          </a>
+        </figure>
+        <figure class="image is-hidden-touch">
           <!-- <img src="<%= static_path(@conn, "/images/graph.png") %>" alt="Les principales phases du programme de formation"> -->
           <!-- <img src="<%= static_path(@conn, "/images/processus/schema.svg") %>" alt="Les principales phases du programme de formation"> -->
           <!-- <svg width="1392px" height="700px" viewBox="0 100 1392 650" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> -->

@@ -77,19 +77,20 @@ adress {
 @media(max-width: $tablet) {
 
   .arrow:before {
-    content: "";
-    background: url(/images/title-arrow.png);
-    background-position: center;
-    background-size: contain;
-    display: inline-block;
-    height: 20px;
-    width: 90px;
-    position: relative;
-    background-repeat: no-repeat;
-    left: 0;
-    top: 0;
-    z-index: 0;
-    margin-right: 1em;
+    display: none;
+    // content: "";
+    // background: url(/images/title-arrow.png);
+    // background-position: center;
+    // background-size: contain;
+    // display: inline-block;
+    // height: 20px;
+    // width: 90px;
+    // position: relative;
+    // background-repeat: no-repeat;
+    // left: 0;
+    // top: 0;
+    // z-index: 0;
+    // margin-right: 1em;
   }
 
 
