@@ -10,7 +10,7 @@ defmodule Matrice.PageController do
   end
 
   def pedagogie(conn, _params) do
-    render conn, "pedagogie.html", title: 'Pédagogie', description: "La pédagogie Matrice est basée sur l’équipe apprenante (Team Academy), le connectivisme et la pédagogie de la liberté. Elle forme les étudiants à l’innovation et à l’entrepreneuriat en développant intuition et leadership. Un coaching sur mesure favorise l’apprentissage par l’action, l’immersion et le dialogue, le travail en équipe, l'interdisciplinarité et l’autonomie.'"
+    render conn, "pedagogie.html", title: 'Pedagogie', description: "La pédagogie Matrice est basée sur l’équipe apprenante (Team Academy), le connectivisme et la pédagogie de la liberté. Elle forme les étudiants à l’innovation et à l’entrepreneuriat en développant intuition et leadership. Un coaching sur mesure favorise l’apprentissage par l’action, l’immersion et le dialogue, le travail en équipe, l'interdisciplinarité et l’autonomie.'"
   end
 
   def processus(conn, _params) do
