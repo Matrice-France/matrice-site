@@ -1,0 +1,11 @@
+/* TECH TEAM */
+	Standard Man:Andre Aubin
+	Contact: andre [at] andral.kiwi
+	Twitter: @lambda_2
+	From:Paris, France
+
+/* SITE */
+	Last update:2017/04/12
+	Language: French
+	Doctype:HTML5
+	IDE: Atom

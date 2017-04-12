@@ -9,7 +9,7 @@ defmodule Matrice.Endpoint do
   # when deploying your static files in production.
   plug Plug.Static,
     at: "/", from: :matrice, gzip: false,
-    only: ~w(css fonts images js json favicon.ico robots.txt)
+    only: ~w(css fonts images js json favicon.ico robots.txt sitemap.xml sitemap.xml.gz urllist.txt apple-touch-icon.png favicon-32x32.png favicon-16x16.png android-chrome-512x512.png android-chrome-192x192.png manifest.json humans.txt safari-pinned-tab.svg)
 
   # On cache les pdfs
   plug Plug.Static,

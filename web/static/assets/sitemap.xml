@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://matrice.io/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://matrice.io/philosophie</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://matrice.io/pedagogie</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://matrice.io/processus</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://matrice.io/en-action/autisme</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://matrice.io/en-action/cpa</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://matrice.io/en-action/art</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://matrice.io/en-action/si</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://matrice.io/matrice-et-vous</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://matrice.io/en-1-clic</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://matrice.io/documents/dossier-presse.pdf</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://matrice.io/documents/communique-presse.pdf</loc>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>
