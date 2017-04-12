@@ -2,6 +2,15 @@
 
 
 @media(max-width: $tablet) {
+
+  .processus .simple-square {
+    border: 5px solid $matrice-green;
+    margin-top: 2em;
+    border-radius: 3px;
+  }
+}
+
+@media(max-width: $tablet) {
   .squared {
     padding: 1em;
   }
@@ -39,6 +48,7 @@
 
       &.is-large {
         padding: 5em;
+        margin-top: 1em;
 
         header h2 {
           top: -3.5em;

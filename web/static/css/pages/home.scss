@@ -195,6 +195,17 @@ body.page {
   padding: 5rem 0 5.5rem;
 }
 
+@media(max-width: $tablet) {
+  .reversed-mobile {
+    flex-direction: column-reverse;
+    display: flex;
+
+    .column {
+      flex: 1 1;
+    }
+  }
+}
+
 @media(min-width: $tablet) {
   .matrice_et_vous .simple-square {
     .squared {

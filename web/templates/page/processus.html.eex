@@ -21,8 +21,6 @@
   <div class="container">
     <div class="columns">
       <div class="column content simple-square is-5">
-        <br>
-        <br>
         <div class="squared is-large">
           <header>
             <h2 class="marged-title">En chiffres</h2>
@@ -39,7 +37,6 @@
       </div>
       <div class="column content is-5 is-offset-2">
         <div class="restrictedD">
-          <br>
           <h2 class="title arrow is-3">Un dispositif en 4 phases</h2>
           <p><b>Le dispositif s’articule en 4 grandes phases</b> et nécessite, en amont, un temps spécifique, avec les partenaires, destiné au ciblage des besoins et des enjeux : choix des experts, implication de l’institution ou de l’entreprise, identification des écoles et des universités, recrutement spécifique des étudiants.</p>
           <p><b>Le programme de formation à proprement parler dure en moyenne 10 mois et comprend 3 niveaux d’accompagnement :</b></p>

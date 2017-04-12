@@ -22,7 +22,7 @@
 
 <section class="section unmarged">
   <div class="container-fluid">
-    <div class="columns">
+    <div class="columns reversed-mobile">
       <div class="column is-5 content reversed big-quote light-big-quote">
         <quote>“Matrice n’est pas une énième formation à l’entrepreneuriat. Sa pédagogie valorise le collectif et la réflexivité, conditions pour que l’apprentissage soit réel et que les projets développés par les étudiants aient du sens.”</quote>
       </div>
