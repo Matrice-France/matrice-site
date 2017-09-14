@@ -19,40 +19,28 @@
 
       <ul class="nav-right nav-menu">
         <li class="nav-item">
-          <a href="<%= page_path(@conn, :philosophie) %>">
-            Philosophie
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="<%= page_path(@conn, :pedagogie) %>">
-            Pédagogie
-          </a>
-        </li>
-        <li class="nav-item">
           <a href="<%= page_path(@conn, :processus) %>">
             Processus
           </a>
         </li>
         <li class="nav-item">
           <a href="<%= page_path(@conn, :en_action_autisme) %>">
-            En action
-            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            Les Matrices
           </a>
-          <ul class="">
-            <li class="nav-item"><a href="<%= page_path(@conn, :en_action_autisme) %>"><b>MATRICE</b><span>Autisme</span></a></li>
-            <li class="nav-item"><a href="<%= page_path(@conn, :en_action_cpa) %>"><b>MATRICE</b><span>CPA</span></a></li>
-            <li class="nav-item"><a href="<%= page_path(@conn, :en_action_art) %>"><b>MATRICE</b><span>Arts</span></a></li>
-            <li class="nav-item"><a href="<%= page_path(@conn, :en_action_si) %>"><b>MATRICE</b><span>SI</span></a></li>
-          </ul>
         </li>
         <li class="nav-item">
           <a href="<%= page_path(@conn, :matrice_et_vous) %>">
-            Matrice et vous
+            MATRICE et vous
           </a>
         </li>
         <li class="nav-item">
           <a href="<%= page_path(@conn, :en_un_clic) %>">
-            En 1 clic
+            Vision
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="<%= page_path(@conn, :en_un_clic) %>">
+            Qui sommes-nous ?
           </a>
         </li>
 
@@ -62,24 +50,12 @@
 
         <li class="nav-item is-hidden-touch">
           <a href="mailto:contact@matrice.io" class="button matrice-top-button">
-            Contactez-nous
+            LE BLOG
           </a>
         </li>
-        <li class="nav-item is-hidden-touch">
-          <a target="_blank" href="https://www.facebook.com/Matriceio-235750366900502/" class="social-menu-link">
-            <span class="icon">
-              <i class="fa fa-facebook"></i>
-            </span>
-          </a>
-          <a target="_blank" href="https://twitter.com/Matrice_io" class="social-menu-link">
-            <span class="icon">
-              <i class="fa fa-twitter"></i>
-            </span>
-          </a>
-          <a target="_blank" href="https://www.linkedin.com/company-beta/11053411/" class="social-menu-link">
-            <span class="icon">
-              <i class="fa fa-linkedin"></i>
-            </span>
+        <li class="nav-item">
+          <a href="<%= page_path(@conn, :en_un_clic) %>">
+            Médias
           </a>
         </li>
       </ul>
