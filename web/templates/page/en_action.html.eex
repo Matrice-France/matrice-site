@@ -1,0 +1,21 @@
+
+<%= render Matrice.PageView, "_section_en_action_header.html", matrice: "art_et_numerique", conn: @conn %>
+
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column content">
+        <div class="restricted">
+          
+        </div>
+      </div>
+      <div class="column content">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section unmarged">
+ 
+</section>

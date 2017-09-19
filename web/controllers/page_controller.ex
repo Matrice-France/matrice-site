@@ -18,7 +18,7 @@ defmodule Matrice.PageController do
   end
 
   def en_action(conn, _params) do
-    en_action_autisme(conn, _params)
+    render conn, "en_action.html", title: 'En action: Matrice', description: "test"
   end
 
   def en_action_autisme(conn, _params) do

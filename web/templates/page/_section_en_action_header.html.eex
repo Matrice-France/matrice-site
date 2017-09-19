@@ -1,7 +1,23 @@
-<section class="section page-section is-centered page-matrice-section" id="particles">
-  <div class="container">
+<section class="section unmarged">
+  <div class="container-fluid">
+    <div class="columns">
+      <div class="column is-5 content padded reversed is-opaque big-quote">
+        <li class="nav-item">
+          <ul class="">
+          	<li class="nav-item"><a href="<%= page_path(@conn, :en_action) %>"><b>LES MATRICES</b></a></li>
+            <li class="nav-item"><a href="<%= page_path(@conn, :en_action_si) %>"><b>Matrice SI</b></a></li>
+            <li class="nav-item"><a href="<%= page_path(@conn, :en_action_cpa) %>"><b>Matrice CPA</b></a></li>
+            <li class="nav-item"><a href="<%= page_path(@conn, :en_action_art) %>"><b>Matrice Arts & Numerique</b></a></li>
+            <li class="nav-item"><a href="<%= page_path(@conn, :en_action) %>"><b>Matrice Autisme</b></a></li>
+            <li class="nav-item"><a href="<%= page_path(@conn, :en_action) %>"><b>Matrice Marine</b></a></li>
+          </ul>
+        </li>
+      </div>
+      <div class="column is-5 is-offset-1 content">
+        <figure class="image is-matrice-en-action">
+  			<img src="<%= static_path(@conn, "/images/matrice_" <> @matrice <> ".png") %>" alt="<%= @matrice %>">
+		</figure>
+      </div>
+    </div>
   </div>
 </section>
-<figure class="image is-matrice-en-action">
-  <img src="<%= static_path(@conn, "/images/matrice_" <> @matrice <> ".png") %>" alt="<%= @matrice %>">
-</figure>
