@@ -75,6 +75,28 @@
     }
   }
 
+  .test {
+    height: 700px;
+  }
+
+  .padd_top {
+    padding-top: 40%;
+  }
+
+  .padd_left {
+    padding-left: 30%;
+  }
+
+  .ul_en_action {
+    a.is-active {
+      color: green;
+    }
+    li {
+      color: #D8D8D8;
+      font-size: 23px
+    }
+  }
+
 
   .section {
     .reversed {

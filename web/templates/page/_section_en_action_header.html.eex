@@ -1,23 +1,32 @@
 <section class="section unmarged">
   <div class="container-fluid">
     <div class="columns">
-      <div class="column is-5 content padded reversed is-opaque big-quote">
-        <li class="nav-item">
-          <ul class="">
-          	<li class="nav-item"><a href="<%= page_path(@conn, :en_action) %>"><b>LES MATRICES</b></a></li>
-            <li class="nav-item"><a href="<%= page_path(@conn, :en_action_si) %>"><b>Matrice SI</b></a></li>
-            <li class="nav-item"><a href="<%= page_path(@conn, :en_action_cpa) %>"><b>Matrice CPA</b></a></li>
-            <li class="nav-item"><a href="<%= page_path(@conn, :en_action_art) %>"><b>Matrice Arts & Numerique</b></a></li>
-            <li class="nav-item"><a href="<%= page_path(@conn, :en_action) %>"><b>Matrice Autisme</b></a></li>
-            <li class="nav-item"><a href="<%= page_path(@conn, :en_action) %>"><b>Matrice Marine</b></a></li>
+      <div class="column is-6 content padded reversed is-opaque big-quote test">
+        <li class="nav-item padd_left">
+          <ul class="ul_en_action">
+          	<li class="nav-item"><a class="li-matrice is-active" href="<%= page_path(@conn, :en_action) %>">LES MATRICES</a></li>
+            <li class="nav-item"><a class="li-matrice_si" href="<%= page_path(@conn, :en_action_si) %>">Matrice SI</a></li>
+            <li class="nav-item"><a class="li-matrice_cpa" href="<%= page_path(@conn, :en_action_cpa) %>">Matrice CPA</a></li>
+            <li class="nav-item"><a class="li-matrice_an" href="<%= page_path(@conn, :en_action_art) %>">Matrice Arts & Numerique</a></li>
+            <li class="nav-item"><a class="li-matrice_aut" href="<%= page_path(@conn, :en_action_autisme) %>">Matrice Autisme</a></li>
+            <li class="nav-item"><a class="li-matrice_ma" href="<%= page_path(@conn, :en_action) %>">Matrice Marine</a></li>
           </ul>
         </li>
       </div>
-      <div class="column is-5 is-offset-1 content">
-        <figure class="image is-matrice-en-action">
-  			<img src="<%= static_path(@conn, "/images/matrice_" <> @matrice <> ".png") %>" alt="<%= @matrice %>">
-		</figure>
-      </div>
+      <div class="column content">
+        <div class="column content is-6 text-matrice" style="display: none;">
+          <div class="restricted">
+            <p>Le programme Matrice engage une réelle réflexion avec ses partenaires Matrice & vous sur la transformation numerique et produit des outils pertinents, ramenant intelligence et savoirs au coeur de la société par le biais des nouvelles technologies.</p>
+            <p>coucou1</p>
+            <p>coucou2</p>
+          </div>
+        </div>
+      <div>
+    </div>
+    <div class="column is-6 content image-matrice padd_left">
+      <figure class="image is-matrice-en-action padd_top">
+        <img class="nav-image-change" src="/images/matrice_art_et_numerique.png" alt="art_et_numerique">
+	  </figure>
     </div>
   </div>
 </section>

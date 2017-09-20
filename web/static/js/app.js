@@ -47,3 +47,97 @@ if (document.querySelectorAll('.slider')[0]) {
   document.querySelector('.next').addEventListener('click', () => mySiema.next());
 
 }
+
+document.querySelectorAll('.li-matrice')[0].onmouseenter = function() {
+  document.querySelectorAll('.li-matrice')[0].classList.add('is-active');
+  var x = document.querySelector('.text-matrice');
+  var y = document.querySelector('.image-matrice');
+  if (x.style.display === 'none') {
+        x.style.display = '';
+        y.style.display = 'none';
+    };
+}
+
+document.querySelectorAll('.li-matrice')[0].onmouseleave = function() {
+  document.querySelectorAll('.li-matrice')[0].classList.remove('is-active')
+}
+
+document.querySelectorAll('.li-matrice_si')[0].onmouseenter = function() {
+  document.querySelectorAll('.li-matrice_si')[0].classList.add('is-active');
+  var x = document.querySelector('.text-matrice');
+  var y = document.querySelector('.image-matrice');
+  if (y.style.display === 'none') {
+        x.style.display = 'none';
+        y.style.display = '';
+  };
+  document.querySelector('.nav-image-change').src='/images/matrice_CEA.png';
+  document.querySelector('.nav-image-change').alt='CEA';
+}
+
+document.querySelectorAll('.li-matrice_si')[0].onmouseleave = function() {
+  document.querySelectorAll('.li-matrice_si')[0].classList.remove('is-active')
+}
+
+document.querySelectorAll('.li-matrice_cpa')[0].onmouseenter = function() {
+  document.querySelectorAll('.li-matrice_cpa')[0].classList.add('is-active');
+  var x = document.querySelector('.text-matrice');
+  var y = document.querySelector('.image-matrice');
+  if (y.style.display === 'none') {
+        x.style.display = 'none';
+        y.style.display = '';
+  };
+  document.querySelector('.nav-image-change').src='/images/matrice_CPA.png';
+  document.querySelector('.nav-image-change').alt='CPA';
+}
+
+document.querySelectorAll('.li-matrice_cpa')[0].onmouseleave = function() {
+  document.querySelectorAll('.li-matrice_cpa')[0].classList.remove('is-active')
+}
+
+document.querySelectorAll('.li-matrice_an')[0].onmouseenter = function() {
+  document.querySelectorAll('.li-matrice_an')[0].classList.add('is-active');
+  var x = document.querySelector('.text-matrice');
+  var y = document.querySelector('.image-matrice');
+  if (y.style.display === 'none') {
+        x.style.display = 'none';
+        y.style.display = '';
+  };
+  document.querySelector('.nav-image-change').src='/images/matrice_art_et_numerique.png';
+  document.querySelector('.nav-image-change').alt='art_et_numerique';
+}
+
+document.querySelectorAll('.li-matrice_an')[0].onmouseleave = function() {
+  document.querySelectorAll('.li-matrice_an')[0].classList.remove('is-active')
+}
+
+document.querySelectorAll('.li-matrice_aut')[0].onmouseenter = function() {
+  document.querySelectorAll('.li-matrice_aut')[0].classList.add('is-active');
+  var x = document.querySelector('.text-matrice');
+  var y = document.querySelector('.image-matrice');
+  if (y.style.display === 'none') {
+        x.style.display = 'none';
+        y.style.display = '';
+  };
+  document.querySelector('.nav-image-change').src='/images/matrice_autisme.png';
+  document.querySelector('.nav-image-change').alt='autisme';
+}
+
+document.querySelectorAll('.li-matrice_aut')[0].onmouseleave = function() {
+  document.querySelectorAll('.li-matrice_aut')[0].classList.remove('is-active')
+}
+
+document.querySelectorAll('.li-matrice_aut')[0].onmouseenter = function() {
+  document.querySelectorAll('.li-matrice_aut')[0].classList.add('is-active');
+  var x = document.querySelector('.text-matrice');
+  var y = document.querySelector('.image-matrice');
+  if (y.style.display === 'none') {
+        x.style.display = 'none';
+        y.style.display = '';
+  };
+  document.querySelector('.nav-image-change').src='/images/matrice_autisme.png';
+  document.querySelector('.nav-image-change').alt='autisme';
+}
+
+document.querySelectorAll('.li-matrice_aut')[0].onmouseleave = function() {
+  document.querySelectorAll('.li-matrice_aut')[0].classList.remove('is-active')
+}
